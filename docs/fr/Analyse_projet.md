@@ -1,5 +1,5 @@
 # Analyse et  du sujet
-## Reperage des morts clefs
+## Reperage des mots clefs
 
 <span style='background:#f984e5'>Concept</span> : Mot portant une signification pour le projet ;
 
@@ -13,28 +13,28 @@
 
 ## Présentation générale
 
-Le projet consiste à développer une <span style='background:#f984e5'>bibliothèque d'œuvres numérisées</span>. Chaque <span style='background:yellow'>utilisateur</span> de la bibliothèque <span style='background:green'>peut proposer</span> des <span style='background:#f984e5'>fichiers</span><span style='background:orange'> numériques</span> et <span style='background:green'>demander</span> leur <span style='background:#f984e5'>partage</span>. Par exemple, les œuvres peuvent être des <span style='background:#f984e5'>livres</span> <span style='background:orange'>scannés</span> au format PDF, **il** se pose alors le problème de la <span style='background:#f984e5'>propriété intellectuelle</span> qui sera alors <span style='background:green'>**résolu**</span> par une <span style='background:#f984e5'>modération</span> de la part de <span style='background:yellow'>bibliothécaires.</span>
+Le projet consiste à <span style='background:green'>développer</span> une <span style='background:#f984e5'>bibliothèque d'œuvres numérisées</span>. Chaque <span style='background:yellow'>utilisateur</span> de la bibliothèque <span style='background:green'>peut proposer</span> des <span style='background:#f984e5'>fichiers</span><span style='background:orange'> numériques</span> et <span style='background:green'>demander</span> leur <span style='background:#f984e5'>partage</span>. Par exemple, les œuvres peuvent être des <span style='background:#f984e5'>livres</span> <span style='background:orange'>scannés</span> au format PDF, **il** se pose alors le problème de la <span style='background:#f984e5'>propriété intellectuelle</span> qui sera alors <span style='background:green'>**résolu**</span> par une <span style='background:#f984e5'>modération</span> de la part de <span style='background:yellow'>bibliothécaires.</span>
 
-Pour des raisons de compatibilité avec l'existant, le langage de développement **imposé par le client est Python**.
+Pour des raisons de compatibilité avec l'existant, <span style='background:#f984e5'>le langage de développement</span> **<span style='background:green'>imposé</span> par le <span style='background:yellow'>client</span> est <span style='background:yellow'>Python</span>**.
 
-Le **framework web** retenu côté serveur est **Pyramid**, et le langage de templates utilisé est **TAL/METAL** (hérité de Zope/Plone, garantissant la compatibilité avec l'historique).
+Le **<span style='background:#f984e5'>framework web</span>** <span style='background:green'>retenu</span> côté serveur est **<span style='background:yellow'>Pyramid</span>**, et le <span style='background:#f984e5'>langage de templates</span> utilisé est **<span style='background:yellow'>TAL/METAL</span>** (hérité de Zope/Plone, garantissant la <span style='background:orange'>compatibilité</span> avec l'historique).
 
 Côté client, le choix est laissé aux développeurs :
 
-- soit **SolidJS**, un framework moderne « React-like » basé sur JSX, performant et flexible,
-- soit **Bootstrap**, solution plus traditionnelle (« old school ») mais simple à mettre en œuvre et rapide pour prototyper.
+- soit <span style='background:yellow'>**SolidJS**</span>, un <span style='background:#f984e5'>framework</span> moderne « React-like » basé sur JSX, performant et flexible,
+- soit <span style='background:yellow'>**Bootstrap**</span>, solution plus traditionnelle (« old school ») mais simple à mettre en œuvre et rapide pour prototyper.
 
-Les documents **gérés** par l'application doivent l'être à travers un dépôt Git et non une base de **données** traditionnelle pour la raison **qu'à** terme devra être développé**e** une application permettant aux terminaux (ordinateur ou téléphone mobile)**,** de pouvoir disposer des textes sous forme d'une arborescence de **fichiers**. Pour ceux qui ne sont pas à l'aise avec Git, il existe une série de formations gratuites **:** [https://www.youtube.com/watch?v=0sGQgfUdCAY](https://www.youtube.com/watch?v=0sGQgfUdCAY)
+Les documents **gérés** par l'application doivent l'être à travers un <span style='background:#f984e5'>dépôt Git</span> et non une <span style='background:#f984e5'>base de **données**</span> traditionnelle pour la raison **qu'à** terme devra être développé**e** une application permettant aux terminaux (ordinateur ou téléphone mobile)**,** de pouvoir disposer des textes sous forme d'une <span style='background:#f984e5'>arborescence de **fichiers**</span>. Pour ceux qui ne sont pas à l'aise avec Git, il existe une série de formations gratuites **:** [https://www.youtube.com/watch?v=0sGQgfUdCAY](https://www.youtube.com/watch?v=0sGQgfUdCAY)
 
-Il est toutefois demandé que **chaque fonctionnalité soit développée de manière modulaire**, indépendante du reste du système, et puisse être **utilisée et testée en ligne de commande** afin de faciliter l'intégration continue et la validation unitaire.
+Il est toutefois demandé que **chaque fonctionnalité soit développée de <span style='background:orange'>manière modulaire</span>**, indépendante du reste du système, et puisse être **utilisée et testée en ligne de commande** afin de faciliter l'intégration continue et la <span style='background:orange'>validation unitaire</span>.
 
-Compte tenu des délais, l'usage de l'**intelligence artificielle** est **fortement recommandé**, mais il doit être **entièrement documenté et traçable**. Les conversations (prompts) feront l'objet de débats en classe. Pour préparer cela, les étudiants doivent, avant le cours, regarder et comprendre la vidéo : [**Les 4 étapes pour entraîner un LLM**](https://www.youtube.com/watch?v=YcIbZGTRMjI).
+Compte tenu des délais, l'usage de l'**intelligence artificielle** est **fortement recommandé**, mais il doit être **entièrement documenté et traçable**. Les conversations (prompts) feront l'objet de débats en classe. Pour préparer cela, les <span style='background:yellow'>étudiants</span> doivent, avant le cours, regarder et comprendre la vidéo : [**Les 4 étapes pour entraîner un <span style='background:yellow'>LLM</span>**](https://www.youtube.com/watch?v=YcIbZGTRMjI).
 
-Ce projet sert de support pédagogique pour aborder les notions d'**architecture logicielle orientée objet**, de **modélisation UML**, de **design patterns**, et de **documentation**.
+Ce projet sert de support pédagogique pour aborder les notions d'<span style='background:#f984e5'>**architecture logicielle orientée objet**</span>, de <span style='background:#f984e5'>**modélisation UML**</span>, de <span style='background:#f984e5'>**design patterns**</span>, et de <span style='background:#f984e5'>**documentation**</span>.
 
-Pendant le cours, les étudiants travailleront en **binômes hétérogènes** (compétences et parcours différents). Chaque binôme aura pour mission de prendre en charge une partie de la conception et du développement, puis de présenter et de justifier ses choix.
+Pendant le cours, les <span style='background:yellow'>étudiants</span> travailleront en <span style='background:#f984e5'>**binômes hétérogènes**</span> (compétences et parcours différents). Chaque binôme aura pour mission de <span style='background:green'>prendre en charge</span> une partie de la conception et du développement, puis de <span style='background:green'>présenter</span> et de <span style='background:green'>justifier</span> ses choix.
 
-Il est impératif de respecter les **extraits du cours d'Architecture des logiciels** donnés en annexes (rôles de l'architecte, conception OO, attributs de qualité, vues architecturales, documentation, importance du nommage, etc.).
+Il est impératif de <span style='background:green'>respecter</span> les **extraits du cours d'Architecture des logiciels** donnés en annexes (rôles de l'architecte, conception OO, attributs de qualité, vues architecturales, documentation, importance du nommage, etc.).
 
 ---
 
@@ -44,14 +44,14 @@ L’association **CultureDiffusion** souhaite réaliser une **bibliothèque num�
 
 #### Objectifs fonctionnels :
 
-- Permettre à chaque membre de numériser des œuvres au format pdf et de les proposer à l’emprunt.
-- Permettre la reconnaissance de texte des œuvres numérisés via plusieurs IA (Gemini, Pixtral).
+- <span style='background:green'>Permettre</span> à chaque membre de numériser des œuvres au format pdf et de les proposer à l’emprunt.
+- <span style='background:green'>Permettre</span> la reconnaissance de texte des œuvres numérisés via plusieurs IA (Gemini, Pixtral).
 - Offrir un accès gratuit aux œuvres du domaine public.
-- Permettre la location d’œuvres "numérique" sous droits pour une période de deux semaines.
+- <span style='background:green'>Permettre</span> la location d’œuvres "numérique" sous droits pour une période de deux semaines.
 - Diffuser automatiquement les œuvres devenues libres de droit à l’ensemble des membres disposant d’espace disque partagé.
-- Permettre le téléchargement des oeuvres au format Markdown.
-- Gérer le processus permettant aux bibliothécaires d'assurer la **modération** des œuvres déposées sur la plateforme par les membres (vérification, enrichissement des métadonnées, validation ou rejet).
-- Gérer les droits et les copies selon la législation en vigueur.
+- <span style='background:green'>Permettre</span> le téléchargement des oeuvres au format Markdown.
+- <span style='background:green'>Gérer</span> le processus permettant aux bibliothécaires d'assurer la **modération** des œuvres déposées sur la plateforme par les membres (vérification, enrichissement des métadonnées, validation ou rejet).
+- <span style='background:green'>Gérer</span> les droits et les copies selon la législation en vigueur.
 
 #### Structure du dépôt de la bibliothèque (métaphore de répertoires) :
 

@@ -63,7 +63,7 @@ def transcribe_pdf(pdf_path):
                     yield transcribed_content
                     # Met à jour le contexte (garde les deux dernières lots)
                     last_transcriptions.append(transcribed_content)
-                    if len(last_transcriptions) > 2:
+                    if len(last_transcriptions) > 3:
                         last_transcriptions.pop(0)
                 except Exception as e:
                     print(f"Erreur lors de la transcription du lot de pages {batch_start+1}-{min(batch_start+batch_size, num_pages)}: {str(e)}")

@@ -593,4 +593,449 @@ Tout le développement de l’embryogénie a été la justification de la concep
 
 Dans les conditions normales, tout se passe suivant une succession définie, comme s’il y avait une stricte prédétermination. D’autre part, les œufs de certaines espèces sont manifestement anisotropes. L’observation a pu établir, de façon indiscutable, que certaines ébauches de l’embryon, et par suite les organes qui en dérivent, proviennent de cellules qui, elles-mêmes, dérivent de telle ou telle partie définie de l’œuf. Pour trancher la question, il a fallu expérimenter sur l’œuf et les premiers stades de son développement. Ainsi s’est créée l’*embryogénie expérimentale*, dont les fondateurs sont L. Chabry (1855-1893), en France et W. Roux (1850-1924) en Allemagne. Grâce à des procédés techniques ingénieux et variés, on a pu, soit enlever une partie de la substance de l’œuf, soit tuer, déplacer, ou écarter telle ou telle des premières cellules formées et ainsi créer des conditions nouvelles de développement. Chabry avait déjà, en 1887, créé à cet effet, un micromanipulateur. D’autres ont été imaginés depuis et le plus élégant, à l’heure présente, est celui de M. de Fonbrune, qui permet de réaliser aisément, sous les forts grossissements du microscope, des micromouvements dans toutes les directions de l’espace (1). L’embryologie expérimentale a pu ainsi, par diverses techniques, entre des mains habiles, poser et résoudre une série de problèmes du plus haut intérêt, mais, dans le détail desquels nous ne pouvons entrer (2). Je relèverai seulement, dans ces dernières années, les travaux de H. Spemann en Allemagne et de Sv. Hörstadius en Suède. Spemann, en particulier, opérant sur des Batraciens (Tritons), a pu, en transplantant une parcelle déterminée de la lèvre antérieure du blastopore du stade gastrula, sur le flanc d’un embryon, déterminer, au point greffé, la différenciation d’un embryon accessoire sur l’embryon normal. La parcelle greffée joue le rôle d’un *organisateur*, déterminant, en quelque sorte, une *personnalité* nouvelle. Hörstadius a réussi (notamment sur des Oursins) à combiner de multiples façons des parties d’embryons en un embryon composite. L’analyse expérimentale de tous ces résultats est du plus haut intérêt et, si l’on en revient à la question posée au début de ce paragraphe, il résulte de toutes les observations et expériences effectuées, qu’en fait, sinon en principe, le développement de l’embryon est minutieusement ordonné dès le début et préparé par l’hétérogénéité de l’œuf fécondé (la fécondation elle-même apporte des remaniements importants dans la structure de l’oocyte). Les circonstances particulières dans lesquelles s’opère le développement permettent ou inhibent celui-ci, mais sans le diriger réellement ; son déterminisme réel est intrinsèque, sans qu’on puisse, pour cela, invoquer une prédestination d’ordre métaphysique ou téléologique. On voit, par ces quelques indications, à quels problèmes d’intérêt supérieur les recherches embryogéniques ont actuellement conduit.
 
-Si bien réglée qu’elle soit par la Nature, l’embryogénie a ses anomalies et ses déviations, du fait de conditions extrinsèques, et ainsi se produisent les monstruosités, dont l’étude constitue la *tératologie*. Les monstres, chez l’homme et les animaux domestiques, ont frappé l’imagination depuis l’antiquité. La tératologie s’est constituée scientifiquement avec **Et. Geoffroy Saint-Hilaire**, qui a eu un continuateur dans son fils Isidore. Etienne Geoffroy Saint-Hilaire a eu, relativement au déterminisme de la production des monstruosités, des intuitions remarquables, que l’application des méthodes expérimentales a consacrées. La production expérimentale des monstruosités, ou *tératogénie*, s’est développée au cours du XIXe siècle, notamment par les travaux de Cam. Dareste (1822-
+Si bien réglée qu’elle soit par la Nature, l’embryogénie a ses anomalies et ses déviations, du fait de conditions extrinsèques, et ainsi se produisent les monstruosités, dont l’étude constitue la *tératologie*. Les monstres, chez l’homme et les animaux domestiques, ont frappé l’imagination depuis l’antiquité. La tératologie s’est constituée scientifiquement avec **Et. Geoffroy Saint-Hilaire**, qui a eu un continuateur dans son fils Isidore. Etienne Geoffroy Saint-Hilaire a eu, relativement au déterminisme de la production des monstruosités, des intuitions remarquables, que l’application des méthodes expérimentales a consacrées. La production expérimentale des monstruosités, ou *tératogénie*, s’est développée au cours du XIXe siècle, notamment par les travaux de Cam. Dareste (1822-1899), sur l’embryon de Poulet. Aujourd’hui, les techniques diverses de l’embryologie expérimentale permettent de réaliser à volonté, sur des animaux variés (particulièrement les Oiseaux, les Batraciens et les Echinodermes), les monstruosités les plus diverses et les plus instructives.
+
+## 2. La Physiologie
+
+La Vie est, avant tout, le fonctionnement de l’ensemble des appareils constituant l’organisme et dont la morphologie analyse la structure; l’étude de ce fonctionnement constitue la Physiologie, et suppose la connaissance des mécanismes essentiels des transformations de matière qui s’effectuent dans l’organisme. Il va de soi que la Physiologie ne pouvait se développer sur une base solide qu’après que la physique et la chimie eussent, elles-mêmes, suffisamment progressé, c’est-à-dire, en fait, au XIXe siècle.
+
+Avant ce moment, on a suppléé à l’ignorance, en la masquant par des conceptions *a priori*, de nature purement verbale. Les différences manifestes entre les corps bruts et les corps vivants furent attribuées par les Anciens, à un principe spécial animant la matière dans l’organisme, le souffle vital (*pneuma*). Cette conception, l’animisme, régna jusqu’au XVIIe siècle. **Descartes**, tout en instaurant un mécanisme intégral, conserve, à part, le principe immatériel, l’âme ; il bâtit, moyennant cette distinction, une physiologie où tout est ramené à la matière et au mouvement, dont le détail est grossier à nos yeux, comme il l’était déjà à ceux de **Pascal**, mais qui renfermait cependant des intuitions profondes. Ces conceptions furent à l’origine de deux grandes écoles, qui s’épanouirent à la fin du XVIIe siècle,
+
+cle, celle de l’*iatromécanisme*, élaborée en Italie par **Borelli** (1608-1670), et celle de l’*iatrochimie* due à **Sylvius** (François de La Boë, 1614-1672), en Hollande. **Albert de Haller** (1708-1777), dans les huit volumes de ses *Elementa physiologiae corporis humani*, fit un exposé général des connaissances de son temps, sans apporter d’idées ni de faits nouveaux essentiels. L’animisme des Anciens avait trouvé, d’autre part, au XVIIIe siècle, un renouveau assez outrancier, dans les théories de **Stahl** et une forme plus mesurée dans le vitalisme de l’École de Montpellier, avec **Bordeu** (1722-1776), **Barthez** (1734-1806), etc. Une force spéciale, la *force vitale* réglait, pour eux, dans l’organisme, le jeu des forces mécanistes, en assurait la coordination et les effets. Il n’y a, dans toutes ces conceptions, que des artifices verbaux dissimulant les difficultés à résoudre.
+
+La physiologie véritable ne pouvait sortir que de l’expérience et nous avons rencontré ses précurseurs en des hommes comme **Réaumur**, **Spallanzani** et **Lavoisier**. Le vitalisme trouva encore des défenseurs éminents pendant une grande partie du XIXe siècle, notamment **Bichat**, qui le décentralisa en quelque sorte, en admettant, au lieu d’une force vitale unique, dans les divers tissus, deux catégories de propriétés, les unes vitales, essentiellement instables ; les autres propres au monde physique, fixes et susceptibles d’être soumises au calcul. La Vie elle-même, pour **Bichat**, n’est que le conflit de ces deux ordres de forces, l’ensemble des fonctions qui résistent à la mort, celle-ci étant le triomphe définitif des forces physiques sur les forces vitales. **Joh. Müller** (1801-1858), qui a exercé en Allemagne une influence considérable par son enseignement et ses élèves, — il suffira de citer parmi eux **Helmholtz**, **Virchow**, du **Bois-Reymond**, **Brücke**, **Schwann**,
+
+**Henle**, **Pflüger**, **Haeckel**, — et qui est considéré encore par les biologistes allemands contemporains, notamment par **Verworn**, comme un des grands promoteurs de la physiologie du XIXe siècle, était resté vitaliste.
+
+### LA CONSTITUTION ET L’EXPANSION DE LA PHYSIOLOGIE GÉNÉRALE : CLAUDE BERNARD
+
+La réaction contre le vitalisme et l’essor réel de la physiologie, par l’établissement, sur des bases solides, de la méthode expérimentale, sont venus de France et, pour se borner à l’essentiel, ce grand mouvement a été d’abord l’œuvre de **F. Magendie** (1783-1855) et surtout de son disciple **Claude Bernard** (1813-1878). Le premier a fait de l’expérience la seule base de la physiologie, appliquant avec rigueur ce principe à l’étude d’une série de problèmes physiologiques. Typiques sont, à cet égard, ses travaux sur les fonctions des racines des nerfs rachidiens, qu’il a définitivement et complètement élucidées, indépendamment des travaux de **Ch. Bell**. Un grand physiologiste anglais, **Aug. Waller**, en 1911, rendait pleine justice à **Magendie**, à cet égard (1).
+
+**Claude Bernard** est incontestablement le plus grand maître de la physiologie du XIXe siècle et, comme le disait **Dastre**, à l’occasion de son centenaire, en 1913, « il en a chassé les fantômes qui l’encombraient. Elle était l’humble servante de la médecine. Il en a fait une science indépendante, ayant ses méthodes et son but. Il a accompli une
+
+(1) *Met. Brit. Assoc. Advane. Science*, Portsmouth, 1911.
+
+révolution dont les générations nouvelles ne se doutent pas, parce que les résultats en sont si bien acquis qu’ils font en quelque sorte partie de notre mentalité et que, suivant le mot de **Montaigne**, l’habitude en ôte l’étrangeté ». **Claude Bernard** a accumulé les découvertes fondamentales dans toutes les parties de la physiologie : fonctions des sucs digestifs, rôle du pancréas dans la digestion des graisses, découverte de la fonction glycogénique du foie et du métabolisme des sucres, rôle du glucose dans la production de la chaleur animale (ce qui complétait les découvertes antérieures de **Lavoisier**), découverte et analyse du rôle des nerfs vaso-moteurs, physiologie du grand sympathique, étude du mécanisme des poisons (strychnine, curare, etc.), mécanisme de l’intoxication par l’oxyde de carbone, conception du milieu intérieur comme régulateur des diverses fonctions. Tout cela sans se laisser jamais entraîner à des généralisations intempestives ou à des illusions verbales, mais en établissant ses conclusions sur des expériences cruciales. Enfin, il a eu la conception parfaitement nette de la physiologie générale, commune aux animaux et aux végétaux, c’est-à-dire de la physiologie cellulaire, qui allait se développer après sa mort. Toutes ces découvertes, mises à jour d’abord dans des notes et mémoires spéciaux, ont été ensuite exposées par lui et coordonnées dans la magnifique série de volumes reproduisant ses cours au Collège de France. Un repos que lui imposa, en 1865, une défaillance de sa santé, le conduisit à faire un exposé de ses conceptions sur la méthode en physiologie. C’est *l’Introduction à l’étude de la médecine expérimentale*, livre immortel comme le *Discours de la méthode* de **Descartes**, où il a formulé pour toujours les règles primordiales et inéluctables de l’expérimentation physiologique ;
+
+grâce à cela, il a établi que les phénomènes dont les corps vivants sont le siège obéissent à des lois aussi précises et aussi stables que ceux de la substance brute. Il a chassé définitivement la force vitale et le vitalisme du domaine de la physiologie. L’expérimentation physiologique est devenue aussi rigoureuse que celle du physicien ou du chimiste, une fois réalisées les conditions qui définissent le *déterminisme expérimental* ; elles se résument à opérer toutes conditions égales et constantes, sauf celle dont on étudie le rôle. Des mécanismes multiples et délicats assurent dans l’organisme, des compensations, un équilibre et une harmonie qui donnent l’illusion d’une finalité intérieure, sans que rien permette d’y supposer une force spéciale. L’œuvre de **Claude Bernard** fixe une étape décisive de la Biologie.
+
+Après **Claude Bernard**, la physiologie est une science exacte et positive. Il n’est pas inutile, d’ailleurs, de noter l’influence qu’a eue sur l’esprit du maître la philosophie positive d’**Aug. Comte**, qui, avait eu l’intuition, sans doute au contact de **Magendie**, des conditions de la recherche physiologique et qui, dès 1836, avait déclaré que le moment était venu où la physiologie devait se libérer, non seulement de la métaphysique, mais aussi de la médecine.
+
+À côté de **Cl. Bernard**, il convient de rappeler le nom de **Flourens** (1794-1867), auquel la physiologie doit des résultats importants, notamment pour le système nerveux (physiologie des canaux semi-circulaires). **Cl. Bernard** a été le maître d’une série brillante de physiologistes : **Paul Bert** (1833-1886), **A. Dastre** (1844-1917), **N. Gréhant** (1838-1910), **A. d’Arsonval** (1851-1940). À côté de son école, la physiologie française a produit **J.-P. Marey** le maître de l’étude biologique du mouvement.(1830-1904) par la méthode graphique, créée par le physiologiste allemand, **Ludwig** (1816-1895) ; **Marey** a été le précurseur et presque le réalisateur du cinématographe, aujourd’hui précieux pour l’observation authentique des mains phénomènes biologiques ; **Aug. Chauveau** (1827-1917), précurseur de **Pasteur** dans l’étude des virus, a donné une grande impulsion à l’étude énergétique de l’organisme ; enfin, **Brown-Séquard** (1819-1894), sur qui nous aurons plus loin à revenir.
+
+Les divers pays ont fourni à la physiologie du XIXe siècle des maîtres éminents : l’Allemagne avec **Ludwig**, **Helmholtz**, du **Bois-Reymond**, **Brücke**, **Pflüger**, **Rübner**, etc. ; l’Angleterre avec **Schafer**, **Sherrington**, **Bayliss**, **Starling**, etc. ; la Russie avec **Pavloff** ; ces divers physiologistes ont emprunté leurs méthodes favorites, soit au domaine de la physique, soit à celui de la chimie.
+
+On ne peut envisager ici tout ce que la physiologie doit à ces diverses tendances. L’électricité a fourni à l’étude du système nerveux des ressources considérables, entre les mains d’hommes comme **Ludwig**, du **Bois-Reymond**, **Helmholtz**, **Sherrington**, **Lapicque**. Elle permet actuellement, avec des instruments comme l’oscillographe cathodique, de suivre matériellement au passage le cheminement de la pensée. D’autre part, l’étude calorimétrique des échanges d’énergie a permis d’approfondir les problèmes de la nutrition et est arrivée à une perfection dont témoignent les travaux d’**Atwater** et **Benedect**, de **J. Lefèvre** et d’autres (1).
+
+(1) On aura une bonne idée d’ensemble de l’état de la physiologie, il y a quelques années, par le *Traité élémentaire de Physiologie* de E. Gley, Paris (Baillière).
+
+## La Physiologie Chimique : Diastases, Vitamines, Hormones et Endocrinologie
+
+Plus importante encore a été la fécondité des données et des techniques chimiques. Le terme de chimie organique correspond à l’idée, admise au début du XIXe siècle, que les composés élaborés par l’organisme relevaient d’une chimie distincte. Dès le début de ce siècle, les chimistes avaient extrait des plantes un nombre considérable de corps spéciaux, tels que les alcaloïdes ; c’est de 1817 à 1822 que **Pelletier** et **Caventou** ont isolé la strychnine, la vétrarine, la brucine, la quinine, etc. ; c’est à cette même date que **Chevreul** étudiait les graisses. En 1828, **Wöhler** réussit à faire in vitro la synthèse de l’urée. Depuis cette date, on peut dire que, peu à peu, tous les composés produits par les cellules vivantes sont rentrés, par synthèse, dans les cadres de la chimie, en dehors des actions vitales. Il n’y a qu’une chimie. Mais l’organisme a des agents de synthèse ou de désintégration particuliers, réalisant, à la température et à la pression ambiantes, ce qui, dans le laboratoire, exige des moyens plus puissants et plus brutaux.
+
+Les diastases. — Les agents de ces transformations in vivo sont, d’une façon générale, ce que nous appelons maintenant des catalyseurs, dont le type est constitué par les diastases. La première qui ait été mise en évidence et qui reçut ce nom, généralisé depuis, fut celle qui, dans l’orge en germination, saccharifie l’amidon et qui fut isolée du malt, par **Payen** et **Persoz**, en 1822. Toutes les transformations de la digestion ont été ramenées à des actions diastasiques. Toute la physiologie glandulaire y rentre également, en dernière analyse, sans que nous connaissions parfaitement encore la constitution des diastases ou ferments solubles. Les actions diastasiques ne sont pas toujours le fait d’un ferment unique, mais parfois de couples de ferments, l’un activant l’autre. C’est ce qu’ont mis en évidence, dans ces dernières décades, les travaux de divers physiologistes, en particulier ceux de **C. Delezenne** (1868-1932). On a mis en évidence aussi le rôle important joué dans ces actions par certains corps simples à doses infinitésimales, comme l’a montré **G. Bertrand**, pour le manganèse dans le cas de la laccase, comme on l’a vu (**Javillier**, **Delezenne**) pour le zinc, dans les venins des serpents. Nous aurons à revenir sur des processus du même ordre, à propos des vitamines et des hormones. Il reste comme propre à l’organisme, d’élaborer directement, ou de localiser dans des organes définis, ces agents spécifiques, dont dépendent les transformations de substances (métabolisme), qui sont un des éléments fondamentaux des mécanismes physiologiques.
+
+Les vitamines. — On a eu, récemment, une illustration frappante de ces mécanismes spéciaux dans l’étude de la nutrition. L’ensemble des échanges énergétiques qui la constituent et se traduisent par la digestion, l’excrétion, la respiration et les échanges thermiques, s’effectue, en dernière analyse, par une série d’oxydations et de réductions, libérant des quantités d’énergie sous forme de calories. Il semblait donc aux chimistes et physiologistes de la fin du XIXe siècle, que l’entretien de la machine vivante exigeait purement et simplement qu’on fournit à l’organisme de quoi produire la quantité de calories requise, — 2.500 en moyenne pour l’homme par 24 heures. Cette conception reste admissible en termes généraux, mais le progrès de la physiologie a montré que le problème était beaucoup plus complexe, du point de vue qualitatif. L’étude expérimentale de certains troubles trophiques, — dits aujourd’hui maladies de carence, — telles que le béribéri, le scorbut, la pellagre, etc., a révélé que la cause de ces troubles résidait dans l’absence, dans le régime alimentaire, de certaines substances essentielles, quoique ne devant y figurer qu’à des doses infinitésimales. Elles ont reçu le nom de vitamines, et, dans la pratique, elles sont contenues dans les aliments frais usuels. On a pu ainsi caractériser un certain nombre de ces vitamines, — désignées d’abord par les lettres **A**, **B**, **C**, **D**, **E**, — l’absence ou l’insuffisance de chacune d’elles déterminant une des maladies de carence. On a pu, par des régimes alimentaires définis, provoquer ou guérir à volonté chacune de ces maladies, en supprimant de ces régimes, ou en y réintroduisant une vitamine déterminée. Il apparaît même présentement qu’un équilibre entre les quantités des diverses vitamines dans le régime est nécessaire, la rupture de cet équilibre produisant des syndromes de carence. Dans ces dernières années, les diverses vitamines ont pu être isolées à l’état de pureté chimique (ce sont des composés relativement simples, ternaires ou azotés) et être synthétisées in vitro. Il n’y a, dans cet aspect nouveau et très spécial des problèmes de la nutrition, aucun mécanisme spécifiquement vital, au sens ancien du vitalisme, mais une série de mécanismes physico-chimiques, assurés par des quantités infinitésimales de substances déterminées et liés au fonctionnement particulier de certains organes, comme le foie ou les capsules surrénales. L’organisme est un laboratoire très compliqué, qui a ses procédés propres et complémentaires de transformations de substances ; les vitamines y agissent essentiellement comme des catalyseurs. La ration alimentaire ne peut donc pas s’exprimer purement et simplement, comme on le croyait, par un nombre donné de calories ; elle a des exigences d’ordre qualitatif. La découverte des vitamines a ainsi une signification physiologique d’une haute portée ; elle forme, dans la science contemporaine, une acquisition du même ordre que la connaissance des diastases, il y a un siècle.
+
+Les hormones et l’endocrinologie. — Le fonctionnement de l’organisme, avec son harmonie suggestive de finalités multiples, se ramène, chaque fois que les phénomènes sont bien analysés, au jeu de mécanismes physico-chimiques et c’est ce que la biologie contemporaine a mis une fois de plus en évidence, en faisant connaître une troisième catégorie de substances, agissant, comme les diastases et les vitamines, à des doses infinitésimales et assurant la coordination des organes et des fonctions. Ce sont les hormones. Leur découverte et leur étude, qui ne datent que du début du XXe siècle, a créé toute une branche de la physiologie, qui en forme aujourd’hui un des domaines les plus féconds et les plus importants, l’endocrinologie. Nous allons en donner brièvement la substance.
+
+On connaissait toute une série d’organes glandulaires spéciaux, la glande thyroïde (et les glandes parathyroïdes), le thymus, l’hypophyse, les capsules surrénales, dont les fonctions étaient inconnues et qui, au point de vue de la structure, se distinguaient, d’une part par une vascularisation importante, de l’autre par l’absence de conduit excréteur, **Claude Bernard** les avait appelées glandes à sécrétions internes (nous disons aujourd’hui glandes endocrines), par opposition aux glandes ordinaires ouexocrines, qui évacuent leur sécrétion par un canal, soit directement au dehors, soit dans le tube digestif. Il avait judicieusement aperçu que les substances élaborées par elles doivent être déversées dans le sang, c’est-à-dire dans le milieu intérieur et, par sa belle découverte de la fonction glycogénique du foie, il en avait donné, en 1850, un premier exemple. Le foie, par la sécrétion de la bile est une glande exocrine. Mais Cl. BERNARD avait montré qu’il emmagasine, dans ses cellules, le glucose apporté par la veine porte, sous forme de glycogène et qu’il restitue ce glycogène à la circulation, dans les veines sus-hépatiques, sous forme de glucose, en maintenant ainsi constant le taux de ce sucre dans le sang. Il a donc une sécrétion interne ou endocrine. Des expériences de BROWN-SÉQUARD avaient montré, peu après, le rôle important des capsules surrénales, attesté par le fait que leur ablation entraîne rapidement la mort. La pathologie avait aussi montré l’importance essentielle de la thyroïde et, plus tard, celle de l’hypophyse par les travaux de Pierre MARIE ; d’autres recherches avaient fait pressentir un rôle analogue pour le pancréas : mais toutes ces données restaient isolées et imprécises.
+
+Une généralisation abusive de la notion de sécrétion interne avait été faite par BROWN-SÉQUARD, en l’étendant à tous les produits de désassimilation des tissus. Des expériences faites par ce savant sur lui-même, en 1889, allaient, par leur retentissement, assurer l’essor de l’endocrinologie et en préciser les mécanismes. S’étant fait des injections d’extraits de testicules d’animaux jeunes, il en avait éprouvé un renouveau de vigueur et comme un rajeunissement (il avait alors 72 ans), qu’il expliquait par l’action de substances, produites par le testicule chez le sujet jeune, mais ne l’étant plus chez le vieillard.
+
+## Les Microbes et leur rôle dans la nature
+
+### Pasteur
+
+Nous avons signalé précédemment, dans l’œuvre de LAVOISIER, des aperçus exposés par lui au début de la Révolution et que la mort l’avait empêché de préciser, touchant au cycle général de la matière vivante dans la Nature et nous avons dit qu’il avait été réservé à PASTEUR d’en tirer tout le contenu et les conséquences. Indépendamment de son immense portée pour la médecine, l’œuvre de PASTEUR, trop bien connue pour qu’il faille la résumer ici une fois de plus, a apporté, sur les aspects fondamentaux de la Vie, une série de données qui font d’elle une des grandes étapes de la Biologie et c’est à ce point de vue que nous l’évoquerons rapidement.
+
+Dès ses travaux chimiques sur l’hémiédrie des tartrates, PASTEUR avait vu que les transformations de substances effectuées par les organismes inférieurs (en l’espèce des champignons) étaient en rapports étroits avec la dissymétrie moléculaire et il apercevait là une des caractéristiques de la Vie. Ces notions ont eu, plus tard, une valeur énorme en chimie, mais n’ont pas été poussées plus avant au point de vue biologique.
+
+Les travaux qu’il fit, un peu plus tard, à Lille, sur les fermentations, ont eu, au contraire, des conséquences biologiques capitales et immédiates. Etu-
+
+méthodes indiquées plus haut, on lui a découvert (HÉDON) un rôle endocrine essentiel, émanant de groupes de cellules, les îlots de Langerhans (étudiés surtout par LACUESSE), qui élaborent une hormone spéciale, l’insuline, dont l’absence ou l’insuffisance détermine un diabète grave (auquel on remédie par des injections de cette substance).
+
+D’autres organes se sont encore révélés comme ayant, à côté de leur rôle exocrine, une ou des fonctions endocrines importantes. Telles sont les glandes génitales. On sait aujourd’hui que, dans les deux sexes, elles produisent, dans leur parenchyme, toute une série d’hormones identifiées chimiquement ; ce sont des stérols, dérivant de la cholestérine, dont la formule chimique est connue et qu’on produit maintenant par synthèse. Ces hormones sexuelles contrôlent la différenciation de nombreux caractères sexuels secondaires et le fonctionnement de l’appareil génital. Leur rôle est particulièrement intéressant chez la femelle des Mammifères, où ce sont elles qui assurent la coordination des transformations cycliques assurant la vie de l’embryon pendant son développement dans l’utérus (1). Le fonctionnement hormonal des glandes génitales est lui-même sous la dépendance étroite de l’hypophyse, qui est, en quelque sorte, leur animatrice, par l’intermédiaire d’autres hormones qu’elle produit elle-même (hormones gonadotropes, prolan). Il y a là un des plus brillants chapitres de l’histophysiologie contemporaine, dont les initiateurs ont été : pour les Mammifères, BOUIN et ANCEL ; pour les Oiseaux : en France A. PÉZARD, et GOODALE, aux Etats-Unis, et qui a suscité toute une légion de chercheurs éminents, embryologistes, histologistes, chimistes.
+
+(1) Cl. M. CAULLERY, *Organisme et sexualité*, Paris (Doin), 1941.
+
+physiologistes. Les actions de ces hormones sont généralement stimulatrices ; il en existe toutefois qui sont, au contraire, inhibitrices, et auxquelles on a attribué le nom de chalones.
+
+Il est impossible d’entrer dans l’examen particulier de tous ces faits. Dégageons seulement l’idée que les hormones, produites dans un organe déterminé et déversées dans le sang, agissent ainsi à distance ; ce sont des messagers chimiques, qui, par leurs actions réciproques, harmonisent et coordonnent le fonctionnement des organes. Ce rôle semblait, précédemment, exclusivement dû au système nerveux. La découverte des hormones a ainsi révélé un aspect entièrement nouveau et capital de la physiologie générale.
+
+Le fonctionnement du système nerveux lui-même paraît bien être sous la dépendance d’actions de nature hormonale, car ce semble bien être des substances de cet ordre (en particulier l’acétylcholine pour le grand sympathique), qui assurent la liaison entre les cellules nerveuses (neurones) à leurs articulations (synapses) et à leurs terminaisons dans les organes.
+
+Enfin, le rôle des hormones apparaît aussi comme capital dans la différenciation des ébauches et des organes chez l’embryon ; l’action de l’organisateur, tel que l’a découverte SPEMANN (v. *supra*, p. 32), paraît bien s’y ramener (1) et, d’autre part, on a pu mettre récemment hors de doute l’action morphogène des hormones sexuelles dans la différenciation de l’appareil génital chez l’embryon.
+
+Les hormones, qui, comme les vitamines et les diastases, agissent à doses infinitésimales, apparaissent
+
+(1) Cl. M. CAULLERY, *Les progrès récents de l’embryologie expérimentale*, Paris (Flammarion), 1939.
+
+sent donc comme constituant, dans le fonctionnement des organismes supérieurs tout au moins, — en attendant qu’on les mette en évidence chez les autres, — une catégorie d’agents exerçant un rôle primordial.
+
+Ces expériences eurent un grand retentissement : elles furent l’objet de vives controverses et le point de départ d’une nouvelle thérapeutique, consistant à combattre les troubles dus à la déficience d’un organe, par l’injection, ou l’ingestion de produits extraits du même organe emprunté à des animaux sains ; c’est l’opothérapie, qui, si elle a conduit à des applications abusives, a cependant été très féconde. Cette technique nouvelle a, d’autre part, été la source de nombreux travaux sur les glandes à sécrétion interne, à partir de 1900.
+
+La méthode a consisté à étudier les troubles consécutifs à l’ablation de ces organes, à voir dans quelle mesure on y parait en pratiquant, après l’ablation, des greffes de ces mêmes organes, ou bien en en administrant des extraits diversement préparés ; enfin, à chercher à isoler de ces extraits les substances actives. Ainsi a été élucidée la fonction principale, ou les fonctions multiples, des glandes à sécrétion interne, pour chacune desquelles ont pu être caractérisées, puis extraites chimiquement à l’état de pureté et le plus souvent obtenues directement par synthèse, une ou plusieurs substances, auxquelles est due leur action spécifique sur l’organisme. Ces substances sont les hormones. Pour la thyroïde, par exemple, l’hormone est la thyroxine, caractérisée par la présence de l’iode ; pour les capsules surrénales c’est l’adrénaline (la zone corticale de ces organes sécrète encore d’autres hormones connues très récemment et agissant sur les glandes génitales). On ne savait rien des fonctions de l’hypophyse ; elle apparaît maintenant comme un des organes les plus puissants, fabriquant toute une série d’hormones aux actions multiples. Du pancréas, on ne connaissait que sa fonction exocrine (sécrétion du suc pancréatique, déversé dans l’intestin). Par les
+
+travaux qui l’ont fait, un peu plus tard, à Lille, sur les fermentations, ont eu, au contraire, des conséquences biologiques capitales et immédiates. Etu-diant des fermentations alcooliques défectueuses, il montra que la cause en était dans une fermentation parasite, et il fut ainsi conduit à définir et à isoler, à l’état de pureté, le ferment lactique. De ce travail, publié en 1857, et qui n’a que quinze pages, a découlé toute la chimie des fermentations, la spécificité de celles-ci, chacune étant le résultat des échanges de nutrition d’un organisme déterminé et produisant des transformations chimiques définies d’une substance donnée. PASTEUR découvrait bientôt que certaines fermentations ne s’opèrent qu’à l’abri de l’air (fermentations anaérobies), par exemple la fermentation butyrique et les putréfactions.
+
+La fermentation accomplie par la levure de bière correspond elle-même à la vie sans air pour cet organisme, qui, au contact de l’air, respire à la façon ordinaire en produisant de l’acide carbonique. Ces travaux sur les fermentations, qui ont transformé les industries basées sur elles, ont, en même temps, expliqué, au point de vue physiologique, ce phénomène lui-même, auquel de grands chimistes, comme LIEBIG et BERZELIUS, n’appliquaient que des considérations vitalistes, et, en même temps, était résolu le problème posé par LAVOISIER du retour cyclique des substances organiques à la matière minérale.
+
+PASTEUR allait être amené, presque immédiatement, à s’occuper d’un autre grand problème, celui des générations spontanées, qui se posait à nouveau, soulevé, en particulier, par des expériences d’A. POUCHET, en 1857, dans un livre sur l’Hétérogénèse. Par des expériences aussi simples que cruciales, PASTEUR montra que, si un liquide fermentescible ou putréfiable est réellement mis à l’abri des germes de l’air, il reste indéfiniment stérile. Les prétendues générations spontanées étaient, en réalité, le résultat de l’accès et de la multiplication de germes de l’air, introduits dans un liquide à l’insu de l’observateur. De là a découlé toute la technique de stérilisation des milieux fermentescibles et toute la technique bactériologique. Quelques années plus tard, cependant, la controverse reprit, en 1876, à l’occasion d’expériences de l’Anglais BASTIAN : ce fut pour PASTEUR l’occasion de montrer que certains germes, à l’état de spores, résistent à la température de 100°, mais non à celle de 120° et de là est sorti l’autoclave de CHAMBERLAND, aujourd’hui dans tous les laboratoires. Ainsi, tout ce qui a été allégué comme génération spontanée n’est que développement de germes accidentellement introduits dans un milieu nutritif pour eux. Nous ne voyons jamais la vie commencer. Elle ne fait que se continuer.
+
+Je n’insisterai pas ici sur les travaux de PASTEUR, relatifs aux maladies infectieuses, auxquels il a été progressivement amené (en particulier par ses recherches sur la pébrine des Vers à soie). Comme pour les fermentations, l’origine des maladies infectieuses a été ramenée à la contamination de l’organisme par des germes spécifiques et l’on sait aussi comment PASTEUR a imaginé des méthodes pour atténuer leur virulence et obtenir des vaccins qui en préservent.
+
+Les conséquences pratiques de l’œuvre pastorienne sont sans égales. Elles ont inauguré pour la médecine et pour la chirurgie une ère nouvelle ; elles ont transformé, ou créé une série d’industries. Nous n’en retiendrons ici que la notion du rôle des germes dans la Nature. Les organismes infiniment petits, les microbes comme on les a appelés, et dont les plus répandus et les plus importants sont les Bactéries, ont apparu comme jouant un rôle énorme dans la Nature et y constituant les agents de trans-
+
+formations chimiques les plus puissants, en ce qui concerne les substances organiques. C’est donc, — et c’est ce point que je veux mettre en lumière ici, — un aspect général nouveau de la Vie, qui a été ainsi découvert et mis en valeur.
+
+Les microbes sont à l’œuvre partout, en particulier dans la terre, où ils effectuent d’importantes transformations de matière, les unes constituant des dégradations de substances complexes, les autres des synthèses, comme celles de composés azotés à partir de l’azote atmosphérique. Leur rôle est donc apparu primordial pour les problèmes de nutrition des plantes par leurs racines. La physiologie végétale et l’agriculture sont donc sorties également transformées par les doctrines pastoriennes, et par les applications qu’en ont faites des chimistes et des agronomes, comme BOUSSINGAULT (1802-1887), Th. SCHLŒSING (1829-1919) et son fils A. T. SCHLŒSING (1856-1930), DEHÉRAIN (1830-1902), MUNTZ (1846-1917), S. WINOGRADSKY, etc. De grands laboratoires, aujourd’hui, comme celui de ROTHAMSTED, en Angleterre, continuent à exploiter cette mine féconde.
+
+Parmi les problèmes que l’on a été ainsi amené à étudier, se trouve celui de la nutrition, abordé par la voie synthétique, c’est-à-dire déterminer quelles sont les substances et les éléments nécessaires et suffisants pour le développement d’un organisme. Un élève direct de PASTEUR, RAULIN (1836-1896), l’a résolu, avec une rare élégance et une grande précision, pour une moisissure, l’*Aspergillus niger* et, récemment, A. MAZE a appliqué la même méthode à une plante supérieure, le Maïs. Aujourd’hui, de nombreuses recherches sont pratiquées, sur des Protozoaires ou des Thallophytes, pour déterminer, dans le cas de chaque espèce, les synthèses qu’elle
+
+est capable d’effectuer et celles qu’elle ne réalise pas et auxquelles on doit suppléer, en lui fournissant certains composés tout formés et qu’on appelle des *facteurs de croissance*.
+
+Chacun de ces travaux a pour résultat de ramener à des mécanismes physico-chimiques des phénomènes jusque-là paraissant relever uniquement de la Vie et, à cet égard, il faut évoquer brièvement la controverse qui opposa PASTEUR à Cl. BERNARD, après la mort de celui-ci (1878). La production de l’alcool par la levure, dans la fermentation alcoolique, apparaît comme résultant directement de la vie de la levure. PASTEUR n’en tirait aucune conclusion vitaliste, mais n’avait constaté aucun agent intermédiaire entre la substance vivante et les substances sucrées transformées. Cl. BERNARD, dans les derniers mois de sa vie, avait entrepris des expériences pour essayer de ramener ces transformations à un mécanisme purement physico-chimique. Les notes qu’il laissait furent publiées et provoquèrent de nouvelles expériences de PASTEUR, dans lesquelles il montra que les faits constatés par Claude BERNARD et provisoirement considérés par lui comme des transformations directes et purement chimiques du jus de raisin, étaient bien dues à l’intervention de levures. En protégeant les grappes, avant leur maturation, contre l’apport de germes de l’air et en particulier de la levure, qui, dans les conditions ordinaires, se trouve toujours à la surface du raisin, la fermentation obtenue par Cl. BERNARD ne se produit pas.
+
+Mais le problème qui préoccupait Cl. BERNARD devait recevoir sa solution quelques années plus tard, en 1897, sous un aspect qui correspondait à la fois à ses vues et aux faits analysés par Pasteur. BUCHNER a pu, en écrasant les cellules de levure,
+
+extraire de la pulpe, qui n’est plus vivante, un ferment, la zymase, qui est l’agent réel de la transformation du sucre en alcool, et qui, normalement, reste à l’intérieur de la cellule vivante ; la fermentation, dans les conditions normales, se présente donc bien comme une opération vitale de la cellule, mais son agent réel est un ferment soluble du même ordre que ceux qui réalisent toutes les transformations de matière, dans la digestion, par exemple. Et l’on a là un exemple patent du progrès de l’étude des phénomènes vitaux, qui, successivement, sont ramenés à des mécanismes physico-chimiques.
+
+### 3. La science de l’Hérédité. La Génétique
+
+Les diverses disciplines biologiques dont il a été question jusqu’ici, sur le terrain morphologique ou physiologique, envisagent l’individu. Il reste à en examiner une, née pratiquement avec le XXe siècle, et où, cette fois, sont considérées solidairement les générations successives. Il s’agit du problème de l’Hérédité et de la Génétique.
+
+L’Hérédité s’est imposée à l’esprit de temps immémorial. La similitude plus ou moins grande dans les générations successives des familles, les remarques faites sur les animaux domestiques et la création de races d’animaux ou de plantes appropriées aux besoins ou à la fantaisie des éleveurs et des agriculteurs, surtout la transmission frappante de certaines anomalies, ont constitué des données de l’observation journalière dans la pratique, qui ont, de loin, précédé la Science. Mais elles n’ont guère mis en évidence que les caprices infinis de l’hérédité, et c’est seulement depuis les dernières décades que celle-ci, sans avoir, et de loin, révélé tous ses secrets,
+
+se présente comme une discipline ordonnée etnée et susceptible de prévisions rationnelles (1).
+
+Les processus biologiques se laissent analyser presque toujours, en raison de leur complexité, non dans leur fonctionnement normal, mais dans leurs anomalies. En matière d'hérédité, un cas anormal est celui du croisement entre races, variétés, ou même espèces distinctes. Or, certains de ces croisements sont pratiqués de longue date, de façon courante. Il y a de nombreux siècles que l'homme a croisé l'âne et le cheval, pour obtenir mulets et mules; mais ceux-ci sont invariablement stériles. On a fait aussi, depuis longtemps, des croisements entre races ou espèces de volailles, faisans, canards, chardonneret et serin, etc. Tout cela s'est fait de façon très empirique.
+
+Au début du XVIIIe siècle, s'ouvre la voie qui, à la fin du XIXe, conduira à la Génétique. On se rend compte, à ce moment, de la nature des étamines de la fleur, comme organes mâles de la plante. CÉSALPIN, sur la foi des doctrines aristotéliciennes, refusait toute sexualité aux plantes et TOURNEFORT voyait encore dans les étamines des organes d'excrétion; cependant, dès l'antiquité, THÉOPHRASTE avait eu l'intuition, à propos de la production des fruits du palmier et de la caprification du figuier, du rôle réel des étamines. C'est en 1691 que CAMERARIUS, à Tübingen, dans son *Epistola de sexu plantarum*, affirme leur nature d'organes mâles. En 1751, KŒLREUTER inaugure une méthode nouvelle, en utilisant le pollen d'une espèce à en féconder une autre. Il a ainsi croisé des tabacs (*Nicotiana rustica* x *N. paniculata*), obtenu des hybrides et une série d'une vingtaine de générations, en fécondant
+
+(1) Cf. M. CAULLERY, *Les conceptions modernes de l'Hérédité*, Paris (Flammarion), 1935.
+
+ces hybrides par le pollen de l'une ou l'autre des espèces parentes; les générations ainsi obtenues faisaient retour progressivement à l'une de celles-ci. Parmi ses successeurs on peut citer surtout le Hollandais GÄRTNER, qui, en 1844, a publié des travaux étendus sur l'hybridation. En France, en 1826, SAGERET avait fait une constatation judicieuse, en croisant deux variétés de melons, le *chaté* (*M*) et le *cantaloup* (*C*).
+
+Les hybrides obtenus présentaient, juxtaposés, des caractères de chacune des espèces parentes : par exemple, une chair jaune (*M*), avec des graines blanches (*C*); un aspect brodé (*C*), des côtes intermédiaires entre *M* et *C*, une saveur acide (*C*); chez d'autres hybrides, les caractères des deux espèces parentes se répartissaient autrement. Retenons ces *disjonctions* de caractères, qui font de SAGERET un précurseur.
+
+L'année 1865 fut marquée par la publication indépendante et simultanée de deux travaux remarquables. À Paris, Ch. NAUdIN (1815-1899) publiait un mémoire, couronné du grand prix des Sciences physiques de l'Académie des Sciences et relatant des expériences d'hybridation sur de nombreuses espèces, mémoire dont l'intérêt reste considérable. D'autre part, à Brünn, en Moravie, le moine augustin Gr. MENDEL (1822-1884) donnait les résultats de croisements méthodiques entre variétés de pois (*Pisum sativum*) différant entre elles par un ou par plusieurs caractères (tels que couleur des fleurs, graines lisses ou ridées, taille petite ou grande, etc.). NAUdIN et MENDEL arrivaient à des conclusions très semblables, mais ils se sont complètement ignorés. C'est chez MENDEL qu'elles se présentent, de la façon la plus catégorique, en raison de la forme statistique et mathématique qu'il leur a donnée.
+
+Résumons-les en quelques lignes, sur l'exemple le plus simple étudié par Mendel, le croisement entre pois à graines lisses *L* et à graines ridées *r*. À la première génération, *F1*, nous obtenons 100 % de graines lisses, et, à la seconde, *F2* (résultant de l'autofécondation des plantes *F1*), 75 % de graines *L* et 25 % de *r*. Le caractère *r* réparait donc; il n'avait pas été supprimé en *F1*, malgré les apparences. Chez l'hybride *F1*, il était seulement masqué par le caractère *L*, qui est dit dominant et il y a, en *F2*, une *disjonction*, qui fait réapparaître *r*. Ce dernier caractère est dit récessif. Tout s'explique en admettant que l'hybride *F1* a une *constitution mixte* Lr, mais que ses cellules reproductrices (gamètes) sont pures, L ou r, les deux catégories étant de fréquence égale. Dans les fécondations aboutissant aux graines *F2*, les combinaisons entre gamètes L ou r se font au hasard et, par suite, d'après les probabilités, doivent donner : 1 *LL* : 2 *Lr* : 1 *rr*; comme les *Lr* (en vertu de la dominance de *L*) sont lisses, nous devons avoir en apparence 3 *L* : 1 *r*. C'est ce qui a lieu effectivement. Si on cultive séparément les différentes graines *F2*, on vérifie bien que 1/3 des graines lisses se reproduisent à l'état de pureté (ce sont les *LL*); que les deux autres tiers, au contraire, produisent de nouveau 3/4 de graines *L* et 1/4 de *r* et qu'enfin les graines ridées se reproduisent à l'état de pureté *r*.
+
+MENDEL avait fait aussi des croisements entre variétés de pois différant entre elles, non plus par un seul caractère, mais par plusieurs et constaté, avec la même précision, que les mêmes lois s'appliquaient, chaque couple de caractères différentiels se comportant comme s'il était seul en cause. Il était donc possible de prévoir, de façon précise, comment seraient constituées les diverses générations. Au caprice, qui, jusque-là, semblait le caractère essentiel de l'hérédité, était substituée une parfaite régularité prévisible.
+
+Il est tout à fait surprenant que des résultats aussi caractéristiques et aussi nettement formulés (et les conclusions de NAUdIN, sauf les résultats numériques, étaient tout à fait concordantes) n'aient trouvé aucun écho (1). Pendant trente-cinq ans, ils furent littéralement ignorés. Ce fut seulement en 1900 que trois botanistes, simultanément et de façon indépendante, les mirent en valeur et les confirmèrent sur divers exemples : H. de VRIES, en Hollande; C. CORRENS, en Allemagne; E. von TSCHERMAK, en Autriche. Cette fois le retentissement fut immédiat et considérable : un énorme mouvement expérimental se trouva déclenché et, en quelques années, les lois de Mendel se trouvèrent vérifiées sur des plantes et des animaux nombreux et variés. Il se créait une Science de l'Hérédité, la Génétique, dont les protagonistes étaient, avec les trois auteurs précédents, W. BATESON, en Angleterre; L. CUÉNOT, en France; W. CASTLE et bientôt Th. MORGAN, aux États-Unis et beaucoup d'autres.
+
+Tous les faits ne se ramènent pas simplement au type résumé plus haut, qui reste fondamental et je ne puis, naturellement, pas entrer dans l'examen des diverses catégories qui se sont révélées (2) et qui constituent le contenu actuel de la Génétique. Je rappellerai seulement les magnifiques recherches de Th. MORGAN avec ses collaborateurs, C. BRIDGES, H. MÜLLER, A. STURTEVANT sur la Drosophila melanogaster, la mouche des vinaigreries, qui s'est montrée, pour ces recherches, un matériel éminem-
+
+(1) Quoique Darwin ait discuté les travaux de NAUdIN, dans son ouvrage *Variations des Animaux et des Plantes*.
+(2) Cf. M. CAULLERY, *Les conceptions modernes de l'Hérédité*, Paris (Flammarion), 1935.
+
+ment favorable, par la facilité de son élevage, la rapidité de sa reproduction et le grand nombre des individus produits. Dans les élevages, MORGAN a su discerner un grand nombre de variations brusques,
+
+![Fig. 11. — L'hérédité mendélienne croisement souris grise x souris blanche (Cuénot, Genèse des Espèces)](image)
+
+— nous les retrouverons plus loin sous le nom de *mutations*, — qui sont héréditaires et suivent les lois de Mendel. La combinaison de toutes ces mutations entre elles a fourni à l'étude de l'hérédité des matériaux d'une ampleur énorme et d'une valeur primordiale. La Drosophile, du reste, est passée du laboratoire de MORGAN dans ceux du monde entier; et les conclusions obtenues sur elle ont été étendues à des plantes et à des animaux aussi nombreux que variés.Mais elle a permis, en outre, à **MORGAN**, de raccorder les lois de Mendel aux faits fondamentaux de la cytologie, en ce qui concerne les chromosomes du noyau (cf. p. 74) et de construire la **théorie chromosomique de l’hérédité**. Les 400 mutations dont la transmission héréditaire a été suivie, se répartissent, en effet, en quatre groupes numériquement inégaux et, pour chaque groupe, la transmission de deux quelconques des mutations qui les composent se fait solidairment. D’autre part, les noyaux de la Drosophile présentent quatre paires de chromosomes. Par des faits expérimentaux multiples, MORGAN a été conduit à reconnaître que les diverses mutations, obtenues et combinées par lui, sont déterminées par des altérations localisées des chromosomes du noyau, chacune correspondant à une unité définie ou **gène**. Et il a pu localiser ces gènes, dans les divers chromosomes, en des points précis. Il y a une concordance parfaite entre les résultats des expériences et la théorie ainsi établie. Tout ce que la cytologie nous a appris sur la constitution des cellules reproductrices et sur la fécondation se trouve être un moule parfaitement approprié pour représenter les résultats de la Génétique. Les chromosomes du noyau apparaissent, avec des gènes localisés sur eux, comme le support matériel des propriétés héréditaires.
+
+Le contraste entre l’indifférence subie par **NAUDIN** et par **MENDEL**, en 1865, et le succès énorme de leurs conceptions en 1900, s’explique, en grande partie, par le fait que, dans l’intervalle, avaient été acquises toutes les données relatives à la division cellulaire, à la formation des gamètes et à la fécondation, qui en constituent une représentation adéquate. Il y a ainsi dans le développement des sciences, et en particulier de la biologie, des circonstances qui se conditionnent les unes les autres
+
+et dont dépend, en quelque sorte, la résonance des découvertes.
+
+La Génétique a pris un développement énorme et cohérent depuis 1900. Cela ne veut pas dire que tous les problèmes de l’Hérédité soient définitivement et entièrement résolus. Les lois de Mendel, malgré l’extension énorme qui leur a été reconnue, ne représentent que la forme la plus simple de la transmission héréditaire et nous restons en face de faits plus complexes. La Génétique est sortie ainsi de l’étude expérimentale de croisements entre races ou variétés. Les croisements entre espèces, quand ils sont féconds, sont beaucoup plus complexes. Certains ont pu être analysés de façon approfondie chez les plantes, notamment entre des espèces d’*Antirrhinum* (Muller), par Erw. Baur. Chez les animaux, ces croisements sont presque toujours stériles, mais Mlle G. Cousin, dans ces dernières années, a su découvrir un cas où ils sont féconds (entre deux espèces de grillons, *Gryllus campestris* et *Gr. bimaculatus*) et l’analyse promet d’en être très instructive.
+
+En tout cas, il y a maintenant une science de l’Hérédité et c’est une des importantes étapes de la Biologie contemporaine.
+
+## 4. L’Évolution
+
+Les exposés successifs qui précèdent nous montrent une convergence générale vers une compréhension synthétique de la Vie. Déjà, au XVIIIe siècle, celle-ci s’était manifestée dans la théorie de l’Évolution (1).
+
+(1) Cf. M. CAULLERY, *Le Problème de l’Évolution*, Paris (Payot), 1931.
+
+Les origines en remontent au XVIIIe siècle, où s’est précisée la notion de l’espèce et où celle-ci s’est confrontée avec la tradition orthodoxe de la Genèse. « Il y a autant d’espèces, dit **LINNÉ**, que l’Être infini en a créées à l’origine. » Mais, dès cette époque, surgit l’idée d’une formation progressive des espèces. **BUFFON**, qui a exercé une influence considérable sur son temps et a envisagé l’histoire naturelle d’une façon synthétique et philosophique, a eu l’intuition d’une longue histoire de la Terre (il croyait être hardi en l’évaluant à 60.000 ans, au lieu des 6.000 de la tradition, et nous comptons aujourd’hui par milliards d’années) et des phénomènes géologiques. Dans son *Discours sur la dégénération des animaux* (1), il déclare que « les deux cents espèces, dont il a fait l’histoire, peuvent se réduire à un certain nombre de familles ou de souches principales, desquelles il n’est pas impossible que toutes autres soient issues ». Il signale le parallélisme entre les quadrupèdes de l’Ancien et du Nouveau Monde et attribue les différences entre les deux séries à l’action du climat et des circonstances ; de même les animaux domestiques ont dû dégénérer sous l’action de l’homme. On retrouve des idées analogues chez **CONDILLAC**.
+
+**Lamarck** et l’adaptation des organismes. — **LAMARCK**, — qui a été un des familiers de **BUFFON**, — a subi l’influence de sa pensée. Or, il est le fondateur incontestable des doctrines transformistes, exposées dans ses cours du Muséum, puis, d’une façon documentaire, dans sa *Philosophie zoologique* (1809). Il conteste la valeur absolue de l’espèce, la seule réalité étant l’individu. Or, celui-ci subit l’influence des
+
+(1) *Histoire naturelle*, t. 14.
+
+conditions où il vit ; les besoins qu’il éprouve déterminent en lui des habitudes et, par suite, l’usage répété de certains organes, diminué de certains autres. De là, des hypertrophies ou des atrophies, par usage ou non-usage et ces modifications acquises sont transmises par l’hérédité. Ainsi, peu à peu, les types se modifient, en harmonie avec les conditions ambiantes, ce que, depuis Aug. Comte, on appelle le milieu. D’où le caractère adaptatif de la structure des organismes, qui est un résultat et non l’expression a priori de la pensée créatrice. Il y a là une doctrine totale et cohérente. Du temps et des circonstances favorables suffisent à la Nature pour opérer, suivant **LAMARCK**, toutes les transformations. La Nature réalisait sans cesse des êtres simples qui, peu à peu, évoluaient en d’autres plus complexes. Appliquant les mêmes idées au monde minéral, il formulait, plus justement, à l’encontre des catastrophes de **CUVIER**, ce qui allait devenir, en Géologie, avec **LYELL**, la théorie des causes actuelles. Telle est la conception de **LAMARCK**, novatrice, révolutionnaire. Elle se heurta à l’esprit positif et traditionaliste de CUVIER, qui la combattit et la ruina dans l’esprit des contemporains. Il faut bien reconnaître d’ailleurs qu’à l’époque, les théories de **LAMARCK** ne pouvaient s’appuyer sur une base solide de faits et que les arguments qu’il étayaient, étaient souvent faibles et même puérils, ou invoquaient des données déjà périmées, comme la génération spontanée. Aujourd’hui même, l’hérédité des modifications acquises, pilier fondamental de la conception lamarckienne, reste un postulat qui se heurte à l’expérience. Et **Geoffroy Saint-Hilaire**, avec plus de prudence, aboutissait aussi à des conceptions évolutionnistes sur le plan anatomique, mais en les exagérant, d’autre part, dans l’idée de l’unité du
+
+plan de composition du règne animal tout entier. Il avait, par contre, l’intuition de la valeur de l’embryogénie pour la détermination des affinités des organismes, celle de la valeur essentielle des organes rudimentaires comme vestiges d’états antérieurs et il en donnait des exemples saisissants, comme dans le cas des ébauches de dents chez les fœtus de baleines. Enfin, il avait aussi aperçu, dans la tératologie, des déviations accidentelles de l’anatomie normale, pouvant éventuellement conduire à des formes nouvelles. **Geoffroy Saint-Hilaire** doit donc être rangé parmi les fondateurs des doctrines transformistes.
+
+**Darwin** et la sélection naturelle. — Sous l’influence de **CUVIER**, ces doctrines subirent une éclipse totale, pour reparaître et triompher, en 1859, avec *l’Origine des Espèces*, de Ch. **DARWIN** (1809-1882), sur une base toute nouvelle. Les conceptions de **DARWIN** sont nées des observations faites par lui, au cours de la croisière de circumnavigation du *Beagle* (1831-1836), surtout en Amérique du Sud et aux îles Galapagos. La comparaison précise des variations d’un même type dans les diverses îles de cet archipel, en particulier, lui avait suggéré l’idée de la variabilité générale de l’espèce. Rentré en Angleterre, et, à partir de 1842, vivant à la campagne, à Down, il se consacra à l’étude de cette variabilité. En 1838, la lecture de *l’Essai sur le principe de population* du clergyman **MALTHUS** (1798), lui suggéra l’importance de la concurrence vitale entre les individus, et entre les espèces, entraînant comme conséquence la *survie du plus apte*, ce qui équivaut à un choix automatique, par la Nature, des individus les mieux adaptés à leurs conditions d’existence, à une **sélection naturelle**. **Darwin**, obser-vateur scrupuleux et minutieux, chercha, dans le monde qui l’entourait, des faits du même ordre et les trouva dans les pratiques de l’élevage et de l’agriculture, très perfectionnées dans l’Angleterre de son temps, où l’homme choisit les reproducteurs, où les graines, en vue de perpétuer et de développer des particularités déjà réalisées et qu’il juge utiles. C’est la **sélection artificielle**, consciente, qui apparut à DARWIN comme une image de la sélection naturelle. Dès lors, concurrence vitale et sélection furent pour lui les facteurs fondamentaux de la variation et de la transformation graduelle des espèces naturelles. À la différence de LAMARCK, DARWIN ne se préoccupe pas des causes des variations ; il accepte celles-ci comme fait d’observation et se préoccupe seulement de leur sort ultérieur. Il avait déjà recueilli, relativement à la sélection artificielle, une documentation énorme, quand, en 1858, les mêmes idées furent formulées, dans une lettre au géologue LYELL, par Alf. R. WALLACE (1823-1913), qui explorait zoologiquement la Malaisie. À la suggestion de LYELL, les deux mémoires de DARWIN et de WALLACE furent lus, en juillet 1858, à une séance de la Société Linnéenne de Londres, et DARWIN publia, en 1859, un livre contenant l’essentiel de ses idées, qui est *l’Origine des Espèces*. Les matériaux accumulés par lui formèrent ultérieurement la matière de ses deux volumes sur les *Variations des animaux et des plantes sous l’influence de la domestication* (1868).
+
+Le retentissement de *l’Origine des Espèces* fut immense, et déchaîna d’ailleurs de nombreuses et longues polémiques, mais, cette fois, la cause du transformisme était gagnée et l’idée de l’Évolution allait dominer toute la biologie de la fin du XIXe siècle. Dans un petit livre, publié en 1865, par un éminent zoologiste allemand, vivant au Brésil, Fritz MÜLLER, sous le titre *Für Darwin*, la doctrine fut, en quelque sorte, transposée dans l’embryogénie ; les formes larvaires, très variées, par lesquelles passent beaucoup d’animaux marins (en particulier les crevettes de la famille des *Penacidae*), furent considérées, par F. MÜLLER, comme représentant, de façon transitoire, des formes par lesquelles l’espèce avait passé antérieurement et le développement de l’individu (*ontogénie*), interprété comme une récapitulation abrégée de l’histoire antérieure de l’espèce (*phylogénie*). Une conception de cet ordre avait d’ailleurs été antérieurement formulée, sur un plan purement conceptuel, en Allemagne, par MECKEL, et en France par SERRÈS, disciple de GEOFFROY SAINT-HILAIRE. De l’idée développée par F. MÜLLER, E. HAECKEL fit la loi biogénétique fondamentale. HAECKEL la développa dans une série d’ouvrages, qui ont eu une énorme diffusion. Il a été le grand vulgarisateur de la théorie de l’Évolution et l’a orientée vers l’embryogénie, qui est devenue ainsi le champ de recherches zoologiques le plus cultivé des dernières décades du XIXe siècle et a dû aux conceptions transformistes, les énormes progrès qu’elle a réalisés. Il apparaît bien aujourd’hui qu’il a été fait un abus de la loi biogénétique fondamentale. Si l’on peut trouver, dans l’embryon, des vestiges d’états antérieurs, l’embryogénie est essentiellement un processus actuel et non rétrospectif. Les vestiges qui y sont conservés sont ceux d’organes qui ont gardé des fonctions effectives, parfois nouvelles, ou qui ont servi de matériaux pour l’édification d’organes nouveaux, et non l’expression d’un principe récapitulatif. Néanmoins, la réaction formulée, à l’égard des idées de F. MÜLLER et de HAECKEL et contre l’idée même de l’Évolution, par
+
+certains, tels que VIALLETON (1), est elle-même excessive. Non seulement l’embryogénie, mais l’anatomie comparée, la paléontologie animale et végétale, l’étude générale des faunes et des flores, ont apporté, dans l’ensemble, un appui impressionnant aux conceptions transformistes, qui apparaissent aujourd’hui comme la seule explication rationnelle possible de la Nature présente et passée.
+
+DARWIN n’avait pas écarté les idées de LAMARCK. Il admettait même comme évidente l’hérédité des modifications acquises. HAECKEL avait remis en honneur toute l’œuvre de LAMARCK, dont les théories ont trouvé des défenseurs nombreux et éminents, comme A. GIARD, Ed. PERRIER, G. BONNIER, F. LE DANTEC, en France, EIMER, L. PLATE en Allemagne, etc.
+
+Weismann et le dualisme somato-germinal. — Vers 1890, la position générale du problème fut renouvelée par A. WEISMANN, qui, constituant de toutes pièces une théorie nouvelle de l’hérédité, nia le fait et même la possibilité d’une transmission à la descendance des modifications acquises par l’individu et, par suite, la valeur des théories lamarckiennes. WALLACE prit, d’ailleurs, à l’égard de l’hérédité des caractères acquis, la même position. WEISMANN oppose les cellules reproductrices (*germen*), à l’ensemble du reste de l’organisme (*soma*). Le germen seul importe pour l’espèce, le soma n’étant qu’une enveloppe périssable, purement individuelle, et il n’aperçoit pas comment une modification localisée dans le soma pourrait s’inscrire comme telle dans le germen. Ces idées, appuyées sur les connaissances récentes et développ-
+
+pées avec beaucoup d’ingéniosité et de logique, ont exercé une très grande influence dans les cinquante dernières années. La critique des faits invoqués en faveur de l’hérédité des caractères acquis est, d’ailleurs, très pertinente et il faut reconnaître que, jusqu’ici, toutes les expériences tentées pour établir la réalité de la transmission des modifications acquises ont été vaines.
+
+Hugo de Vries et le mutationnisme. — Une nouvelle phase de l’histoire du transformisme s’est ouverte en 1900, avec la théorie des mutations de H. de VRIES (1). De VRIES considère aussi comme purement individuelles les variations provoquées par l’action du milieu et l’espèce comme normalement stable. Mais, à certains moments, se produisent, comme par une sorte d’explosion, des groupes de variations brusques, discontinues et héréditaires qui sont les mutations et qui réalisent des espèces élémentaires nouvelles, correspondant aux conceptions du botaniste français JORDAN. De VRIES a fondé ses idées sur la discussion de faits connus, beaucoup de variétés stables ayant historiquement apparu de façon soudaine (un botaniste russe, KORSCHINSKI avait déjà réuni de nombreux faits de ce genre, groupés par lui sous le nom d’*hétérogénèse*). Mais surtout, de VRIES crut trouver un exemple de ces variations multiples, discontinues et héréditaires dans une plante de la famille des *Onagrées*, l’*OEnothera lamarckiana*, à laquelle il a consacré plus de vingt ans de recherches expérimentales du plus haut intérêt. La conception de l’évolution, telle que de VRIES l’a formulée, d’après l’étude de cette plante, est aujourd’hui abandonnée. Les faits
+
+signalés chez l’*OEnothera lamarckiana* et plus ou moins retrouvés chez d’autres *OEnothères*, présentent un très grand intérêt et ont été l’objet de nombreux travaux, mais se rattachent à des processus d’hybridation. Ils constituent maintenant un chapitre important de la Génétique, mais on ne peut y voir la base d’une théorie générale de l’Évolution.
+
+L’état actuel du problème. — Il résulte de l’exposé précédent que, si le fait de l’Évolution s’impose par l’ensemble de nos connaissances actuelles, la façon dont elle s’est accomplie est loin d’être éclaircie. La tendance présentement dominante, particulièrement en Angleterre, repose sur l’idée darwinienne de la sélection, appliquée aux variations brusques que sont les mutations (en laissant de côté celles du genre *OEnothera*). Le lamarckisme est peu en faveur et cependant l’adaptation est un fait indéniable et d’ordre général (sans que toutes les particularités des organismes aient pour cela un caractère adaptatif), dont la réalisation par le hasard, est plus que problématique.
+
+Non seulement, dans chaque organisme, existe une corrélation précise et harmonieuse des fonctions et des structures, mais la plupart des espèces offrent de nombreuses particularités correspondant étroitement aux conditions de vie de l’animal. Enfin fréquents sont aussi les exemples frappants de dispositifs spéciaux offrant un agencement de parties comparable à celui d’outils conçus par l’homme. C’est ce que CUÉNOT (1) a appelé des *captations*. Elles se trouvent réalisées de toutes pièces chez l’individu, au cours du développement, préalablement à tout usage. J’en donne ici un exemple
+
+(1) L. Cuénot, *L’Adaptation*, Paris, 1929, pp. 265 et suiv.## ÉPILOGUE
+
+Nous sommes arrivés au terme de ce film rapide, où se sont déroulés les aspects multiples et les étapes successives du progrès de nos connaissances biologiques. Ces péripéties essentielles me semblent découler à la fois de circonstances contingentes et de conditions qui sont dans la nature des choses.
+
+Les premières résultent de l’allure qu’a revêtue l’Histoire. Il y apparaît, en effet, comme une grande discontinuité, produite par l’effondrement de la civilisation gréco-romaine. De ce fait, il y a une science antique et une science moderne, séparées par l’hiatus du Moyen-Âge et nous avons vu comment, avec la Renaissance, la science antique retrouvée a été, dans une certaine mesure, un frein au progrès, un rideau interposé devant la réalité et en retardant l’analyse.
+
+Les secondes tiennent à la complexité même des processus vitaux. Les esprits supérieurs qui s’y sont attaqués ont été naturellement conduits à suppléer à leur ignorance par des conceptions spéculatives. L’un des aspects essentiels de la marche en avant des sciences biologiques consiste dans le recul graduel et l’évanouissement de ces fantômes : animisme, vitalisme sous ses formes graduellement atténuées, finalité, pour aboutir à des interprétations physico-chimiques de plus en plus précises des diverses manifestations de la Vie. Mais ce dernier stade ne pouvait être atteint que dans la mesure où la physique et la chimie elles-mêmes avaient progressé. Ce n’est donc pas par une coïncidence fortuite que le XIXe siècle a vu l’essor de la Biologie. Tout ce qui a précédé ne pouvait être qu’une préparation, où la description et l’observation passive permettaient à l’esprit des opérations provisoires de reconnaissances à travers la Nature, quelques hommes supérieurs, comme Harvey, Réaumur, Spallanzani, Lavoisier, jettent toutefois les bases de la méthode expérimentale, que le XIXe siècle allait promulguer avec Cl. Bernard et Pasteur.
+
+Il est significatif que le terme de Biologie ait été créé au début même de ce siècle, en 1802. L’un des traits dominants du XIXe siècle a été, en effet, l’unification des sciences de la Vie, par la connaissance de la cellule, base commune de l’organisation et du fonctionnement de tous les organismes, des plus inférieurs aux plus élevés, à tous leurs états, depuis le stade unicellulaire qu’est l’œuf, jusqu’à l’extrême complication des organes et de l’ensemble de l’individu adulte. Tous les problèmes biologiques se sont trouvés ramenés à l’échelle cellulaire et à l’étude des mécanismes propres, mis en œuvre par la cellule, dans ses échanges avec le monde ambiant. Les pages précédentes donnent l’idée des progrès accomplis dans cette étude et de la convergence des notions acquises. Quelque important qu’ait été le chemin parcouru, nous ne nous en trouvons pas moins devant des inconnues nouvelles.
+
+Si, en effet, chacun des processus élémentaires de la Vie est plus ou moins complètement ramené à l’ordre physico-chimique, cela ne nous rend guère plus intelligible la réalisation de la coordination etde l’harmonie dans l’ensemble et dans la succession de ces processus, ni comment ils aboutissent, à partir de la cellule initiale qu’est l’œuf, à la constitution rigoureusement définie, en même temps que prodigieusement hétérogène, qu’offre l’organisme adulte, à l’ajustement parfait de ses parties et à leur fonctionnement synergique. On ne peut se défendre d’évoquer, à cet égard, une certaine finalité, par laquelle la substance vivante se distingue du reste de la Nature.
+
+Transportée du moment actuel dans le temps, l’énigme n’est pas moins grande. Nous avons vu les obscurités qui subsistent dans le problème de l’Évolution et surtout dans celui de l’origine de la Vie. Celle-ci semble bien ne s’être réalisée qu’à une période infiniment lointaine, dans des conditions qui ne paraissent plus s’être rencontrées ensuite et qui nous restent, pour le moment, totalement inconnues. Depuis cette période et actuellement, sous nos yeux, la Vie se continue mais ne commence plus et cela explique pourquoi ses modalités essentielles restent pour nous fortement enveloppées d’une obscurité, que l’effort de chaque nouvelle génération scientifique dissipe sur certains points, sans l’empêcher de persister devant nous sous des formes nouvelles.
+
+L’étape présente de la Biologie peut donc être caractérisée par une réduction de plus en plus parfaite des processus vitaux élémentaires à des mécanismes purement physico-chimiques, conquête scientifique d’importance majeure et d’un caractère général et définitif. Il reste, comme perspective d’étapes ultérieures, de pénétrer le secret de la vie en elle-même et de savoir si elle peut être réduite intégralement à une conception du même ordre.
+
+La solution radicale de cette énigme serait d’arri-
+
+## ÉPILOGUE
+
+ver à créer de toutes pièces des substances ayant toutes les propriétés de la substance vivante, en réalisant cette génération spontanée, qui, jusqu’ici, n’a été qu’une illusion décevante et qui, peut-être, le sera toujours, si la Vie est réellement irréductible aux propriétés des substances non vivantes, quelle que soit la complexité de celles-ci.
+
+La physique et la chimie nous offrent présentement le spectacle de la transmutation des éléments, — hier encore chimère des alchimistes, — effectuée au laboratoire à l’aide des radiations. Elles nous révèlent, en outre, que le déterminisme, au sens classique, n’a pas une valeur absolue et qu’il cesse d’exister dans le domaine et à l’échelle des atomes, où, au contraire, nous trouvons seulement incertitudes et probabilités, sur la base desquelles. N’y aurait-il pas, dans l’ordre des grandeurs de l’espace et du temps, une échelle, inverse en quelque sorte, embrassant l’infini du passé et où les lois du monde actuel ne s’appliqueraient plus rigoureusement, où surtout elles ne seraient pas applicables aux conditions initiales qui ont permis la réalisation de la Vie, avec les modalités spéciales qu’elle nous présente ? N’y aurait-il pas aussi, dans le monde présent, pour le fonctionnement physico-chimique élémentaire de la substance vivante, du fait même de la grandeur et de la complexité de ses molécules, des résultantes spéciales encore insoupçonnées, qui seraient à la base des particularités de la constitution des organismes et de l’Évolution qui nous déconcertent par leur irréductibilité aux lois du monde inorganique (1) ?
+
+(1) Les physiciens quantistes se sont posé déjà le problème de l’adéquation de la théorie des quanta sur les problèmes généraux de la Biologie. Mon confrère et ami Louis de Broglie m’a signalé un ouvrage de P. Jordan (*Anschauliche Quantentheorie*, Berlin, 1936), où
+
+Nous arrivons ainsi, à la source des étapes futures de la Biologie, à une grande interrogation qu’évoque le titre même de la présente collection : **Que sais-je ?**
+
+ce point est traité dans un chapitre spécial (*Kausalität und Statistik im Organischen*, p. 292-302). J’en résume très brièvement l’essentiel.
+
+Déjà N. Bohr avait indiqué que la physique atomique ne peut permettre une explication des phénomènes biologiques, une analyse, une réduction totale des lois biologiques à la physique classique ne doit vraisemblablement pas être possible.
+
+Pour Jordan, les processus élémentaires de la Vie et ses réactions fondamentales sont à l’échelle atomique, d’où relève l’action des catalyseurs, des *organisateurs*, etc. La vie est essentiellement un phénomène de processus *anti-entropique*, d’où résulte la probabilité de l’hérédité comme culture *discontinue*, parallèle à celle des quanta et its constituent la base la plus convaincante et la plus large pour une conception de cet ordre. Ces discontinuités élémentaires introduisent ainsi la nécessité de considérations statistiques dans les processus biologiques fondamentaux. Dès lors, dans le domaine considéré, il n’y a plus de déterminisme, mais seulement des vraisemblances proportionnelles à l’intensité des forces agissantes et des probabilités.
+
+Jordan arrive ainsi à concevoir *a priori* la possibilité de l’hérédité des caractères acquis, par retentissement des modifications subies typiques somatiques sur les cellules germinales. La réduction de la génération à un simple jeu de hasard ne pourrait être évitée que par l’intervention expérimentale, ce qui expliquerait de façon plausible, l’insuccès des tentatives de vérification expérimentale de l’hérédité des caractères acquis.
+
+D’autre part, le comportement général d’un organisme n’étant défini que statistiquement, il n’y a, pour ainsi dire, pas de comportement *moyen* auquel on puisse attribuer le phénomène de la liberté apparente, comme je ne veux. La liberté se ramène, en effet, à la possibilité de choisir, entre divers modes possibles de réaction, l’plus approprié. Or l’absence de causalité stricte dans la physique quantique laisse place, pour l’organisme, à un choix entre les réactions résultantes et, par suite, à la finalité.
+
+## TABLE DES MATIÈRES
+
+- Avant-Propos ......................................................... 5
+
+- **CHAPITRE PREMIER. — LA SCIENCE GRECQUE ET LA BIOLOGIE** ...................................... 8
+  - Hippocrate. — Aristote. — Galien ......................... 8
+
+- **CHAPITRE II. — LA RENAISSANCE ET LE RÉVEIL DE LA SCIENCE ANTIQUE** ........................ 14
+  - L’Anatomie ........................................................ 16
+  - La Botanique ....................................................... 19
+  - La Zoologie ....................................................... 21
+
+- **CHAPITRE III. — L’ÉLABORATION DE LA BIOLOGIE MODERNE AUX XVIIe ET XVIIIe SIÈCLES** ........ 24
+  - Descartes ........................................................ 24
+  - L’observation microscopique : Leeuwenhoek ............... 25
+  - Réaumur et l’expérimentation .................................. 30
+  - La Génération : Spallanzani ................................... 33
+  - La physiologie générale : Lavoisier .......................... 43
+
+- **CHAPITRE IV. — L’ESSOR DE LA BIOLOGIE, DU XIXe SIÈCLE À L’HEURE PRÉSENTE** .......... 47
+  1. La Morphologie ................................................. 48
+     - Les fondateurs : Lamarck, Cuvier, Et. Geoffroy Saint-Hilaire ............................... 49
+     - L’expansion de la Zoologie : la Zoologie marine et l’Océanographie ...................... 53
+
+- La Paléontologie ................................................. 56
+- La constitution élémentaire des organismes : Théorie cellulaire, Cytologie .................... 60
+- L’œuf et la fécondation .......................................... 69
+- Les organismes unicellulaires et la Protistologie ............ 75
+- Les formes les plus simples de la Vie : Bactériologie. — Les virus filtrants ................ 78
+- L’édification des organismes : embryologie naturelle et expérimentale ; tératologie ............ 80
+
+  2. La Physiologie ................................................ 84
+     - La constitution et l’expansion de la Physiologie générale : Claude Bernard ................ 86
+     - La Physiologie chimique ; Diastases, Vitamines, Hormones et Endocrinologie ............... 90
+     - Les microbes et leur rôle dans la Nature : Pasteur ... 98
+
+  3. La science de l’Hérédité, la Génétique .................. 103
+
+  4. L’Évolution .................................................... 110
+     - J.-B. Lamarck. — Ch. Darwin. — A. Weismann. — H. de Vries .................................. 111
+
+- ÉPILOGUE ......................................................... 122
+
+1954. — Imprimerie des Presses Universitaires de France. — Vendôme (France)
+
+LDIT. № 23.580 IMP. № 13.388## EXTRAIT DU CATALOGUE DE LA COLLECTION
+
+### Nos 401 à 500
+
+- 401. La géométrie contemporaine (A. Delaunay).
+- 402. Le troudr de bouille (J. Picot).
+- 403. L’économie en Commonwealth (F. Cauzery).
+- 404. Industries et commerce du bois (J. Cauvin-Dion).
+- 405. Historiadesmaisons françaises (J.-M. Hiebel).
+- 406. Les placements (G. Faib).
+- 407. La littérature américaine (J.-P. Caires).
+- 408. La lecture en Droit privé (J. Hamel).
+- 409. Fin des empires coloniaux (H. Deschamps).
+- 410. L’électricité cérébrale (J. Delay).
+- 411. Les navires (A. Thomas).
+- 412. La mélodie et le lied (E. Rauter).
+- 413. La magie et les lois (P. Devoucoux).
+- 414. Les finances dans le monde (P. Devoucoux).
+- 415. Les finances publiques (M. Duverger).
+- 416. Les coquillages comestibles (L. Lambert).
+- 417. Le sucre (F. Chamay).
+- 418. Calcul vectoriel et calcul tensoriel (A. De-).
+- 419. Psychologie des animaux (J.-C. Fillioux).
+- 420. Géographie agricole de la France (J.-M. Bourdillat).
+- 421. Les étapes de la physique (P. Guaydier).
+- 422. Tribadours et cours d’amour (J. Lapitre-Paturle).
+- 423. Histoire de la sociologie (G. Bourthoul).
+- 424. Histoire de la Guyenne (Ch. Dartigue).
+- 425. Psychologie des mouvements sociaux P.
+- 426. Louis XIV (H. Metivier).
+- 427. Histoire du protestantisme (E.-G. Léonard).
+- 428. L’Union française (H. Culmann).
+- 429. Histoire de la Résistance (H. Michel).
+- 430. Le vide et ses applications (L. Dunoyer).
+- 431. La mer, science et légende (Y. E. Manouvski).
+- 432. La natalité en France (Y. Le Bras).
+- 433. La condition ouvrière en France (P. Louis).
+- 434. Les diastases (J. Srokowski).
+- 435. Technique de la peinture (J. Rudel).
+- 436. Les grands industrie chimique organique (G. Chaslin).
+- 437. L’électrochimie (R. Audunert).
+- 438. Vagues, marées, courants marins (J. Bourcart).
+- 439. Le Maroc (J.-L. Miège).
+- 440. La culture et la brasserie (J. Vène et H. Le Cardinal).
+- 441. Histoire du Limousin et de la Marche (D. Breilhgard).
+- 442. Biologie du vin (J. Renaud).
+- 443. Géologie de la France (J. Goguel).
+- 444. Le protestantisme (P. Chopin).
+- 445. Probabilité et certitude (E. Borel).
+- 446. Les origines de la vie (J. Carles).
+- 447. Les musées de France (G. Poisson).
+- 448. La propagande politique (J.-M. Domenach).
+- 449. Les arts ménagers (J. et F. Fourastié).
+- 450. Histoire de la Lorraine (J. Bonnemère).
+- 451. La méthode statistique dans l’industrie (A.-G. Launer).
+- 452. L’histoire de la colonisation française (E. Templier).
+- 453. De la lampe au microscope électronique (J. Tramier).
+- 454. Les institutions religieuses (M. Pacaut).
+- 455. Les Institutions laïques (H. Peyre).
+- 456. Hist. de la banque (P. Dauphin Meunier).
+- 457. Hypnose et suggestion (P. Chauchard).
+- 458. Psychologie sociale (J. Maisonneuve).
+- 459. Histoire de l’Égypte moderne (M. Chretien).
+- 460. La fidélité des saveurs (J. L. Fischer).
+- 461. La bibliographie (P. Gachot 1900) (H. Lalou).
+- 462. Histoire de la Gascogne (C. Darricau).
+- 463. L’Union sud-africaine (J.-A. Lesourd).
+- 464. La laine (Ch. Matruch).
+- 465. Les mines (M. Castex).
+- 466. Le fer et l’acier et l’intégral (A. Delauchy).
+- 467. Pastour et la métallurgie (A. Delauchy).
+- 468. Le bouddhisme (H. Arvon).
+- 469. Technique de la langue (H. Arvon).
+- 470. La balistique (A. Delachet et J. Tallé).
+- 471. Charlemagne (J. Calmette).
+- 472. La sociologie des couleurs (J. Doubnon et J.-P. Kowat).
+- 473. L’économie du Moyen-Orient (J. Realieu-Garnier).
+- 474. Le fœtus mental (J.-C. Fillioux).
+- 475. Le handicapé (L. Binet).
+- 476. La bibliophilie canadienne (T. Baluil).
+- 477. L’entreprise dans la vie économique (J. Ho-meur).
+- 478. Les formes de la musique (A. Hodeir).
+- 479. L’anarchisme (H. Arvon).
+- 480. Les grands explorateurs (P. Adamy).
+- 481. Histoire de Lyon et du Lyonnais (J. Désirail).
+- 482. Les tropiques (G. Viaud).
+- 483. La crise de la pensée économique (H. Denis).
+- 484. L’audition (A. Guibenec).
+- 485. Le magnétisme organique (R. Toulemon).
+- 486. Les industries graphiques (M. Hiebert).
+- 487. Institutions universitaires (J. B. Piobetta).
+- 488. Les dents (P.-L. Rousseau).
+- 489. Histoire de l’Inde (P. Meile).
+- 490. Histoire des Pays-Bas (M. Brauner).
+- 491. L’énergie (J. Frejus).
+- 492. La biologie végétale (A.-L. Guyot).
+- 493. Les prisons (J. Voulet).
+- 494. La navigation intérieure en France (M. de Coulanges).
+- 495. L’outillage rural (J.-M. Lamoureux).
+- 496. La révolte de l’âme (Thomas Ménu).
+- 497. L’infra-rouge (J. Granier et P. Gallois).
+- 498. Technique de la navigation (P. Clerence).
+- 499. La littérature comparée (M.-P. Guyot).
+- 500. Les déserts (J. Pouquet).
+
+## Que sais-je ?
+
+### Collection dirigée par Paul Angoulvent
+
+#### Derniers titres parus
+
+- 559. La navigation aérienne (G. Cousteau et L. Andrieux).
+- 560. La littérature grecque moderne (A. Mirambel).
+- 561. L’acier (J. Ferry et R. Chatel).
+- 562. La glace et les sports d’hiver (V. Ro-).
+- 563. L’enfance délinquante (J. Caba-zal).
+- 564. Courbes et surfaces (J. Tallé).
+- 565. L’équilibre sympathique (P. Grégoire).
+- 566. Les loisirs d’art (M. Beaulieu).
+- 567. Les civilisations précolombiennes (H. Lehmann).
+- 568. La tauromachie (J. Testas).
+- 569. Les mouvements des végétaux (P. Bancilhon).
+- 570. La linguistique (J. Perron).
+- 571. Les nombres premiers (E. Borel).
+- 572. Les méthodes en pédagogie (G. Palmade).
+- 573. Le Haut-Atlas (L. Hamid).
+- 574. Histoire du Mexique (E. Wey-Muller).
+- 575. Les Papes de la Renaissance (H. Maro-Bonnet).
+- 576. Les migrations des animaux (B. Havel).
+- 577. La guerre (G. Bourthoul).
+- 578. Histoire de la Grèce moderne (N. Svononos).
+- 579. La mécanique des solides (J. Lame).
+- 580. Les Tziganes (J. Bloch).
+- 581. La Commune (G. Bourgin).
+- 582. La mythologie grecque (P. Gau-mal).
+- 583. L’énergie chlorophyllienne (J. Cauvin).
+- 584. Histoire de la médecine vétérinaire (J. Senet).
+- 585. Le symbolisme en France (G. Leprince).
+- 586. Les fortifications (A. Penot).
+- 587. La télévision (P. Grentz).
+- 588. La céramique grecque (H. Meutz-ger).
+- 589. L’exploration sous-marine (P. Diolez).
+- 590. Bibliographie mondiale (A. Galibert).
+- 591. Histoire de la Pologne (A. Jo-bert).
+- 592. Les pierres précieuses (N. et A. Metra).
+- 593. Histoire des idées en France (R. Dayras).
+- 594. La pédagogie (P. Pagès).
+- 595. Les roches sédimentaires (Ch. Pom-mier et R. Fouré).
+- 596. La vie à Rome dans l’Antiquité (A. Piganiol).
+- 597. L’Afrique occidentale française (J. Pouquet).
+- 598. L’administration régionale et locale de la France (H. Dutron).
+- 599. La résistance des matériaux (A. Demeure).
+- 600. La foi des catholiques (A. Villeneuve).
+- 601. L’âge critique (P. Guilly).
+- 602. La structure moléculaire (B. Pullman).
+- 603. Les terres australes (E. Aubert de la Rüe).
+- 604. Le naturalisme (P. Coury).
+- 605. Le calcul mental (R. Taton).
+- 606. Les civilisations africaines (D. Paulme).
+- 607. Les opiades (H. Harant).
+- 608. Les grandes marées du monde (P. Georgel).
+- 609. Technique de l’urbanisme (R. Auzelle).
+- 610. La chasse à courre (P. Viron).
+- 611. Agriculture et nouveau Zélande (A. Pitres et L. Leroy).
+- 612. La justice en France (R. Charles).
+- 613. Physiologie des mœurs (P. Chau-chard).
+- 614. L’hygiène de la vue (E. Baum-kard).
+- 615. Ophtalmobiologie (L. Terrien et A. Marchall).
+- 616. L’État (J. Donnedieu de Va-brés).
+- 617. La plasticulture (P. Vivier).
+- 618. Les oiseaux des jardins (R. Gri-mal).
+- 619. L’Océanie française (A. Huetz de Lemps).
+- 620. Histoire du livre (E. de Ge-lencser).
+- 621. Le monde des océans (J. Bour-cart).

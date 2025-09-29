@@ -1,7 +1,7 @@
 # Journal de conception
 ### Elise Magnier
 
-22/09/2025
+*22/09/2025*
 ## Test d'utilisation de l'API Mistral "Pixtral" pour la reconnaissance de texte depuis un scan de livre sous forme pdf. 
 
 -> Dans le dossier src, fichier ``transcribe_pdf.py``
@@ -29,3 +29,18 @@ Analyse du sujet du PJE, mots par mots. Construction du glossaire sous forme de 
 - Terminer l'analyse
 - Comparer avec mon duo de la Dream Team
 
+
+
+
+*29/09/2025*
+## Amélioration de la transcription avec l'API de Mistral 
+
+Améliorations :
+- Utilisation en ligne de commande
+- Ecriture du résultat dans un fichier .md
+- Envoie des pages du pdf en batch de 8 (le maximum)
+
+Difficultés : 
+- Faire en sorte que l'agent IA garde en mémoire le contexte des dernières réponses, de façon à ce qu'il puisse terminer les phrases coupées entre deux pages
+- Trouver une façon de prendre en compte les pieds de page. Pour l'instant, l'agent IA Pixtral écrit les pieds de page comme un paragraphe au milieu du texte (dans l'ordre dans lequel il arrive dans le livre)
+- Gérer les images

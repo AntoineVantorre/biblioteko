@@ -17,7 +17,7 @@ def transcribe_pdf(pdf_path):
         str: Le contenu transcrit de toutes les pages du PDF
     """
     api_key = os.getenv("MISTRAL_API_KEY")
-    agent_id = "ag:376f91a9:20250922:pixstral:13a20876"
+    agent_id = os.getenv("MISTRAL_AGENT_ID")
 
     if not api_key:
         raise ValueError("The environment variable MISTRAL_API_KEY is not set.")

@@ -1,0 +1,39 @@
+@startuml
+
+Class Numeric_file{
+  - Id_fichier int
+  - Name String
+}
+
+Class Category {
+  - Id_categorie int
+  - nom_categorie String
+}
+
+Class Book {
+  - Id_livre int
+  - Text String
+  - Type String
+}
+
+Class Image {
+  - Id_image int
+  - name_image String
+  - format String
+  - taille int
+}
+
+Class Membre {
+  - Id_membre int
+  - firstname_membre String
+  - lastname_membre String
+  - last_connection Date
+}
+
+Numeric_file "1" --> "1" Book : "contains"
+Numeric_file "1" --> "1..n" Category : "belong to"
+Book "1" --> "0..n" Image : "composed"
+Membre "1" --> "0..n" Numeric_file : "write"
+Membre "1" --> "0..n" Numeric_file : "read"
+
+@enduml

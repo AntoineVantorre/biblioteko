@@ -10,6 +10,12 @@ Class Category {
   - nom_categorie String
 }
 
+Class Etat {
+  - Id_etat int
+  - nom_etat String
+  /' Modéré, à moderer, publique, privé '/
+}
+
 Class Book {
   - Id_livre int
   - Text String

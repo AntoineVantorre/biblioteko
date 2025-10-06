@@ -1,4 +1,3 @@
 huggingface_hub
 mistralai
-pdf2image
 tqdm

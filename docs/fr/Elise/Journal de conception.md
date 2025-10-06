@@ -50,4 +50,11 @@ Analyse du sujet du PJE, mots par mots. Construction du glossaire sous forme de 
 
 *06/10/2025*
 
+### Améliorations : 
+- Changement d'utilisation de l'API Mistral. Maintenant, au lieu d'utiliser l'agent pixtral et d'envoyer les pages 5 par 5 sous forme d'image, on utilise Mistral en téléchargeant sur l'api le fichier pdf, puis en passant l'url du fichier à la requête envers mistral.
+
+
+### Difficultés : 
+- J'ai eu quelques difficultés à essayer de récupérer les images et schémas du livre en utilisant l'agent pixtral. En discutant avec u autre groupe, j'ai décidé d'essayer différement avec la technique actuelle (en faisant un upload du fichier à transcrire sur l'api de mistral).
+- Il faudrait ajouter à la requête une extraction des métadonnées du pdf afin de pouvoir construire le profil de l'oeuvre plus tard.
 

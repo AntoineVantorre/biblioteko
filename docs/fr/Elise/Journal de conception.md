@@ -30,21 +30,24 @@ Analyse du sujet du PJE, mots par mots. Construction du glossaire sous forme de 
 - Comparer avec mon duo de la Dream Team
 
 
-
-
 *29/09/2025*
 ## Amélioration de la transcription avec l'API de Mistral 
 
-Améliorations :
+### Améliorations :
 - Ecriture du résultat dans un fichier .md
 - Envoie des pages du pdf en batch de 5 (le maximum est 8, mais 5 semble bien fonctionner)
 - Lancement du programme en ligne de commande (options -i pour input et -o pour l'output)
 - Affichage d'une barre de chargement dans le terminal
 
-Difficultés : 
+### Difficultés : 
 - Faire en sorte que l'agent IA garde en mémoire le contexte des dernières réponses, de façon à ce qu'il puisse terminer les phrases coupées entre deux pages.
     * Pour faire cela, on envoie avec chaque requête les trois dernières réponses de l'agent IA comme "contexte". J'ai également ajouté dans les instruction de l'agent, une instruciton lui demandant de faire attention au contexte notamment pour garder un formattage cohérent tout au long de la transcription.
 - Trouver une façon de prendre en compte les pieds de page. 
     * Pour l'instant, l'agent IA Pixtral écrit les pieds de page comme un paragraphe au milieu du texte (dans l'ordre dans lequel il arrive dans le livre).
 - Gérer les images
     * Pour l'instant, les images ne sont pas gérées.
+
+
+*06/10/2025*
+
+

@@ -1,4 +1,4 @@
-@startuml
+@startuml Bibliotheque numerique
 
 Class Numeric_file{
   - Id_fichier int

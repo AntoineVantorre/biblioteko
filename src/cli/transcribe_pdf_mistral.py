@@ -20,14 +20,17 @@ Variables d'environnement requises:
 import argparse
 import requests
 import os
+import base64
+import re
 from pathlib import Path
 
-def transcribe_pdf(pdf_path):
+def transcribe_pdf(pdf_path, output_dir):
     """
     Transcrit un PDF en utilisant l'API Mistral OCR.
     
     Args:
         pdf_path (str): Chemin vers le fichier PDF à transcrire
+        output_dir (str): Dossier de sortie pour la transcription et les images
         
     Yields:
         str: Le contenu transcrit du PDF
@@ -88,15 +91,44 @@ def transcribe_pdf(pdf_path):
         num_pages = ocr_result.get('usage_info', {}).get('pages_processed', 0)
         print(f"The PDF contains {num_pages} pages.")
         
-        # Extraction du texte de la réponse OCR
+        # Extraction du texte et des images de la réponse OCR
         extracted_text = ""
+        images_data = []
+        
         if 'pages' in ocr_result:
-            for page in ocr_result['pages']:
+            for page_idx, page in enumerate(ocr_result['pages']):
                 if 'markdown' in page:
                     extracted_text += page['markdown'] + "\n\n"
+                
+                # Extraction des images si présentes
+                if 'images' in page:
+                    for img_idx, image_data in enumerate(page['images']):
+                        if 'data' in image_data:
+                            img_filename = f"img-{page_idx}-{img_idx}.jpeg"
+                            images_data.append({
+                                'filename': img_filename,
+                                'data': image_data['data'],
+                                'page': page_idx
+                            })
         
         if not extracted_text.strip():
             raise Exception("No text extracted from OCR")
+            
+        # Création du dossier de sortie et sauvegarde des images
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        # Sauvegarde des images
+        for img_info in images_data:
+            img_path = output_path / img_info['filename']
+            try:
+                # Décoder l'image base64 et la sauvegarder
+                img_data = base64.b64decode(img_info['data'])
+                with open(img_path, 'wb') as img_file:
+                    img_file.write(img_data)
+                print(f"Image saved: {img_info['filename']}")
+            except Exception as e:
+                print(f"Warning: Could not save image {img_info['filename']}: {e}")
             
         # Étape 3: Amélioration avec l'agent Mistral (optionnel)
         if agent_id:
@@ -106,7 +138,9 @@ def transcribe_pdf(pdf_path):
                     "messages": [
                         {
                             "role": "user", 
-                            "content": f"""You are an expert in transcribing historical books. Here is the raw OCR text from a scanned book that you must improve and correct to produce a high-quality Markdown transcription.
+                            "content": f"""You are an expert in transcribing books. Here is the raw OCR text from a scanned book that you must improve and correct to produce a high-quality Markdown transcription.
+
+CRITICAL: YOU MUST TRANSCRIBE THE ENTIRE BOOK - DO NOT STOP AFTER A FEW PAGES. Process ALL the content provided, from the beginning to the very end of the book.
 
 PRECISE INSTRUCTIONS:
 
@@ -114,7 +148,7 @@ PRECISE INSTRUCTIONS:
 
 2. **OCR Error Correction**:
    - Fix character recognition errors (misrecognized letters, truncated words)
-   - Reconstruct words broken at line endings
+   - Reconstruct words and sentences broken at line and page endings
    - Correct misrecognized punctuation
    - Repair special characters and accents
 
@@ -170,6 +204,8 @@ Here is the raw OCR text to process:
 
 {extracted_text}
 
+**IMPORTANT: This appears to be a {num_pages}-page document. You MUST transcribe the ENTIRE content provided above, from the very first page to the very last page. Do not stop after the preliminary pages or table of contents. Process ALL chapters, sections, and content through to the conclusion and any appendices.**
+
 Produce a perfectly formatted Markdown transcription, faithful to the original book, without repetitive headers/footers, with consistent structure and all necessary OCR corrections."""
                         }
                     ]
@@ -179,7 +215,7 @@ Produce a perfectly formatted Markdown transcription, faithful to the original b
                     "https://api.mistral.ai/v1/agents/completions",
                     json=enhancement_payload,
                     headers=headers,
-                    timeout=300
+                    timeout=600
                 )
                 
                 if enhancement_response.status_code == 200:
@@ -224,21 +260,28 @@ Produce a perfectly formatted Markdown transcription, faithful to the original b
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Transcribe a PDF to markdown using the Mistral OCR API.")
     parser.add_argument('-i', '--input', required=True, help='Path to the PDF file to transcribe')
-    parser.add_argument('-o', '--output', required=True, help='Path to the output markdown file')
+    parser.add_argument('-o', '--output', required=True, help='Path to the output directory (will contain markdown file and images)')
     args = parser.parse_args()
 
     pdf_path = args.input
-    output_file = args.output
+    output_dir = args.output
+
+    # Créer le nom du fichier markdown basé sur le nom du PDF
+    pdf_name = Path(pdf_path).stem
+    markdown_file = Path(output_dir) / f"{pdf_name}.md"
 
     try:
         print("\n" + "=" * 50)
         print("TRANSCRIPTION:")
         print("=" * 50)
-        with open(output_file, "w", encoding="utf-8") as f:
-            for transcription in transcribe_pdf(pdf_path):
+        print(f"Output directory: {output_dir}")
+        print(f"Markdown file: {markdown_file}")
+        
+        with open(markdown_file, "w", encoding="utf-8") as f:
+            for transcription in transcribe_pdf(pdf_path, output_dir):
                 f.write(transcription)
                 f.flush()
-        print(f"\nResult written to {output_file}")
+        print(f"\nResult written to {markdown_file}")
         print("\n" + "=" * 50)
         print("Transcription complete.")
         print("=" * 50)

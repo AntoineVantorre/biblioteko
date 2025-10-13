@@ -28,7 +28,7 @@
 |-------|------------|
 | partage |  Action de mettre un fichier à disposition des autres membres. | 
 | développer |  Créer ou programmer une fonctionnalité. |
-| peut proposer |  Permettre à un utilisateur de soumettre un fichier. |
+| peut proposer |  Permettre à un membre de soumettre un fichier. |
 | demander |  Action d'un utilisateur pour obtenir l'accès à un fichier. |
 | résolu |  Appliquer une solution à un problème (ici propriété intellectuelle). |
 | retenu |  Sélectionner un framework pour le projet. |
@@ -37,13 +37,14 @@
 | présenter |  Montrer et expliquer le travail réalisé. |
 | justifier |  Expliquer le choix effectué. |
 | respecter |  Suivre les règles ou consignes données. |
-| permettre |  Fournir une fonctionnalité ou un droit à un utilisateur. |
+| permettre |  Fournir une fonctionnalité ou un droit à un utilisateur/membre. |
 | gérer |  Superviser un processus ou des droits. |
 
 ## Noms propres
 | Terme | Définition |
 |-------|------------|
-| utilisateur |  Personne utilisant la bibliothèque numérique. |
+| utilisateur |  Personne pouvant acceder aux fichiers numeriques. un utilisateur est authentifié par son adresse mail |
+| membre | Personne pouvait publier et acceder aux fichiers numeriques, il est authentifié par france connect |
 | bibliothécaires |  Personnes responsables de la modération des œuvres. |
 | client |  Commanditaire ou entité imposant certaines contraintes. |
 | Python |  Langage de programmation choisi. |

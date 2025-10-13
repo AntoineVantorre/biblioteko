@@ -131,4 +131,3 @@ L’association **CultureDiffusion** souhaite réaliser une **bibliothèque num�
 9. Tests unitaires
 10. Tests d'intégrations.
 11. Test de validations
-

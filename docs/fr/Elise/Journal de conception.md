@@ -58,3 +58,8 @@ Analyse du sujet du PJE, mots par mots. Construction du glossaire sous forme de 
 - J'ai eu quelques difficultés à essayer de récupérer les images et schémas du livre en utilisant l'agent pixtral. En discutant avec u autre groupe, j'ai décidé d'essayer différement avec la technique actuelle (en faisant un upload du fichier à transcrire sur l'api de mistral).
 - Il faudrait ajouter à la requête une extraction des métadonnées du pdf afin de pouvoir construire le profil de l'oeuvre plus tard.
 
+
+
+*13/10/2025*
+
+Travail sur la récupération des images et schéma de la transcription. Fusion des branches git de notre groupe en vue de faire une pull request.

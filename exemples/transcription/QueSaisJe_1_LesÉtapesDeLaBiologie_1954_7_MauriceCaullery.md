@@ -18,7 +18,7 @@ L. lll (M. Bausinint).
 L. colloldes (A. Boutaric).
 L. arands lravaux (P. Devaux).
 L. gendes de l'humanité (C. Arambourg).
-I. lolore de l'ysance (P. Lemerle).
+I. lolore de l'grance (P. Lemerle).
 L. elapes de la poésie française (R. Lalou).
 I. listoire de la géométrie (P. Marchal).
 L. Indastries de l'alimentation (G. Ray).
@@ -42,26 +42,26 @@ I. listoire de la Normandie (E.-G. Léonard).
 L. littérature française du siècle philosophique (V.-L. Baulinier).
 L. diplomatie française (C. Laroche).
 L. elapes de la mécanique (M. Boll).
-L'orfovrerie (L. Lanell).
+L'orfèrrerie (L. Lanel).
 L. vie au moyen âge (G. D'Haucourt).
-I. l'ysologie du sport (D* G. Lapoate et A. Pevcelon).
+I. l'stologie du sport (D* G. Lapoate et A. Pevcelon).
 L. techniques de la métallurgie(L. Guillet).
 L. eslampes (J. Laban).
 L. caoutchouc (A. Chevalieret J. Le Bras).
 I. listoire de la Justice (M. Rousselet).
 L. messages de nos sens (D* P. Chauchard).
 L. café (A. Chevalier).
-I. listoire de la Suisse (Ch. Giliard).
+I. listoire de la Suisse (Ch. Gillard).
 L'origine des espèces (E. Guyenot)
 L. lévolution française (P. Nicolle).
-I'oreis vierges et bois tropicaux (A. Chevalier et D. Normand).
+I'ortèz vierges et bois tropicaux (A. Chevalier et D. Normand).
 I. listoire de l'Auvergne (R. Rigodon).
 L. littérature française du Moyen Age (V.-L. Baulnier).
 L. races humaines (H.-V. Valloiz).
 I. listoire de la Bretagne (H. Waquet).
 L. population (A. Sauvy).
 I. listoire de la Provence (R. Busquet et V.-L. Boursialy).
-L. Etands explorateurs (M. Griaule).
+L. geands explorateurs (M. Griaule).
 I. listoire de la Savole (R. Avezou).
 L. vie des aveugles (P. Henr).
 153. L'affiche (Lo Duca).
@@ -85,7 +85,7 @@ L. vie des aveugles (P. Henr).
 171. Les climats et l'organisme humain (E. Duhot).
 172. Les étapes de l'aviation (M. Jeanjean).
 173. Les alliages métalliques (L. Guillet).
-174. La photographie et ses applications (J. Prunet).
+174. La photographie et ses applications (J. Prinet).
 175. L'électron et son utilisation industrielle (M. Granier).
 176. Les noms de lieux (Ch. Rostaing).
 177. Histoire du ballet (P. Michaut).
@@ -211,7 +211,7 @@ La décadence du monde gréco-romain ne devait pas tarder à tarir la source du 
 
 # Chapitre II 
 
-## LA RENAISSANCE ET LE REVEIL DE LA SCIENCE ANTIQUE
+## LA RENAISSANCE ET LE RÉVEIL DE LA SCIENCE ANTIQUE
 
 Dans l'effondrement de l'Empire romain, - plus par la décadence de l'esprit et l'influence du christianisme que par l'action directe des Barbares, - la Science grecque s'éteignit avec la libre curiosité de l'esprit pour la Nature et l'abus général d'une vaine rhétcrique, mais elle trouva pour son sommeil un asile matériel à Byzance et c'est de là qu'elle devait finalement reprendre le chemin de l'Occident. Le Moyen Age fut l'ère de la théologie, qui avait emprunté à la philosophie grecque les formes du raisonnement, pour mettre celui-ci au service de la foi. Il en résulta la scolastique, fondement de la culture médiévale.
 
@@ -233,7 +233,7 @@ L'anatomie a pour base la dissection du cadavre humain, à laquelle l'Eglise ét
 
 leurs élèves du Titien, Etienne de Calcar. Vésale a rectifié de nombreuses erreurs de Galien, dues à ce que celui-ci avait disséqué surtout des singes. Mais les corrections de Vésale déchaînèrent des tempêtes et des flots d'injures. La polémique scientifique de ce temps n'avait rien d'académique. Il est caractéristique, pour marquer la force qu'avait alors l'autorité des Anciens, que les adversaires de Vésale allèrent jusqu'à expliquer ses discordances avec les données de Galien, en alléguant que la structure de l'homme avait dû changer depuis son époque. Cela révèle l'état d'esprit à la Renaissance et les obstacles dont dut triompher l'observation affranchie de préjugés. Et cependant, Vésale, qui avait reconnu et proclamé l'inexistence des pores dans la cloison interventriculaire du cœur, et avait été, pour ce faire, copieusement vilipendé, n'avait contredit Galien qu'avec timidité, obnubilé, comme l'avait été lui-même le pénétrant observateur qu'était Galien, par les doctrines aristotéliciennes sur la vie en général.
 
-Il fallut plus d'un siècle de discussions pour établir les conditions réelles de la circulation du sang et leur histoire est l'une des plus significatives pour mettre en évidence le pénible affranchissement de la pensée moderne par rapport à l'autorité des Anciens. Michel Servet, vers 1550, avait découvert et compris la circulation pulmonaire; il en avait tiré des conclusions qui le conduisirent au bûcher. Il restait cependant galéniste et, pour sauver la doctrine, en l'absence de pores dans la cloison des ventricules, il admettait que celle-ci laissait transsuder un esprit. Realdo Colombo et Fabrice d'Aquapendente, sans citer Servet, constatèrent à leur tour la circulation pulmonaire. Il fallut attendre William Harvey pour que fut comprise la grande
+Il fallut plus d'un siècle de discussions pour établir les conditions réelles de la circulation du sang et leur histoire est l'une des plus significatives pour mettre en évidence le pénible affranchissement de la pensée moderne par rapport à l'autorité des Anciens. Michel Servet, vers 1550, avait découvert et compris la circulation pulmonaire; il en avait tiré des conclusions qui le conduisirent au bûcher. Il restait cependant galéniste et, pour sauver la doctrine, en l'absence de pores dans la cloison des ventricules, il admettait que celle-ci laissait transsuder un esprit. Realdo Colombo et Fabrice D'Aquapendente, sans citer Servet, constatèrent à leur tour la circulation pulmonaire. Il fallut attendre William Harvey pour que fut comprise la grande
 
 circulation, exposée par Harvey dans son célèbre ouvrage Exercitationes de motu cordis et sanguinis in animalibus, publié à Francfort en 1628, non sans de minutieuses précautions et après avoir fait, pendant une série d'années, l'objet de démonstrations au Collège des Médecins de Londres. Par la vivisection, Harvey avait analysé tous les mouvements du cœur, reconnu que le pouls est dû à la propagation de l'onde sanguine dans les artères et compris, à l'aide d'expériences ingénieuses, que le sang, lancé par le cœur dans les artères, y revient par les veines. Ce fut seulement en 1661 que Malpighi, à Bologne, assista, sous le microscope, au cheminement du sang dans les capillaires faisant la jonction des artérioles aux veinules.
 
@@ -247,7 +247,7 @@ Cette lente révolution scientifique, qui s'opéra au milieu de résistances ten
 
 La Botanique a suivi, au XvI ${ }^{\mathrm{e}}$ siècle, une marche parallèle à celle de l'anatomie. Là aussi les Arabes avaient assuré au Moyen Age la transmission des connaissances anciennes. A la Renaissance, l'humanisme remit en honneur la botanique grecque et déclencha un mouvement tendant à retrouver et à identifier les plantes de la pharmacopée antique, d'où étaient extraits les simples. Nous trouvons, ici encore, à la fin du Moyen-Age, des compilations. La Botanique a sa place dans celles que nous avons déjà citées. Au xvie siècle, l'esprit d'observation se développa et l'exploration de la flore fut entreprise principalement par des médecins. En France, c'est Jean Ruel (Ruellius, 1479-1531), en Allemagne Otto Brunfels, avec ses Herbarum verae icones (1530), Jérome Bock (Tragus, 1458-1554), qui publie, à Strasbourg, en 1539, un Neues Kreuterbuch, Leonard Fuchs, médecin, anatomiste et professeur à Tübingen, qui édite, en 1542, à Bâle, son De Stirpium historia, renfermant la description et la figuration d'après nature de 500 plantes de l'Allemagne du Sud, rangées par ordre alphabétique. Montpellier est le centre d'un grand mouvement botanique, sous l'impulsion de Rondelet. La plupart des grands botanistes du xvie siècle y sont passés : Charles de l'Ecluse (Clusius, 1526-1609), d'Arras, Mathieu de l'Obel (Lobelius, 1538-1616),
 
-tous deux médecins, explorèrent botaniquement la région montpelliéraine. Daleschamps (1513-1588), de Caen, fit de même; Platter de Zurich, Jean et Gaspard Bauhin de Bâle, - le second est l'auteur du Pinax theatri botanici, renfermant 6.000 plantes, groupées déjà en familles naturelles. En Italie, Césalpin (1519-1603), professeur à Pise et médecin de Clément VIII, publie, à Florence, en 1583, les seize livres de son De Plantis; les quinze premiers sont une botanique descriptive; le seizième, une botanique générale, fortement imprégnée d'ailleurs d'aristotélisme et, en particulier, du principe des causes finales. La plante y est conçue comme un animal renversé, ses racines correspondant à la tête et l'âme siégeant à la limite de la tige et de la racine; les enveloppes florales correspondent à celles du fætus.
+tous deux médecins, explorèrent botaniquement la région montpelliéraine. Daleschamps (1513-1588), de Caen, fit de même ; Platter de Zurich, Jean et Gaspard Bauhin de Bâle, - le second est l'auteur du Pinax theatri botanici, renfermant 6.000 plantes, groupées déjà en familles naturelles. En Italie, Césalpin (1519-1603), professeur à Pise et médecin de Clément VIII, publie, à Florence, en 1583, les seize livres de son De Plantis; les quinze premiers sont une botanique descriptive; le seizième, une botanique générale, fortement imprégnée d'ailleurs d'aristotélisme et, en particulier, du principe des causes finales. La plante y est conçue comme un animal renversé, ses racines correspondant à la tête et l'âme siégeant à la limite de la tige et de la racine; les enveloppes florales correspondent à celles du fætus.
 
 Les Jardins botaniques étaient à l'ordre du jour. Il s'en crée à Padoue en 1545, à Pise en 1547, à Bologne en 1567. A Montpellier, Rondelet cultive les plantes dans un jardin privé, mais, en 1593, un édit de Henri IV crée le Jardin botanique, dont le directeur est Richer de Belleval, avec une chaire d'anatomie et botanique. Ce Jardin se développera brillamment pendant les $\mathrm{xvir}^{\mathrm{e}}$ et $\mathrm{xvin}^{\mathrm{e}}$ siècles et existe encore. A Paris, sous l'influence du médecin Jean Héroard, Louis XIII fonde, en 1626, le Jardin du Roi, dont le premier intendant sera Guy de La Brosse, et l'institution s'établit, en 1635, au quartier Saint-Victor, où elle est encore aujourd'hui. On y cultive non seulement des plantes indigènes, mais aussi des plantes exotiques, en particulier de l'Amérique du Nord. La découverte du Nouveau Monde a, d'ailleurs, été un facteur général important de l'essor des sciences biologiques. Le Jardin du Roi sera, au xvire siècle, le principal foyer de la vie scientifique à Paris.
 
@@ -268,7 +268,7 @@ Signalons encore, avant de quitter la Renaissance et ses suites immédiates, l'�
 
 # Chapitre III 
 
-## L'Élaboration de la biologie moderne AUX XVII ${ }^{\text {e }}$ et XVIII SIÈCLes
+## L'Élaboration de la biologie moderne AUX XVII ${ }^{\text {e }}$ ET XVIII ${ }^{\text {e }}$ siècles
 
 Descartes. - Au milieu du xvie siècle, l'effort de libération de la pensée par rapport à l'autorité des Anciens est, sinon totalement, du moins pour une bonne part, réalisé. Descartes (1596-1650) y a porté le dernier coup par son Discours de la Méthode (1636) et a essayé de ramener toute la conception de l'Univers à l'étendue et au mouvement. Il a touché luimême à l'Anatomie, su comprendre d'emblée la découverte de la circulation du sang par Harvey et constitué, de toutes pièces, une physiologie, basée sur sa mécanique, et exposée dans sa Description du corps humain (1648). Dans la machine qu'est le corps, la chaleur est le grand ressort, le sang la convoie et ses parties les plus agitées et les plus ténues, portées au cerveau, y composent un air ou un vent très subtil, les esprits animaux, qui dilatent le cerveau et le rendent propre à recevoir les impressions des objets extérieurs et aussi celle de l'âme (qu'il sépare radicalement de la matière). C'est là une construction a priori, qui, malgré ses tendances novatrices, n'est pas sans se ressentir des conceptions d'Aristote et de Galien et ne repose pas sur l'observation. Si le mécanisme de Descartes, qui a exercé une influence considérable et prolongée, est dans la ligne de la science moderne, il est une intuition hardie, mais non une acquisition positive.
 
@@ -403,7 +403,7 @@ On voit, par ces trop rapides considérations, le poids dont ont pesé, pendant 
 
 # LA PHYSIOLOGIE GÉNÉRALE : LAVOISIER 
 
-Nous avons déjà vu quelques naturalistes du xvirie siècle, notamment Réaumur et Spallanzani, employer la méthode expérimentale et ainsi jeter les bases de la physiologie. Des chirurgiens l'ont fait aussi à l'occasion. Pourfour du Petit, en 1710, lèse, après trépanation, l'écorce cérébrale d'un côté, chez des animaux, et obtient ainsi la paralysie du côté opposé du corps. Lorry, explore, à l'aide de piqûres, la moelle allongée et découvre ainsi le nœud vital. Mais ce sont des trouvailles isolées. A la fin du xvire siècle, au contraire, la physiologie est prête à prendre son essor sous l'impulsion d'un homme de génie, Lavoisier (1743-1794) (1), qui est non seulement le créateur de la chimie moderne, mais aussi l'initiateur de la physiologie générale.
+Nous avons déjà vu quelques naturalistes du xvirie siècle, notamment Réa umur et Spallanzani, employer la méthode expérimentale et ainsi jeter les bases de la physiologie. Des chirurgiens l'ont fait aussi à l'occasion. Pourfour du Petit, en 1710, lèse, après trépanation, l'écorce cérébrale d'un côté, chez des animaux, et obtient ainsi la paralysie du côté opposé du corps. Lorry, explore, à l'aide de piqûres, la moelle allongée et découvre ainsi le nœud vital. Mais ce sont des trouvailles isolées. A la fin du xvire siècle, au contraire, la physiologie est prête à prendre son essor sous l'impulsion d'un homme de génie, Lavoisier (1743-1794) (1), qui est non seulement le créateur de la chimie moderne, mais aussi l'initiateur de la physiologie générale.
 
 [^0]
 [^0]:    (1) Volr Ed. Grimaux. - Lavoisier 1743-1749), d'après ses observations, etc. Paris, 1888.
@@ -414,7 +414,7 @@ Il aurait été certainement plus loin, si la Révolution n'avait pas fait tombe
 
 animaux leur ont empruntés. Par quels procédés, ajoute-t-il, la nature opère-t-elle cette merveilleuse circulation entre les trois règnes "? C'est ce que, pour la plus large part, Pasteur devait montrer au $\mathrm{XIX}^{\mathrm{e}}$ siècle.
 
-Il reste, pour achever le bilan de l'époque que nous étudions, à enregistrer les progrès de l'histoire naturelle descriptive. Le nombre des formes animales et végétales connues n'avait pas cessé de s'accroître depuis la Renaissance, tant en Europe qu'au Nouveau Monde et sous les tropiques graduellement explorés par des voyageurs, sous l'attrait de l'or ou des épices. La nécessité de classer toutes les formes ainsi découvertes conduisit progressivement à une notion précise du genre et de l'espèce. Elle se concrétise peu à peu au xvir ${ }^{e}$ siècle avec G. Bauhin, avec Morrison et John Ray, en Angleterre, Tournefort, en France, et d'autres. Au xvirie, Linné (1707-1778) couronna tous ces efforts, en consacrant et subordonnant l'une à l'autre les notions de genre et d'espèce, en zoologie et en botanique et en établissant la nomenclature binominale, qui constituait un langage approprié, encore régnant aujourd'hui. La $10^{e}$ édition de son Systema naturae (1758) reste la base universellement adoptée pour la dénomination des animaux et des plantes et le système linnéen a permis de mettre et de maintenir de l'ordre dans la masse énorme des espèces successivement décrites.
+Il reste, pour achever le bilan de l'époque que nous étudions, à enregistrer les progrès de l'histoire naturelle descriptive. Le nombre des formes animales et végétales connues n'avait pas cessé de s'accroître depuis la Renaissance, tant en Europe qu'au Nouveau Monde et sous les tropiques graduellement explorés par des voyageurs, sous l'attrait de l'or ou des épices. La nécessité de classer toutes les formes ainsi découvertes conduisit progressivement à une notion précise du genre et de l'espèce. Elle se concrétise peu à peu au xvir ${ }^{\mathrm{e}}$ siècle avec G. Bauhin, avec Morrison et John Ray, en Angleterre, Tournefort, en France, et d'autres. Au xvirie, Linné (1707-1778) couronna tous ces efforts, en consacrant et subordonnant l'une à l'autre les notions de genre et d'espèce, en zoologie et en botanique et en établissant la nomenclature binominale, qui constituait un langage approprié, encore régnant aujourd'hui. La $10^{e}$ édition de son Systema naturae (1758) reste la base universellement adoptée pour la dénomination des animaux et des plantes et le système linnéen a permis de mettre et de maintenir de l'ordre dans la masse énorme des espèces successivement décrites.
 
 Mais la description méthodique et la nomenclature ne suffisent pas à établir les affinités des espèces et des groupes qu'elles constituent, c'est-à-dire une classification naturelle. Le xvirie siècle a fait, à cet égard, un progrès considérable pour la Botanique, grâce aux
 
@@ -429,7 +429,7 @@ Si l'on embrasse d'un coup d'œil tout ce qui vient d'être dit sur la période 
 
 # Chapitre IV 
 
-## L'ESSOR DE LA BIOLOGIE DU XIX ${ }^{e}$ SIÈCLE A L'HEURE PRÉSENTE
+## L'ESSOR DE LA BIOLOGIE DU XIX ${ }^{e}$ SIECLE A L'HEURE PRÉSENTE
 
 Le xvirie siècle avait, en quelque sorte, défriché, pour la Biologie, les abords des grandes voies que le $\mathrm{XIX}^{e}$ allait tracer et parcourir à une allure de plus en plus rapide. D'autre part, le domaine géographique de la recherche scientifique, qui, de l'Italie du xve siècle, s'était étendu à l'Europe du xvirie, s'est encore énormément accru, et, en particulier, les Etats-Unis d'Amérique sont devenus de nos jours un champ de travail énorme, mettant au service de la Science des moyens matériels quasi-illimités. On pouvait résumer l'œuvre du xvirie siècle dans quelques grands noms. Il n'en est plus de même au xixe et nous devrons nous borner à caractériser les principaux courants de faits et d'idées, sans pouvoir évoquer directement tous ceux qui en ont été les animateurs.
 
@@ -637,7 +637,7 @@ EMBRYOLOGIE NATURELLE ET EXPÉRIMENTALE. TÉRATOLOGIE
 
 Après avoir ainsi poussé jusqu'à cette limite extrême dans la simplification de la substance vivante, revenons au domaine cellulaire pour situer brièvement une dernière branche de la Biologie qui, sans avoir, par sa nature même, une véritable autonomie, n'en constitue pas moins une des disciplines les plus fécondes de la science actuelle, l'Embryologie.
 
-La théorie cellulaire lui a donné une base définitive, l'œuf, stade initial des organismes, étant une cellule et le développement embryonnaire se résumant en une succession de divisions cellulaires. D'autre part, les théories transformistes ont donné, comme nous le verrons plus loin, une importance majeure à l'étude de l'embryologie, qui a été une des branches les plus intensément travaillées de la Biologie à la fin du xix ${ }^{e}$ siècle, et les plus approfondies, grâce aux techniques de l'anatomie microscopique, et en particulier au microtome. On a pu, ainsi, suivre, cellule par cellule, la formation et la différenciation de l'embryon, dans son ensemble, dans chacun de ses organes et, d'une façon comparative, dans tous les groupes.
+La théorie cellulaire lui a donné une base définitive, l'œuf, stade initial des organismes, étant une cellule et le développement embryonnaire se résumant en une succession de divisions cellulaires. D'autre part, les théories transformistes ont donné, comme nous le verrons plus loin, une importance majeure à l'étude de l'embryologie, qui a été une des branches les plus intensément travaillées de la Biologie à la fin du xixe siècle, et les plus approfondies, grâce aux techniques de l'anatomie microscopique, et en particulier au microtome. On a pu, ainsi, suivre, cellule par cellule, la formation et la différenciation de l'embryon, dans son ensemble, dans chacun de ses organes et, d'une façon comparative, dans tous les groupes.
 
 Le développement de chaque espèce est un mécanisme réglé avec une extrême précision. On a pu reconstituer le lignage cellulaire (cell-lineage) de tous les organes et constater qu'il présente une uniformité quasi absolue dans les grands groupes d'animaux ; la comparaison de ces résultats a permis de mesurer, avec une précision remarquable, les
 
@@ -655,7 +655,7 @@ de l'œuf. Pour trancher la question, il a fallu expérimenter sur l'œuf et les
 
 réussi (notamment sur des Oursins) à combiner de multiples façons des parties d'embryons en un embryon composite. L'analyse expérimentale de tous ces résultats est du plus haut intérêt et, si l'on en revient à la question posée au début de ce paragraphe, il résulte de toutes les observations et expériences effectuées, qu'en fait, sinon en principe, le développement de l'embryon est minutieusement ordonné dès le début et préparé par l'hétérogénéité de l'œuf fécondé (la fécondation elle-même apporte des remaniements importants dans la structure de l'oocyte). Les circonstances particulières dans lesquelles s'opère le développement permettent ou inhibent celui-ci, mais sans le diriger réellement; son déterminisme réel est intrinsèque, sans qu'on puisse, pour cela, invoquer une prédestination d'ordre métaphysique ou téléologique. On voit, par ces quelques indications, à quels problèmes d'intérêt supérieur les recherches embryogéniques ont actuellement conduit.
 
-Si bien réglée qu'elle soit par la Nature, l'embryogénie a ses anomalies et ses déviations, du fait de conditions extrinsèques, et ainsi se produisent les monstruosités, dont l'étude constitue la tératologie. Les monstres, chez l'homme et les animaux domestiques, ont frappé l'imagination depuis l'antiquité. La tératologie s'est constituée scientifiquement avec Et. Geoffroy Saint-Hilaire, qui a eu un continuateur dans son fils Isidore. Etienne Geoffroy Saint-Hilaire a eu, relativement au déterminisme de la production des monstruosités, des intuitions remarquables, que l'application des méthodes expérimentales a consacrées. La production expérimentale des monstruosités, ou tératogénie, s'est développée au cours du xixe siècle, notamment par les travaux de Cam. Dareste (1822-
+Si bien réglée qu'elle soit par la Nature, l'embryogénie a ses anomalies et ses déviations, du fait de conditions extrinsèques, et ainsi se produisent les monstruosités, dont l'étude constitue la tératologie. Les monstres, chez l'homme et les animaux domestiques, ont frappé l'imagination depuis l'antiquité. La tératologie s'est constituée scientifiquement avec Et. Geoffroy Saint-Hilaire, qui a eu un continuateur dans son fils Isidore. Etienne Geoffroy Saint-Hilaire a eu, relativement au déterminisme de la production des monstruosités, des intuitions remarquables, que l'application des méthodes expérimentales a consacrées. La production expérimentale des monstruosités, ou tératogénie, s'est développée au cours du $\mathrm{XIx}^{\mathrm{e}}$ siècle, notamment par les travaux de Cam. Dareste (1822-
 
 1899), sur l'embryon de Poulet. Aujourd'hui, les techniques diverses de l'embryologie expérimentale permettent de réaliser à volonté, sur des animaux variés (particulièrement les Oiseaux, les Batraciens et les Echinodermes), les monstruosités les plus diverses et les plus instructives.
 
@@ -717,7 +717,7 @@ Une généralisation abusive de la notion de sécrétion interne avait été fai
 
 Ces expériences eurent un grand retentissement; elles furent l'objet de vives controverses et le point de départ d'une nouvelle thérapeutique, consistant à combattre les troubles dus à la déficience d'un organe, par l'injection, ou l'ingestion de produits extraits du même organe emprunté à des animaux sains; c'est l'opothérapie, qui, si elle a conduit à des applications abusives, a cependant été très féconde. Cette technique nouvelle a, d'autre part, été la source de nombreux travaux sur les glandes à sécrétion interne, à partir de 1900.
 
-La méthode a consisté à étudier les troubles consécutifs à l'ablation de ces organes, à voir dans quelle mesure on y parait en pratiquant, après l'ablation, des greffes de ces mêmes organes, ou bien en en administrant des extraits diversement préparés; enfin, à chercher à isoler de ces extraits les substances actives. Ainsi a été élucidée la fonction principale, ou les fonctions multiples, des glandes à sécrétion interne, pour chacune desquelles ont pu être caractérisées, puis extraites chimiquement à l'état de pureté et le plus souvent obtenues directement par synthèse, une ou plusieurs substances, auxquelles est due leur action spécifique sur l'organisme. Ces substances sont les hormones. Pour la thyroide, par exemple, l'hormone est la thyroxine, caractérisée par la présence de l'iode; pour les capsules surrénales c'est l'adrénaline (la zone corticale de ces organes sécrète encore d'autres hormones connues très récemment et agissant sur les glandes génitales). On ne savait rien des fonctions de l'hypophyse; elle apparait maintenant comme un des organes les plus puissants, fabriquant toute une série d'hormones aux actions multiples. Du pancréas, on ne connaissait que sa fonction exocrine (sécrétion du suc pancréatique, déversé dans l'intestin). Par les
+La méthode a consisté à étudier les troubles consécutifs à l'ablation de ces organes, à voir dans quelle mesure on y parait en pratiquant, après l'ablation, des greffes de ces mêmes organes, ou bien en en administrant des extraits diversement préparés ; enfin, à chercher à isoler de ces extraits les substances actives. Ainsi a été élucidée la fonction principale, ou les fonctions multiples, des glandes à sécrétion interne, pour chacune desquelles ont pu être caractérisées, puis extraites chimiquement à l'état de pureté et le plus souvent obtenues directement par synthèse, une ou plusieurs substances, auxquelles est due leur action spécifique sur l'organisme. Ces substances sont les hormones. Pour la thyroide, par exemple, l'hormone est la thyroxine, caractérisée par la présence de l'iode; pour les capsules surrénales c'est l'adrénaline (la zone corticale de ces organes sécrète encore d'autres hormones connues très récemment et agissant sur les glandes génitales). On ne savait rien des fonctions de l'hypophyse; elle apparait maintenant comme un des organes les plus puissants, fabriquant toute une série d'hormones aux actions multiples. Du pancréas, on ne connaissait que sa fonction exocrine (sécrétion du suc pancréatique, déversé dans l'intestin). Par les
 
 méthodes indiquées plus haut, on lui a découvert (HÉdon) un rôle endocrine essentiel, émanant de groupes de cellules, les îlots de Langerhans (étudiés surtout par LAGUESSE), qui élaborent une hormone spéciale, l'insuline, dont l'absence ou l'insuffisance détermine un diabète grave (auquel on remédie par des injections de cette substance).
 
@@ -782,7 +782,7 @@ L'hérédité s'est imposée à l'esprit de temps immémorial. La similitude plu
 née et susceptible de prévisions rationnelles (1).
 Les processus biologiques se laissent analyser presque toujours, en raison de leur complexité, non dans leur fonctionnement normal, mais dans leurs anomalies. En matière d'hérédité, un cas anormal est celui du croisement entre races, variétés, ou même espèces distinctes. Or, certains de ces croisements sont pratiqués de longue date, de façon courante. Il y a de nombreux siècles que l'homme a croisé l'âne et le cheval, pour obtenir mulets et mules; mais ceux-ci sont invariablement stériles. On a fait aussi, depuis longtemps, des croisements entre races ou espèces de volailles, faisans, canards, chardonneret et serin, etc. Tout cela s'est fait de façon très empirique.
 
-Au début du xvire siècle, s'ouvre la voie qui, à la fin du xix ${ }^{\mathrm{e}}$, conduira à la Génétique. On se rend compte, à ce moment, de la nature des étamines de la fleur, comme organes mâles de la plante. Césarpin, sur la foi des doctrines aristotéliciennes, refusait toute sexualité aux plantes et Tournefort voyait encore dans les étamines des organes d'excrétion; cependant, dès l'antiquité, Théophraste avait eu l'intuition, à propos de la production des fruits du palmier et de la caprification du figuier, du rôle réel des étamines. C'est en 1691 que Camerarius, à Tubingen, dans son Epistola de sexu plantarum, affirme leur nature d'organes mâles. En 1751, Kçlreuter inaugure une méthode nouvelle, en utilisant le pollen d'une espèce à en féconder une autre. Il a ainsi croisé des tabacs (Nicotiana rustica $\times N$. paniculata), obtenu des hybrides et une série d'une vingtaine de générations, en fécondant
+Au début du xvire siècle, s'ouvre la voie qui, à la fin du xix ${ }^{\mathrm{e}}$, conduira à la Génétique. On se rend compte, à ce moment, de la nature des étamines de la fleur, comme organes mâles de la plante. CésarPIN, sur la foi des doctrines aristotéliciennes, refusait toute sexualité aux plantes et Tournefort voyait encore dans les étamines des organes d'excrétion; cependant, dès l'antiquité, Théophraste avait eu l'intuition, à propos de la production des fruits du palmier et de la caprification du figuier, du rôle réel des étamines. C'est en 1691 que Camerarius, à Tubingen, dans son Epistola de sexu plantarum, affirme leur nature d'organes mâles. En 1751, Kçlreuter inaugure une méthode nouvelle, en utilisant le pollen d'une espèce à en féconder une autre. Il a ainsi croisé des tabacs (Nicotiana rustica $\times N$. paniculata), obtenu des hybrides et une série d'une vingtaine de générations, en fécondant
 (1) Cf. M. Caullers, Les conceptions modernes de l'Hérédité, Paris (Flammarion), 1935.
 
 ces hybrides par le pollen de l'une ou l'autre des espèces parentes; les générations ainsi obtenues faisaient retour progressivement à l'une de celles-ci. Parmi ses successeurs on peut citer surtout le Hollandais Gärtner, qui, en 1844, a publié des travaux étendus sur l'hybridation. En France, en 1826, Sageret avait fait une constatation judicieuse, en croisant deux variétés de melons, le chate ( $M$ ) et le cantaloup (C).
@@ -863,8 +863,8 @@ signalés chez l'CEnothera lamarckiana et plus ou moins retrouvés chez d'autres
 
 L'état actuel du problème. - Il résulte de l'exposé précédent que, si le fait de l'Evolution s'impose par l'ensemble de nos connaissances actuelles, la façon dont elle s'est accomplie est loin d'être éclaircie. La tendance présentement dominante, particulièrement en Angleterre, repose sur l'idée darwinienne de la sélection, appliquée aux variations brusques que sont les mutations (en laissant de côté celles du genre Enothera). Le lamarckisme est peu en faveur et cependant l'adaptation est un fait indéniable et d'ordre général (sans que toutes les particularités des organismes aient pour cela un caractère adaptatif), dont la réalisation par le hasard, est plus que problématique.
 
-Non seulement, dans chaque organisme, existe une corrélation précise et harmonieuse des fonctions et des structures, mais la plupart des espèces offrent de nombreuses particularités correspondant étroitement aux conditions de vie de l'animal. Enfin fréquents sont aussi les exemples frappants de dispositifs spéciaux offrant un agencement de parties comparable à celui d'outils conçus par l'homme. C'est ce que Cuénot (1) a appelé des coaptations. Elles se trouvent réalisées de toutes pièces chez l'individu, au cours du développement, préalablement à tout usage. J'en donne ici un exemple
-(1) L, Cuénot, L'Adaptation, Paris, 1929, pp. 265 et suiv.
+Non seulement, dans chaque organisme, existe une corrélation précise et harmonieuse des fonctions et des structures, mais la plupart des espèces offrent de nombreuses particularités correspondant étroitement aux conditions de vie de l'animal. Enfin fréquents sont aussi les exemples frappants de dispositifs spéciaux offrant un agencement de parties comparable à celui d'outils conçus par l'homme. C'est ce que Cuénor (1) a appelé des coaptations. Elles se trouvent réalisées de toutes pièces chez l'individu, au cours du développement, préalablement à tout usage. J'en donne ici un exemple
+(1) L, Cuénor, L'Adaptation, Paris, 1929, pp. 265 et suiv.
 
 curieux (fig. 12), chez la larve des Passalides (1). La troisième patte de chaque côté $p_{3}$ y est réduite à un moignon orienté dans le sens postéro-antérieur et
 ![img-13.jpeg](img-13.jpeg)
@@ -937,7 +937,7 @@ L'observation microscopique : Leeuwenhoek ..... 25
 Réaumur et l'experimentation ..... 30
 La Génération : Spallanzani ..... 33
 La physiologie générale : Lavoisier ..... 43
-CHAPITRE IV. - L'ESSOR DE LA BIOLOGIE, DU XIX ${ }^{\text {e }}$ SIECLE A L'HEURE PRESENTE. ..... 47
+CHAPITRE IV. - L'ESSOR DE LA BIOLOGIE, DU XIX ${ }^{\mathbf{e}}$ SIECLE A L'HEURE PRESENTE. ..... 47
 
 1. La Morphologie ..... 48
 Les fondateurs : Lamarck, Cuvier, El. Geoffroy Saint-Hilaire ..... 49
@@ -997,14 +997,14 @@ J.-B. Lamarck. - Ch. Darwin. - A. Weismann. - H. de Vries ..... 111
 431. La mer, source d'énergie (V. Romanovsky).
 432. Le surréalisme (Y. Duplessis).
 433. La condition ouvrière en France (P. Louis).
-434. Les diastases (J. Stoleowski).
+434. Les diastases (J. Stoikowski).
 435. Technique de la peinture (J. Rudel).
 436. La grande industrie chimique organique (G. Champetier).
 437. L'électrochimie (R. Audubert).
 438. Vagues, marées, courants marins (J. Bouteloup).
 439. Le Maroc (J.-L. Miège).
 440. La bière et la brasserie (J. Vène et H. Le Corvallier).
-441. Histoire du Limousin et de la Marche (D. Brellingard).
+441. Histoire du Limousin et de la Marche (D. Brelingard).
 442. Biologie du vin (J. Renaud).
 443. Géologie de la France (J. Goguel).
 444. Les sourds-muets (P. Oléron).
@@ -1035,7 +1035,7 @@ J.-B. Lamarck. - Ch. Darwin. - A. Weismann. - H. de Vries ..... 111
 469. Technique de la banque (H. Ardant).
 470. La balistique (A. Delachet et J. Taillé).
 471. Charlemagne (J. Calmette).
-472. La reproduction des couleurs (J. Dourgnon et P. Kowaliski).
+472. La reproduction des couleurs (J. Dourgnon et P. Kowalski).
 473. L'économie du Moyen-Orient (J. BeaujeuGarnier).
 474. Le tonus mental (J.-C. Filloux).
 475. L'hindouisme (L. Renou).
@@ -1081,7 +1081,7 @@ J.-B. Lamarck. - Ch. Darwin. - A. Weismann. - H. de Vries ..... 111
 568. La tauromachie (J. Testas).
 569. Les mouvements des végétaux (P.-E. Pilet).
 570. La linguistique (J. Perrot).
-571. Les nombres premiers (E. BoreL).
+571. Les nombres premiers (E. BoREL).
 572. Les méthodes en pédagogie (G. Palmade).
 573. La Haute-Asie (L. Hambis).
 574. Histoire du Mexique (F. Weymuller).
@@ -1103,7 +1103,7 @@ J.-B. Lamarck. - Ch. Darwin. - A. Weismann. - H. de Vries ..... 111
 590. Biogeographie mondiale (A. Cailleux).
 591. Histoire de la Pologne (A. JoBERT).
 592. Les pierres précieuses (N. et A. Metra).
-593. Histoire des idées en France (R. DavaL).
+593. Histoire des idées en France (R. Davai).
 594. Le paludisme (F. Pagès).
 595. Les roches sédimentaires (Ch. Pomerol et R. Fouet).
 596. La vie à Rome dans l'Antiquité (P. Grimal).
@@ -1113,7 +1113,7 @@ J.-B. Lamarck. - Ch. Darwin. - A. Weismann. - H. de Vries ..... 111
 600. L'art du comédien (A. Villiers).
 601. L'áge critique (P. Guilly).
 602. La structure moléculaire (B. Pullman).
-603. Les terres australes (E. Aubert de La. RUe).
+603. Les terres australes (E. Aubert de la RUe).
 604. Le naturalisme (P. Cogny).
 605. Le calcul mental (R. Taton).
 606. Les civilisations africaines (D. Paulme).
@@ -1124,9 +1124,9 @@ J.-B. Lamarck. - Ch. Darwin. - A. Weismann. - H. de Vries ..... 111
 611. Australie et Nouvelle-Zélande (A. Huetz de LempS).
 612. La Justicen France(R. Charles)
 613. Physiologie des mœurs (P. Chauchard).
-614. L'hygiène de la vue (E. BaumGARDT).
+614. L'hygiène de la vue (E. Baumgardt).
 615. Optique théorique (J. Terrien et A. Maréchal).
-616. L'Etat (J. Donnedieu de VaBres).
+616. L'Etat (J. Donnedieu de Vabres).
 617. La pisciculture (P. Vivier).
 618. L'art des jardins (P. Grimal).
 619. L'Océanie française (A. Huetz de LempS).

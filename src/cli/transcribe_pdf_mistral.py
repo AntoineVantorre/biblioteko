@@ -18,15 +18,97 @@ Variables d'environnement requises:
 """
 
 import argparse
-import requests
 import os
 import base64
 import re
+import json
 from pathlib import Path
+from mistralai import Mistral
+
+def parse_data_uri_image(data_uri):
+    """
+    Parse une data URI d'image et extrait le format et les données base64.
+    
+    Args:
+        data_uri (str): Data URI au format "data:image/format;base64,base64_data"
+        
+    Returns:
+        tuple: (format, base64_data) où format est l'extension et base64_data les données brutes
+    """
+    try:
+        if not data_uri.startswith('data:'):
+            # Si ce n'est pas une data URI, traiter comme des données base64 brutes
+            return detect_image_format_from_data(data_uri), data_uri
+            
+        # Parser la data URI: data:image/jpeg;base64,/9j/4AAQ...
+        header, b64_data = data_uri.split(',', 1)
+        
+        # Extraire le type MIME: data:image/jpeg;base64 -> image/jpeg
+        mime_type = header.split(';')[0].replace('data:', '')
+        
+        # Convertir le type MIME en extension
+        format_map = {
+            'image/jpeg': 'jpg',
+            'image/jpg': 'jpg', 
+            'image/png': 'png',
+            'image/gif': 'gif',
+            'image/webp': 'webp',
+            'image/bmp': 'bmp',
+            'image/x-icon': 'ico',
+            'image/vnd.microsoft.icon': 'ico'
+        }
+        
+        img_format = format_map.get(mime_type, 'jpg')
+        print(f"DEBUG: Parsed data URI - MIME: {mime_type}, Format: {img_format}")
+        
+        return img_format, b64_data
+        
+    except Exception as e:
+        print(f"Warning: Could not parse data URI: {e}")
+        # Fallback: essayer de détecter à partir des données
+        return detect_image_format_from_data(data_uri), data_uri
+
+def detect_image_format_from_data(base64_data):
+    """
+    Détecter le format d'image à partir des données base64 brutes.
+    
+    Args:
+        base64_data (str): Données de l'image en base64
+        
+    Returns:
+        str: Extension du fichier (png, jpg, jpeg, gif, webp, etc.)
+    """
+    try:
+        # Si c'est une data URI, extraire seulement la partie base64
+        if base64_data.startswith('data:'):
+            base64_data = base64_data.split(',', 1)[1]
+            
+        # Décoder les premiers bytes pour identifier le type de fichier
+        header = base64.b64decode(base64_data[:100])  # Prendre plus de bytes pour être sûr
+        
+        # Signatures de fichiers (magic numbers)
+        if header.startswith(b'\x89PNG\r\n\x1a\n'):
+            return 'png'
+        elif header.startswith(b'\xff\xd8\xff'):
+            return 'jpg'
+        elif header.startswith(b'GIF87a') or header.startswith(b'GIF89a'):
+            return 'gif'
+        elif header.startswith(b'RIFF') and b'WEBP' in header:
+            return 'webp'
+        elif header.startswith(b'BM'):
+            return 'bmp'
+        elif header.startswith(b'\x00\x00\x01\x00') or header.startswith(b'\x00\x00\x02\x00'):
+            return 'ico'
+        else:
+            # Par défaut, supposer que c'est du JPEG (format le plus courant pour l'OCR)
+            return 'jpg'
+    except Exception as e:
+        print(f"Warning: Could not detect image format from data: {e}")
+        return 'jpg'  # Format par défaut
 
 def transcribe_pdf(pdf_path, output_dir):
     """
-    Transcrit un PDF en utilisant l'API Mistral OCR.
+    Transcrit un PDF en utilisant l'API Mistral OCR avec le SDK officiel.
     
     Args:
         pdf_path (str): Chemin vers le fichier PDF à transcrire
@@ -43,51 +125,43 @@ def transcribe_pdf(pdf_path, output_dir):
     
     print(f"Converting PDF '{pdf_path}' to OCR...")
 
-    headers = {"Authorization": f"Bearer {api_key}"}
+    # Initialiser le client Mistral
+    client = Mistral(api_key=api_key)
     
     try:
-        # Étape 1: Upload du fichier PDF
-        print(f"Uploading PDF '{pdf_path}'...")
+        # Méthode 1: Utiliser base64 (recommandée dans la doc pour les fichiers locaux)
+        def encode_pdf(pdf_path):
+            """Encode le PDF en base64."""
+            try:
+                with open(pdf_path, "rb") as pdf_file:
+                    return base64.b64encode(pdf_file.read()).decode('utf-8')
+            except FileNotFoundError:
+                print(f"Error: Le fichier {pdf_path} n'a pas été trouvé.")
+                return None
+            except Exception as e:
+                print(f"Error: {e}")
+                return None
         
-        with open(pdf_path, "rb") as f:
-            files = {"file": (Path(pdf_path).name, f, "application/pdf")}
-            data = {"purpose": "ocr"}
-            
-            upload_response = requests.post(
-                "https://api.mistral.ai/v1/files",
-                files=files,
-                data=data,
-                headers=headers,
-                timeout=120
-            )
+        print(f"Encoding PDF '{pdf_path}' to base64...")
+        base64_pdf = encode_pdf(pdf_path)
+        if not base64_pdf:
+            raise Exception("Impossible d'encoder le PDF en base64")
         
-        if upload_response.status_code != 200:
-            raise Exception(f"Upload failed: {upload_response.status_code} - {upload_response.text}")
+        print("Processing PDF with OCR (using official SDK)...")
         
-        file_info = upload_response.json()
-        file_id = file_info["id"]
-        print(f"PDF uploaded successfully. Processing with OCR...")
-        
-        # Étape 2: Traitement OCR
-        ocr_payload = {
-            "document": {
-                "type": "file",
-                "file_id": file_id
+        # Étape 2: Traitement OCR avec le SDK officiel
+        ocr_response = client.ocr.process(
+            model="mistral-ocr-latest",
+            document={
+                "type": "document_url",
+                "document_url": f"data:application/pdf;base64,{base64_pdf}"
             },
-            "model": "mistral-ocr-latest"
-        }
-        
-        ocr_response = requests.post(
-            "https://api.mistral.ai/v1/ocr",
-            json=ocr_payload,
-            headers=headers,
-            timeout=300
+            include_image_base64=True  # CLEF: Cette option permet d'avoir les images !
         )
         
-        if ocr_response.status_code != 200:
-            raise Exception(f"OCR failed: {ocr_response.status_code} - {ocr_response.text}")
+        # Convertir la réponse en dictionnaire pour compatibilité
+        ocr_result = ocr_response.model_dump() if hasattr(ocr_response, 'model_dump') else ocr_response.dict()
         
-        ocr_result = ocr_response.json()
         num_pages = ocr_result.get('usage_info', {}).get('pages_processed', 0)
         print(f"The PDF contains {num_pages} pages.")
         
@@ -95,21 +169,65 @@ def transcribe_pdf(pdf_path, output_dir):
         extracted_text = ""
         images_data = []
         
+        # Sauvegarde complète de la réponse OCR pour debug
+        import json
+        debug_file = Path(output_dir) / "ocr_response_debug.json"
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        with open(debug_file, "w", encoding="utf-8") as f:
+            json.dump(ocr_result, f, indent=2, ensure_ascii=False)
+        print(f"DEBUG: Full OCR response saved to {debug_file}")
+        
         if 'pages' in ocr_result:
+            print(f"DEBUG: Found {len(ocr_result['pages'])} pages in OCR result")
+            
             for page_idx, page in enumerate(ocr_result['pages']):
+                print(f"\nDEBUG: Processing page {page_idx}")
+                print(f"DEBUG: Page keys: {list(page.keys())}")
+                
                 if 'markdown' in page:
                     extracted_text += page['markdown'] + "\n\n"
                 
                 # Extraction des images si présentes
                 if 'images' in page:
+                    print(f"DEBUG: Found {len(page['images'])} images on page {page_idx}")
+                    
                     for img_idx, image_data in enumerate(page['images']):
-                        if 'data' in image_data:
-                            img_filename = f"img-{page_idx}-{img_idx}.jpeg"
-                            images_data.append({
-                                'filename': img_filename,
-                                'data': image_data['data'],
-                                'page': page_idx
-                            })
+                        print(f"\nDEBUG: Processing image {img_idx} on page {page_idx}")
+                        print(f"DEBUG: Image data keys: {list(image_data.keys())}")
+                        
+                        # Afficher toute la structure de l'image (mais limiter image_base64 si présent)
+                        debug_image_data = {}
+                        for key, value in image_data.items():
+                            if key == 'image_base64' and value is not None:
+                                debug_image_data[key] = f"<base64 data, length: {len(value)}>"
+                            else:
+                                debug_image_data[key] = value
+                        print(f"DEBUG: Image data structure: {debug_image_data}")
+                        
+                        if 'image_base64' in image_data:
+                            if image_data['image_base64'] is not None:
+                                # Parser la data URI de l'image pour extraire le format et les données
+                                img_data_uri = image_data['image_base64']
+                                img_format, img_base64_data = parse_data_uri_image(img_data_uri)
+                                img_filename = f"img-{page_idx}-{img_idx}.{img_format}"
+                                
+                                images_data.append({
+                                    'filename': img_filename,
+                                    'data': img_base64_data,  # Données base64 pures (sans le préfixe data URI)
+                                    'page': page_idx
+                                })
+                                print(f"SUCCESS: Image {img_idx} on page {page_idx} added to queue (format: {img_format})")
+                            else:
+                                print(f"WARNING: image_base64 is None for image {img_idx} on page {page_idx}")
+                        else:
+                            print(f"WARNING: No 'image_base64' key found for image {img_idx} on page {page_idx}")
+                else:
+                    print(f"DEBUG: No images found on page {page_idx}")
+        else:
+            print("DEBUG: No 'pages' key found in OCR result")
+            print(f"DEBUG: OCR result keys: {list(ocr_result.keys())}")
         
         if not extracted_text.strip():
             raise Exception("No text extracted from OCR")
@@ -119,23 +237,30 @@ def transcribe_pdf(pdf_path, output_dir):
         output_path.mkdir(parents=True, exist_ok=True)
         
         # Sauvegarde des images
+        print(f"\nDEBUG: Attempting to save {len(images_data)} images")
         for img_info in images_data:
             img_path = output_path / img_info['filename']
+            print(f"DEBUG: Saving image to {img_path}")
             try:
                 # Décoder l'image base64 et la sauvegarder
                 img_data = base64.b64decode(img_info['data'])
                 with open(img_path, 'wb') as img_file:
                     img_file.write(img_data)
-                print(f"Image saved: {img_info['filename']}")
+                print(f"SUCCESS: Image saved: {img_info['filename']} ({len(img_data)} bytes)")
             except Exception as e:
-                print(f"Warning: Could not save image {img_info['filename']}: {e}")
+                print(f"ERROR: Could not save image {img_info['filename']}: {e}")
+                import traceback
+                traceback.print_exc()
             
         # Étape 3: Amélioration avec l'agent Mistral (optionnel)
         if agent_id:
             try:
-                enhancement_payload = {
-                    "agent_id": agent_id,
-                    "messages": [
+                print("Enhancing transcription with Mistral agent...")
+                
+                # Utiliser le SDK pour l'agent également
+                agent_response = client.agents.complete(
+                    agent_id=agent_id,
+                    messages=[
                         {
                             "role": "user", 
                             "content": f"""You are an expert in transcribing books. Here is the raw OCR text from a scanned book that you must improve and correct to produce a high-quality Markdown transcription.
@@ -209,48 +334,29 @@ Here is the raw OCR text to process:
 Produce a perfectly formatted Markdown transcription, faithful to the original book, without repetitive headers/footers, with consistent structure and all necessary OCR corrections."""
                         }
                     ]
-                }
-                
-                enhancement_response = requests.post(
-                    "https://api.mistral.ai/v1/agents/completions",
-                    json=enhancement_payload,
-                    headers=headers,
-                    timeout=600
                 )
+                raise Exception("Impossible d'encoder le PDF en base64")
                 
-                if enhancement_response.status_code == 200:
-                    enhancement_result = enhancement_response.json()
-                    if 'choices' in enhancement_result and enhancement_result['choices']:
-                        enhanced_text = enhancement_result['choices'][0]['message']['content']
-                        if enhanced_text:
-                            yield enhanced_text
-                        else:
-                            print("\nNo enhanced content received, using raw OCR text.")
-                            yield extracted_text
+                # Extraire le contenu de la réponse
+                if hasattr(agent_response, 'choices') and agent_response.choices:
+                    enhanced_text = agent_response.choices[0].message.content
+                    if enhanced_text:
+                        yield enhanced_text
                     else:
                         print("\nNo enhanced content received, using raw OCR text.")
                         yield extracted_text
                 else:
-                    print(f"\nAgent enhancement failed: {enhancement_response.status_code}")
-                    print("Using raw OCR text instead")
+                    print("\nNo enhanced content received, using raw OCR text.")
                     yield extracted_text
+                    
             except Exception as e:
                 print(f"\nAgent enhancement error: {e}")
                 print("Using raw OCR text instead")
                 yield extracted_text
         else:
             yield extracted_text
-        
-        # Étape 4: Nettoyage
-        try:
-            delete_response = requests.delete(
-                f"https://api.mistral.ai/v1/files/{file_id}",
-                headers=headers
-            )
-            if delete_response.status_code != 200:
-                print(f"Warning: Could not delete file {file_id}: {delete_response.status_code}")
-        except Exception as e:
-            print(f"Warning: Error deleting file: {e}")
+            
+        print("OCR processing completed successfully.")
             
         print("=" * 50)
         
@@ -276,6 +382,9 @@ if __name__ == "__main__":
         print("=" * 50)
         print(f"Output directory: {output_dir}")
         print(f"Markdown file: {markdown_file}")
+        
+        # Créer le dossier de sortie s'il n'existe pas
+        Path(output_dir).mkdir(parents=True, exist_ok=True)
         
         with open(markdown_file, "w", encoding="utf-8") as f:
             for transcription in transcribe_pdf(pdf_path, output_dir):

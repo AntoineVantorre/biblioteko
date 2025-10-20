@@ -106,6 +106,54 @@ def detect_image_format_from_data(base64_data):
         print(f"Warning: Could not detect image format from data: {e}")
         return 'jpg'  # Format par défaut
 
+def fix_image_references(markdown_text, image_mapping):
+    """
+    Corriger les références d'images dans le texte Markdown pour qu'elles correspondent 
+    aux fichiers réellement sauvegardés.
+    
+    Args:
+        markdown_text (str): Texte Markdown avec les références d'images OCR
+        image_mapping (dict): Mapping des noms OCR vers les vrais noms de fichiers
+        
+    Returns:
+        str: Texte Markdown avec les références d'images corrigées
+    """
+    print(f"DEBUG: Fixing image references using mapping with {len(image_mapping)} entries")
+    
+    corrected_text = markdown_text
+    corrections_made = 0
+    
+    # Pattern pour trouver les références d'images Markdown: ![alt](image.ext)
+    import re
+    pattern = r'!\[([^\]]*)\]\(([^)]+)\)'
+    
+    def replace_image_ref(match):
+        nonlocal corrections_made
+        alt_text = match.group(1)
+        image_name = match.group(2)
+        
+        # Vérifier si cette image est dans notre mapping
+        if image_name in image_mapping:
+            new_image_name = image_mapping[image_name]
+            corrections_made += 1
+            print(f"DEBUG: Correcting image reference: {image_name} -> {new_image_name}")
+            return f"![{alt_text}]({new_image_name})"
+        else:
+            # Essayer de trouver une correspondance approximative
+            for ocr_name, real_name in image_mapping.items():
+                if image_name.lower() in ocr_name.lower() or ocr_name.lower() in image_name.lower():
+                    corrections_made += 1
+                    print(f"DEBUG: Approximate correction: {image_name} -> {real_name}")
+                    return f"![{alt_text}]({real_name})"
+            
+            print(f"DEBUG: No mapping found for image: {image_name}")
+            return match.group(0)  # Retourner le texte original si pas de correspondance
+    
+    corrected_text = re.sub(pattern, replace_image_ref, corrected_text)
+    
+    print(f"DEBUG: Made {corrections_made} image reference corrections")
+    return corrected_text
+
 def transcribe_pdf(pdf_path, output_dir):
     """
     Transcrit un PDF en utilisant l'API Mistral OCR avec le SDK officiel.
@@ -169,11 +217,13 @@ def transcribe_pdf(pdf_path, output_dir):
         extracted_text = ""
         images_data = []
         
+        # Le dossier de sortie est maintenant le dossier de l'œuvre
+        work_dir = Path(output_dir)
+        work_dir.mkdir(parents=True, exist_ok=True)
+        
         # Sauvegarde complète de la réponse OCR pour debug
         import json
-        debug_file = Path(output_dir) / "ocr_response_debug.json"
-        output_path = Path(output_dir)
-        output_path.mkdir(parents=True, exist_ok=True)
+        debug_file = work_dir / "ocr_response_debug.json"
         
         with open(debug_file, "w", encoding="utf-8") as f:
             json.dump(ocr_result, f, indent=2, ensure_ascii=False)
@@ -232,14 +282,12 @@ def transcribe_pdf(pdf_path, output_dir):
         if not extracted_text.strip():
             raise Exception("No text extracted from OCR")
             
-        # Création du dossier de sortie et sauvegarde des images
-        output_path = Path(output_dir)
-        output_path.mkdir(parents=True, exist_ok=True)
+        # Sauvegarde des images dans le dossier de l'œuvre et création de la table de correspondance
+        print(f"\nDEBUG: Attempting to save {len(images_data)} images to {work_dir}")
+        image_mapping = {}  # Mapping des noms d'images OCR vers les vrais noms de fichiers
         
-        # Sauvegarde des images
-        print(f"\nDEBUG: Attempting to save {len(images_data)} images")
         for img_info in images_data:
-            img_path = output_path / img_info['filename']
+            img_path = work_dir / img_info['filename']
             print(f"DEBUG: Saving image to {img_path}")
             try:
                 # Décoder l'image base64 et la sauvegarder
@@ -247,12 +295,41 @@ def transcribe_pdf(pdf_path, output_dir):
                 with open(img_path, 'wb') as img_file:
                     img_file.write(img_data)
                 print(f"SUCCESS: Image saved: {img_info['filename']} ({len(img_data)} bytes)")
+                
+                # Créer le mapping pour corriger les références dans le markdown
+                # Format OCR typique: img-0.jpeg, img-1.jpeg, etc.
+                # Format sauvegardé: img-{page}-{index}.{extension}
+                page_idx = img_info['page']
+                # Trouver l'index de l'image sur cette page
+                page_images = [img for img in images_data if img['page'] == page_idx]
+                img_index_on_page = page_images.index(img_info)
+                
+                # Calculer l'index global approximatif (pour correspondre aux références OCR)
+                global_img_index = sum(1 for img in images_data[:images_data.index(img_info)])
+                
+                # Mapping des différents formats possibles
+                ocr_patterns = [
+                    f"img-{global_img_index}.jpeg",
+                    f"img-{global_img_index}.jpg", 
+                    f"img-{global_img_index}.png",
+                    f"img-{page_idx}.jpeg",
+                    f"img-{page_idx}.jpg",
+                    f"img-{page_idx}.png"
+                ]
+                
+                for pattern in ocr_patterns:
+                    image_mapping[pattern] = img_info['filename']
+                    
             except Exception as e:
                 print(f"ERROR: Could not save image {img_info['filename']}: {e}")
                 import traceback
                 traceback.print_exc()
             
-        # Étape 3: Amélioration avec l'agent Mistral (optionnel)
+        # Étape 3: Correction des références d'images dans le texte
+        print(f"DEBUG: Correcting image references in extracted text...")
+        extracted_text = fix_image_references(extracted_text, image_mapping)
+        
+        # Étape 4: Amélioration avec l'agent Mistral (optionnel)
         if agent_id:
             try:
                 print("Enhancing transcription with Mistral agent...")
@@ -341,6 +418,8 @@ Produce a perfectly formatted Markdown transcription, faithful to the original b
                 if hasattr(agent_response, 'choices') and agent_response.choices:
                     enhanced_text = agent_response.choices[0].message.content
                     if enhanced_text:
+                        # Corriger aussi les références d'images dans le texte amélioré
+                        enhanced_text = fix_image_references(enhanced_text, image_mapping)
                         yield enhanced_text
                     else:
                         print("\nNo enhanced content received, using raw OCR text.")
@@ -374,20 +453,22 @@ if __name__ == "__main__":
 
     # Créer le nom du fichier markdown basé sur le nom du PDF
     pdf_name = Path(pdf_path).stem
-    markdown_file = Path(output_dir) / f"{pdf_name}.md"
+    work_dir = Path(output_dir) / pdf_name
+    markdown_file = work_dir / f"{pdf_name}.md"
 
     try:
         print("\n" + "=" * 50)
         print("TRANSCRIPTION:")
         print("=" * 50)
         print(f"Output directory: {output_dir}")
+        print(f"Work directory: {work_dir}")
         print(f"Markdown file: {markdown_file}")
         
         # Créer le dossier de sortie s'il n'existe pas
-        Path(output_dir).mkdir(parents=True, exist_ok=True)
+        work_dir.mkdir(parents=True, exist_ok=True)
         
         with open(markdown_file, "w", encoding="utf-8") as f:
-            for transcription in transcribe_pdf(pdf_path, output_dir):
+            for transcription in transcribe_pdf(pdf_path, str(work_dir)):
                 f.write(transcription)
                 f.flush()
         print(f"\nResult written to {markdown_file}")

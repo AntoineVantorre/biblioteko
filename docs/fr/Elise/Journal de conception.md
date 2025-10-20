@@ -63,3 +63,5 @@ Analyse du sujet du PJE, mots par mots. Construction du glossaire sous forme de 
 *13/10/2025*
 
 Travail sur la récupération des images et schéma de la transcription. Fusion des branches git de notre groupe en vue de faire une pull request.
+
+à ajouter les refs des images à celles du dossier des images

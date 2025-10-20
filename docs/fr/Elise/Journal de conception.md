@@ -64,4 +64,28 @@ Analyse du sujet du PJE, mots par mots. Construction du glossaire sous forme de 
 
 Travail sur la récupération des images et schéma de la transcription. Fusion des branches git de notre groupe en vue de faire une pull request.
 
-à ajouter les refs des images à celles du dossier des images
+à faire : ajouter les refs des images à celles du dossier des images
+
+*20/10/2025*
+
+Travail sur la récupération des images dans la transcription, qui est à présent fonctionnelle. Il reste à passer le texte dans l'IA pour correction (rassemblement des mots coupés entre les pages, etc), chose qui ne fonctionne plus maintenant mais qui fonctionnait avant (je pense que c'est à cause d'un changement dans les conditions d'utilisation de l'API Mistral).
+
+
+
+**Réflexions sur la gestion des oeuvres protégées par un droit d'auteur.**
+- Chiffrement de l'oeuvre (dans quel contexte, comment et pourquoi ? ) -> Le chiffrement ne reste efficace que 10 ans en moyenne
+- Hébergement des oeuvres dans un autre pays -> pas possible, c'est trop risqué
+- découpage de l'oeuvre en citations et rassemblement -> pareil, trop risqué et complexe
+- ne proposer que des oeuvres libres de droits d'auteurs -> ne répond pas au cahier des charges de biblioteko, et il faut tout de même trouver un protocol qui s'assure qu'aucune oeuvre protégé n'est téléchargée
+
+
+Idée de prodécure de dépôt d'une oeuvre
+- Dépose une oeuvre sur la plateforme
+- vérifier dans la base des oeuvres déjà examinées (base qui peut se trouver sur internet, comme ISBN search) si l'oeuvre a déjà été marquée comme protégée ou non, en fonction de la date de mort de l'auteur (ou non)
+- passage dans une IA qui va vérifier qu'il n'y a rien d'illégal dans l'oeuvre
+- étape de modération :
+    - seuls les modérateurs peuvent regarder l'oeuvre à ce stade
+    - les modérateurs n'ont accès qu'à une vue 
+    - une fois que l'oeuvre elle est acceptée par les modérateurs elle peut être mise en ligne si elle est libre de droits d'auteurs. Sinon, on supprime le contenu.
+
+Nous nous sommes mis d'accord sur cette solution. 

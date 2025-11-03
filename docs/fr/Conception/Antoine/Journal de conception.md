@@ -90,3 +90,18 @@ Un professeur a le doit d'evoquer des protocoles illegaux pour nous mettre en ga
         Le protocole IPFS peut en revanche etre un moyen d'amplifier notre anonymat, ce qui peut constituer une barriere de securité supplementaire.
 
 Histoire du directeur general de halstolm -> injustice
+
+## 3 novembre
+
+Nous avons beaucoup discuté sur l'importance des droits d'auteurs, de ce que cela implique que ca soit quand on créé quelque chose, et quand on utilise une oeuvre sans savoir si elle est rééllement no copyright
+
+On a aussi mis en commun le travail de chaque groupe
+    - j'ai donc partagé nos reflexions ce qui a permis aux autres de comprendre certaines problematiques
+
+    - j'ai aussi relativisé la problematique lié au chiffrement: c est une solution temporaire (10 ans) mais qui peut etre allongé si on combine plusieurs protocole (on passe le fichier par plusieurs protocoles de chiffrement, ce qui peut augmenter la durée de vie, on peut faire un parallele avec une lettre dans une enveloppe, elle meme dans une enveloppe)
+
+Je pose enfin des mots sur un probleme qui perciste depuis le depuis du developpement du projet: quelle est l'echelle du projet? (est ce qu'on a le temps et les ressources necessaire pour mettre en oeuvre un outils qui n'a pas besoin d'aide humaine? si je fais valider chaque oeuvre par les moderateurs, est ce que c est tenable? a long terme? est ce faisable autrement?)
+C'est pour cette raison que je perdais du temps a reflechir a LA solution optimale, celle qui est tenable indefiniment sans aide humaine, mais chaque projet a ses contraintes propres et on doit s'y adapter, si le projet ne permet pas un tel developpement, inutile de chercher aussi loin; on créé une premiere version et on adaptera plus tard
+
+La notation du projet se base sur le cheminement des idées a mettre en oeuvre, pas que au produit final:
+    J avais peur de m'aventurer dans une BDD decentralisée, cela permet une "couche" d'anonymat, mais cela demande de l'investissement et une prise de risque, ce n'est pas une idée a proscrire, on peut toujours coumuler les solutions qu'on a chacun explosé lors du cours precedents (dechiffrement de courtes citations encodées en plus d'une moderation pour oeuvres soumises a droits d'auteur)

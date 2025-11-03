@@ -86,6 +86,21 @@ Idée de prodécure de dépôt d'une oeuvre
 - étape de modération :
     - seuls les modérateurs peuvent regarder l'oeuvre à ce stade
     - les modérateurs n'ont accès qu'à une vue 
-    - une fois que l'oeuvre elle est acceptée par les modérateurs elle peut être mise en ligne si elle est libre de droits d'auteurs. Sinon, on supprime le contenu.
+    - une fois que l'oeuvre est acceptée par les modérateurs elle peut être mise en ligne si elle est libre de droits d'auteurs. Sinon, on supprime le contenu.
 
-Nous nous sommes mis d'accord sur cette solution. 
+Nous nous sommes mis d'accord sur cette solution.
+
+
+*3/11/2025*
+
+Mise en commun des solutions trouvées par les différents groupes pour contourner la loi / traiter les oeuvres de manière légale.
+
+Discussion sur le cryptage des documents en fonction des différents utilisateurs. IL y a deux solutions possibles : 
+- Le document est crypté en autant d'exemplaire qu'il y a d'utilisateurs, avec leur clé privée respective. Ainsi, chaque utilisateur peut décrypter sa version du document. Souvent, un filligrane est ajouté au document pour pouvoir identifier le coupable si le document fuite. 
+- Le document est crypté avec une clé aléatoire, cette clé est crypté avec la clé de chaque utilisateur dans un document séparé pour chaque utilisateur. Ainsi, lorsque l'utilisateur veut accéder au document, il cherche l'en-tête qui lui correspond et décrypte la clé à l'aide de sa clée privée. Il peut ensuite décrypter le document. 
+
+Recherches sur DEEPSEEK OCR. Malheureusement ce modèle ne peut pas être installé sur la machine de la fac car il n'y a pas assez d'espace.
+
+Nous avons mieux compris l'enjeux du projet au travers des discussions avec mon binôme et avec le professeur, qui est principalement d'apprendre de nouvelles choses. Nous avons donc deux options, soit on reste simple mais le projet doit fonctionner correctement, soit on décide d'être plus ambitieux en laissant place à de potentiels problèmes de fonctionnement. Il me semble qu'être plus ambitieux peut être plus gratifiant en terme d'apprentissage. Ces réflexions sont à aprofondir pour la prochaine fois. 
+
+Pendant la prochaine séance, il faudrait mettre en place la modération des oeuvres avec l'IA (première étape de modération), afin d'avertir si une oeuvre contient du contenu illégal.

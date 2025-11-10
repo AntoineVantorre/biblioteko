@@ -105,3 +105,18 @@ C'est pour cette raison que je perdais du temps a reflechir a LA solution optima
 
 La notation du projet se base sur le cheminement des idées a mettre en oeuvre, pas que au produit final:
     J avais peur de m'aventurer dans une BDD decentralisée, cela permet une "couche" d'anonymat, mais cela demande de l'investissement et une prise de risque, ce n'est pas une idée a proscrire, on peut toujours coumuler les solutions qu'on a chacun explosé lors du cours precedents (dechiffrement de courtes citations encodées en plus d'une moderation pour oeuvres soumises a droits d'auteur)
+
+## 10 novembre
+
+Avancement dans la conctruction de l'uml (diagramme de classe), debats sur le futur developpement:
+    - Un membre = un utilisateur qui publie, il est authentifié par franceconnect
+    - Un bibliothecaire: il est lui aussi authentifié par france Connect, il herite de membre. Il peut publier des oeuvre, on devra s'assurer qu'il ne peut pas verifier ses propres oeuvres
+    - Un administrateur: ne possede pas les pleins pouvoirs, certaines fonctionnalitées ne sont pas pertinentes a implementer dans le cadre de l'admin
+    
+On laisse a l'admin la possibilité de gerer tout l'aspect systeme et utilisateur, tandis ce qu'on laisse au bibliothecaire la charge de gerer le contenu, les oeuvres.
+
+Probleme UML: un bibliothecaire peut aussi etre membre? ils peuvent publier des oeuvres? mais ne peuvent pas valider leurs propres oeuvres? comment s'y prendre?
+Initialement, j ai pensé a faire un decorateur, pour specifier qu'un bibliothecaire pouvait possiblement etre membre ou utilisateur. En parallele, je pensais deja faire en sorte de prouver une unicité de membre grace a FranceConnect, on ne peut pas creer deux comptes membres a partir du meme compte FranceConnect, car on forcerait l'id a etre le meme, on pourrait hasher les infos de l'utilisateur france Connect par exemple. le probleme, c est qu'avec un decorateur on devrait créer plusieurs instances pour la meme personne, une fois membre, une fois bibliothecaire, ce qui poserait probleme.
+Utilisateur <- Membre <- Bibliothecaire <- Administrateur
+Mais cela impliquerait des problemes de duplication des methodes, l'admin aurait des fonctionnalité non pertinentes, pourrait peut etre creer un nouveau profil admin etc
+On prefere partir de l'idée de créer une Interface "Gestion_oeuvres" qui regroupe les fonctionnalités communes de "Administrateur" et de "Bibliothecaire"

@@ -10,7 +10,6 @@ classDiagram
         - nom : String
         - email : String
         - mot_de_passe : String
-        - role : String
         + seConnecter()
         + consulterCatalogue()
     }
@@ -30,6 +29,7 @@ classDiagram
     class Administrateur {
         + gererUtilisateurs()
         + auditerSysteme()
+        + supprimerOeuvre()
     }
 
     %% =====================================
@@ -94,7 +94,7 @@ classDiagram
 
     %% Rôles
     Utilisateur <|-- Membre
-    Utilisateur <|-- Bibliothecaire
+    Membre <|-- Bibliothecaire
     Utilisateur <|-- Administrateur
 
     %% Fichiers et contenu

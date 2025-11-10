@@ -14,13 +14,15 @@
 | dépôt Git |  Système de versionnage pour stocker et gérer les documents. |
 | base de données |  Système traditionnel de stockage d’informations. |
 | arborescence de fichiers |  Organisation hiérarchique des fichiers. |
+| documents (=fichier)| Documents numériques proposés par les membres pour partager. | Class Numeric_file (UML)
+| terminaux | Machine utilisée par l'utilisateur pour accéder à la bibliothèque numérique. Téléphone, ordinateur,... | 
 
 
 ## Propriétés
 | Terme | Définition |
 |-------|------------|
 | manière modulaire |  Façon d'organiser le code pour qu'il soit indépendant et réutilisable. |
-| compatibilité |  Capacité à fonctionner avec les systèmes existants. |
+| compatibilité |  Capacité à fonctionner avec différents systèmes existants. |
 | validation unitaire |  Test automatisé d'une fonctionnalité individuelle. |
 
 ## Actions
@@ -28,14 +30,14 @@
 |-------|------------|
 | partage |  Action de mettre un fichier à disposition des autres membres. | 
 | développer |  Créer ou programmer une fonctionnalité. |
-| peut proposer |  Permettre à un membre de soumettre un fichier. |
-| demander |  Action d'un utilisateur pour obtenir l'accès à un fichier. |
+| peut proposer = demander le partage |  Permettre à un membre de soumettre un fichier. |
+| demander l'accès |  Action d'un utilisateur pour obtenir l'accès à un fichier. |
 | résolu |  Appliquer une solution à un problème (ici propriété intellectuelle). |
 | retenu |  Sélectionner un framework pour le projet. |
-| imposé |  Langage choisi par le client pour le projet. |
+| imposé |  Langage choisi par le client pour le projet. (ici Python)|
 | prendre en charge |  Assumer une partie de la conception ou du développement. |
 | présenter |  Montrer et expliquer le travail réalisé. |
-| justifier |  Expliquer le choix effectué. |
+| justifier |  Expliquer les différents choix effectués. |
 | respecter |  Suivre les règles ou consignes données. |
 | permettre |  Fournir une fonctionnalité ou un droit à un utilisateur/membre. |
 | gérer |  Superviser un processus ou des droits. |

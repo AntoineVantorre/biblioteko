@@ -104,3 +104,23 @@ Recherches sur DEEPSEEK OCR. Malheureusement ce modèle ne peut pas être instal
 Nous avons mieux compris l'enjeux du projet au travers des discussions avec mon binôme et avec le professeur, qui est principalement d'apprendre de nouvelles choses. Nous avons donc deux options, soit on reste simple mais le projet doit fonctionner correctement, soit on décide d'être plus ambitieux en laissant place à de potentiels problèmes de fonctionnement. Il me semble qu'être plus ambitieux peut être plus gratifiant en terme d'apprentissage. Ces réflexions sont à aprofondir pour la prochaine fois. 
 
 Pendant la prochaine séance, il faudrait mettre en place la modération des oeuvres avec l'IA (première étape de modération), afin d'avertir si une oeuvre contient du contenu illégal.
+
+
+*10/11/2025*
+
+Introductions aux concepts de design pattern. Je ne connaissais pas les designs patterns car je ne les ai pas étudiés en licence. C'était intéressant car même si je n'ai pas formellement étudié le concept, j'utilisais déjà plusieurs de ces patterns régulièrement (comme par exemple les singletons).
+Pour la séance d'aujourd'hui, nous avons commencé par merge nos avancées sur la branche main, afin de mettre en commun notre travail. Je vais relire les scénarios, la grammaires et les diagrammes faits par mon binôme Antoine, en discutant des corrections à y apporter. 
+
+Débat à propos de la représentation d'un bibliothécaire : est-ce qu'un bibliothécaire est un membre et donc la classe hérite de membre ? Est-ce qu'on devrait mettre en place un décorateur (qui est un design pattern) pour qu'un bibliothécaire soit à la fois membre ? 
+
+J'ai proposé cette solution : les bibliothécaires et les utilisateurs sont tous les deux des utilisateur, mais il n'y a pas de lien entre eux. Si un bibliothécaire souhaite proposer ou emprunter des oeuvres, alors il doit se créer un deuxième compte, un compte "membre". Le compte "bibliothécaire" qui lui est conféré est exclusivement réservé à la modération des oeuvres. 
+
+Cette solution a le problème de permettre à un bibliothécaire d'accepter ses propres oeuvres comme il n'y a pas de lien entre le membre et le bibliothécaire. Cela représente une faille de sécurité. 
+
+
+Nous avons finalement choisi la solution suivante : 
+Le bibliothécaire hérite de "membre", comme un membre plus spécialisé. Ainsi, il peut demander l'accès à des oeuvres, modérer des oeuvres, et proposer des oeuvres. Il faudra préciser dans le code que si l'identifiant de l'utilisateur et du bibliothécaire est le même, alors le bibliothécaire ne peut pas modérer l'oeuvre, et donc lui bloquer l'accès à la page de modération pour cette oeuvre. 
+
+Nous avons eu le même débat pour le rôle d'administrateur. L'administrateur a le droite de "tout" faire : gérer les oeuvres et les utilisateurs. Il a donc des méthodes en commun avec le bibliothécaire pour la modération des oeuvres. La question était, doit-on faire hériter administrateur de bibliothécaire ? Nous avons conclu que non. La raison principale est que bien qu'il aient certaines actions en commun, les deux rôles ont des buts différents et des manières différentes d'y parvenir. L'admin ayant plus de "pouvoir" que le bibliothécaire, il passe par moins d'étapes de vérification pour, par exemple, ajouter une oeuvre. En plus de cela, l'un des rôles de l'admin est de gérer les utilisateur, par exemple conférer ou retirer à un membre le rôle de bibliothécaire. Si admin héritait de bibliothécaire, alors l'administrateur serait capable de se supprimer, ainsi que de supprimer d'autres administrateurs. 
+
+La solution que nous avons trouvé est de créer administrateur et bibliothécaire comme deux classes distinctes, qui implémentent toutes les deux une interface "GestionOeuvres", dans lesquelles ont peut trouver les méthodes de modification des métadonnées, d'acceptation ou de refus d'oeuvres. 

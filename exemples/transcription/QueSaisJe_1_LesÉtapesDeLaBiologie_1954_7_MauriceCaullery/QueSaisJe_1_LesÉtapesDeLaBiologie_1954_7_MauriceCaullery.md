@@ -1,11 +1,11 @@
 # Gise 
 
-![img-0.jpeg](img-0.jpeg)
+![img-0.jpeg](img-0-1.jpg)
 
 ## LA BIOLOGIE
 
 PAR MAURICE CAULLERY
-![img-1.jpeg](img-1.jpeg)
+![img-1.jpeg](img-0-1.jpg)
 
 ## PRESSES UNIVERSITAIRES DE FRANCE
 
@@ -22,7 +22,7 @@ I. lolore de l'ysance (P. Lemerle).
 L. elapes de la poésie française (R. Lalou).
 I. listoire de la géométrie (P. Marchal).
 L. Indastries de l'alimentation (G. Ray).
-L. comptabilité (J. Fourastié).
+L. somptabilité (J. Fourastié).
 L. prérision économique (A. Sauvy).
 L. coétique et hérédité (M. Caullery).
 L. littérature espagnole (J. Camp).
@@ -42,28 +42,28 @@ I. listoire de la Normandie (E.-G. Léonard).
 L. littérature française du siècle philosophique (V.-L. Baulinier).
 L. diplomatie française (C. Laroche).
 L. elapes de la mécanique (M. Boll).
-L'orfovrerie (L. Lanell).
+L. artivrerie (L. Lanell).
 L. vie au moyen âge (G. D'Haucourt).
 I. l'ysologie du sport (D* G. Lapoate et A. Pevcelon).
-L. techniques de la métallurgie(L. Guillet).
+L. les techniques de la métallurgie(L. Guillet).
 L. eslampes (J. Laban).
 L. caoutchouc (A. Chevalieret J. Le Bras).
 I. listoire de la Justice (M. Rousselet).
-L. messages de nos sens (D* P. Chauchard).
-L. café (A. Chevalier).
-I. listoire de la Suisse (Ch. Giliard).
+L. es messages de nos sens (D* P. Chauchard).
+L. eafé (A. Chevalier).
+I. listoire de la Suisse (Ch. Gillard).
 L'origine des espèces (E. Guyenot)
-L. lévolution française (P. Nicolle).
-I'oreis vierges et bois tropicaux (A. Chevalier et D. Normand).
+L. l'évolution française (P. Nicolle).
+I. eréts vierges et bois tropicaux (A. Chevalier et D. Normand).
 I. listoire de l'Auvergne (R. Rigodon).
 L. littérature française du Moyen Age (V.-L. Baulnier).
-L. races humaines (H.-V. Valloiz).
+L. e races humaines (H.-V. Valloiz).
 I. listoire de la Bretagne (H. Waquet).
 L. population (A. Sauvy).
 I. listoire de la Provence (R. Busquet et V.-L. Boursialy).
-L. Etands explorateurs (M. Griaule).
+L. es grands explorateurs (M. Griaule).
 I. listoire de la Savole (R. Avezou).
-L. vie des aveugles (P. Henr).
+L. a vie des aveugles (P. Henr).
 153. L'affiche (Lo Duca).
 154. Les alcaloïdes et les plantes alcaloifères (F. Moreau).
 155. L'unité française (R. Pernoud).
@@ -141,7 +141,7 @@ par
 Professeur honoraire à la Sorbonne
 Membre de l'Institut
 (Avec 12 figures)
-![img-2.jpeg](img-2.jpeg)
+![img-2.jpeg](img-4-0.jpg)
 
 PRESSES UNIVERSITAIRES DE FRANCE 108, Boulevard Saint-Germain, PARIS
 
@@ -149,7 +149,7 @@ PRESSES UNIVERSITAIRES DE FRANCE 108, Boulevard Saint-Germain, PARIS
 
 # DÉPOT LÉGAL 
 
-| 1re édition |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1re édition |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 # AVANT-PROPOS 
 
@@ -211,7 +211,7 @@ La décadence du monde gréco-romain ne devait pas tarder à tarir la source du 
 
 # Chapitre II 
 
-## LA RENAISSANCE ET LE REVEIL DE LA SCIENCE ANTIQUE
+## LA RENAISSANCE ET LE RÉVEIL DE LA SCIENCE ANTIQUE
 
 Dans l'effondrement de l'Empire romain, - plus par la décadence de l'esprit et l'influence du christianisme que par l'action directe des Barbares, - la Science grecque s'éteignit avec la libre curiosité de l'esprit pour la Nature et l'abus général d'une vaine rhétcrique, mais elle trouva pour son sommeil un asile matériel à Byzance et c'est de là qu'elle devait finalement reprendre le chemin de l'Occident. Le Moyen Age fut l'ère de la théologie, qui avait emprunté à la philosophie grecque les formes du raisonnement, pour mettre celui-ci au service de la foi. Il en résulta la scolastique, fondement de la culture médiévale.
 
@@ -233,7 +233,7 @@ L'anatomie a pour base la dissection du cadavre humain, à laquelle l'Eglise ét
 
 leurs élèves du Titien, Etienne de Calcar. Vésale a rectifié de nombreuses erreurs de Galien, dues à ce que celui-ci avait disséqué surtout des singes. Mais les corrections de Vésale déchaînèrent des tempêtes et des flots d'injures. La polémique scientifique de ce temps n'avait rien d'académique. Il est caractéristique, pour marquer la force qu'avait alors l'autorité des Anciens, que les adversaires de Vésale allèrent jusqu'à expliquer ses discordances avec les données de Galien, en alléguant que la structure de l'homme avait dû changer depuis son époque. Cela révèle l'état d'esprit à la Renaissance et les obstacles dont dut triompher l'observation affranchie de préjugés. Et cependant, Vésale, qui avait reconnu et proclamé l'inexistence des pores dans la cloison interventriculaire du cœur, et avait été, pour ce faire, copieusement vilipendé, n'avait contredit Galien qu'avec timidité, obnubilé, comme l'avait été lui-même le pénétrant observateur qu'était Galien, par les doctrines aristotéliciennes sur la vie en général.
 
-Il fallut plus d'un siècle de discussions pour établir les conditions réelles de la circulation du sang et leur histoire est l'une des plus significatives pour mettre en évidence le pénible affranchissement de la pensée moderne par rapport à l'autorité des Anciens. Michel Servet, vers 1550, avait découvert et compris la circulation pulmonaire; il en avait tiré des conclusions qui le conduisirent au bûcher. Il restait cependant galéniste et, pour sauver la doctrine, en l'absence de pores dans la cloison des ventricules, il admettait que celle-ci laissait transsuder un esprit. Realdo Colombo et Fabrice d'Aquapendente, sans citer Servet, constatèrent à leur tour la circulation pulmonaire. Il fallut attendre William Harvey pour que fut comprise la grande
+Il fallut plus d'un siècle de discussions pour établir les conditions réelles de la circulation du sang et leur histoire est l'une des plus significatives pour mettre en évidence le pénible affranchissement de la pensée moderne par rapport à l'autorité des Anciens. Michel Servet, vers 1550, avait découvert et compris la circulation pulmonaire; il en avait tiré des conclusions qui le conduisirent au bûcher. Il restait cependant galéniste et, pour sauver la doctrine, en l'absence de pores dans la cloison des ventricules, il admettait que celle-ci laissait transsuder un esprit. Realdo Colombo et Fabrice D'Aquapendente, sans citer Servet, constatèrent à leur tour la circulation pulmonaire. Il fallut attendre William Harvey pour que fut comprise la grande
 
 circulation, exposée par Harvey dans son célèbre ouvrage Exercitationes de motu cordis et sanguinis in animalibus, publié à Francfort en 1628, non sans de minutieuses précautions et après avoir fait, pendant une série d'années, l'objet de démonstrations au Collège des Médecins de Londres. Par la vivisection, Harvey avait analysé tous les mouvements du cœur, reconnu que le pouls est dû à la propagation de l'onde sanguine dans les artères et compris, à l'aide d'expériences ingénieuses, que le sang, lancé par le cœur dans les artères, y revient par les veines. Ce fut seulement en 1661 que Malpighi, à Bologne, assista, sous le microscope, au cheminement du sang dans les capillaires faisant la jonction des artérioles aux veinules.
 
@@ -290,7 +290,7 @@ Leeuwenhoek. - Quant à Leeuwenhoek, c'est, comme l'a répété, après d'autres
 [^0]:    (1) Clifford Dobbell, Antony Van Leeuwenhoek and his little animals (Londres, 1932). Cet ouvrage extrêmement documente d'après les sources originales est d'un haut intérêt pour la personnalité et l'œuvre de Leeuwenhoek et pour l'atmosphère qui l'a entourée, hommes et institutions, ainsi que pour les origines de la microscopte.
 
 comptant les fils de ses tissus. Il construisait luimême ses lentilles, serties entre deux lames d'argent, - il en a fait plus de 400 (certaines ont un grossissement linéaire allant jusqu'à 160), etilapu, avec ces moyens rudimentaires, découvrir et interpréter tout un monde d'êtres extrêmement petits, jusqu'à des bactéries. Il les observait en particulier, à l'intérieur de tubes capillaires, explorant les milieux les plus divers, l'eau, des infusions variées, le
-![img-3.jpeg](img-3.jpeg)
+![img-3.jpeg](img-28-0.jpg)
 
 Fig. 1. - Le microscope (loupe simple) de Leeuwenhoek
 (d'après la reproduction de Cl . Dobell)
@@ -303,7 +303,7 @@ CHENS et dont il fut nommé membre en 1680), en hollandais vulgaire, ne sachant 
 [^0]
 [^0]:    (1) Ces lettres, au nombre de plus de 200, ont été presque toutes publiées dans les Philosophical Transactions de la Société Royale et, d'autre part, groupées (sauf les 27 premières, dont quelquesunes encore inédites) en quatre volumes, publiés d'abord en hollandais, puis en latin (Opera omnia, seu arcania Naturae, ope exactissimorum microscopiorum detecta, etc. Leyde, 1722).
 
-![img-4.jpeg](img-4.jpeg)
+![img-4.jpeg](img-30-0.jpg)
 
 Fig. 2. - Quelques figures (réduites) de Leeuwenhoek :
 A. En haut, à gauche, Spermatozoïdes : fig. 3 et 4, de Chien: fig. 5 et 6, de Lapin (letire 44, 1684).
@@ -354,7 +354,7 @@ Quelques années plus tard (1672), sur la voie ainsi tracée, un jeune anatomist
 (1) Le frontispice des Exercitationes, qui est reproduit ici (fig. 3), est orné d'une allégorie représentant Jupiter ouvrant une boite ronde, l'œuf, avec l'inscription Ex ovo omnia; diverses créatures surgissent de la boite. On a généralement transposé l'inscription, de façon infidèle, en la formule Omne vivum ex ovo, qui, si elle est conforme à la pensée de Harvey, n'est cependant pas authentique. D'ailleurs, à la fin de l'Exercitalio $1^{2}$, discutant avec délérence les idées de son ancien maitre Fabrice d'Aquapendente, Harvey dit expressément : a Nos aulcm (ut ex dicendis constabil) omnia omnino animalia, etiam vivipara alque hominem lúeo ipsum ex ovo progigni, primosque eorum conceptus e quibus fletus fiunt ova quaedam esse, ut et semina plantarum. - Ce texte montre quelle profonde intuition Harvey a eue de la réalité. Ajoutons qu'à l'encontre de son maitre, il rejette la génération spontanée et considère que les cas à elle attribués correspondent au fait que les parents différeraient des descendants (aequivoca, ut alunt, generatione a parentibus sui dissimilibus).
 (2) Regneri de Graaf, De Mulierum organis generationt inserolentibus Tractatus novus, etc., Leyde, 1672. Ce traité comprend seize chapitres, dont le douzième est consacré aux ovaires (De testibus muliebribus sive ovariis) et le seizième : Cuniculorum generationem somplectitur.
 
-![img-5.jpeg](img-5.jpeg)
+![img-5.jpeg](img-38-0.jpg)
 
 Fig. 3. - Frontisplce des Exercitationes de generatione animalium (éd. orig., Londres, 1651)
 découverte complète, à laquelle il serait peut-être arrivé par la suite s'il avait vécu. Il a vu en effet que ces vésicules crevaient, en laissant sur l'ovaire des corps cicatriciels qui sont les corps jaunes
@@ -362,16 +362,16 @@ découverte complète, à laquelle il serait peut-être arrivé par la suite s'i
 (fig. 1, BB) et il a eu le très grand mérite de faire de ces phénomènes une étude expérimentale (1) précise, en choisissant, par une intuition remarquablement heureuse, la lapine, chez laquelle, comme nous le savons aujourd'hui, la rupture des follicules est déterminée par l'accouplement avec le mâle. De Graaf sacrifie méthodiquement des lapines avant l'accouplement et ensuite à une série d'intervalles gradués ( $1 / 2$ heure, $6,24,27,48,52$, 72 heures, puis chacun des jours suivants). Il a ainsi constaté la rupture des follicules sur l'ovaire (2) et, à partir du $3^{e}$ jour, il a trouvé dans l'utérus les jeunes embryons (qu'il appelle ova) de taille croissante et qu'il figure (pl. XXVI et XXVII) aux divers stades de leur développement.
 
 En réalité, d'ailleurs, ces constatations capitales furent obnubilées au xvire siècle, par d'interminables discussions, touchant la nature même du développement, sur la préformation (réalisation complète de l'individu dans le germe dès le début) ou l'épigenèse (sa réalisation progressive, suivant l'opinion d'Harvey). On ne peut entrer ici dans le détail de ces discussions. La conception de la pré-
-(1) Voici le début du chap. XVI que je traduis textuellement : * Comme tous les faits rapportés dans les chapitres précédents ne peuvent être constatés de visu chez l'homme, fai fait des dissections chez les animaux et fen al choisi dont je pouvais me procurer un grand nombre, dont l'accouplement pouvait être exactement noté et qui produisent simultanément plusieurs factus, de façon a pouvoir observer sur l'un ce qui échapperait sur l'autre. C'est ce qui m'a conduit à m'adresser à la lapine. .
+(1) Voici le début du chap. XVI que je traduis textuellement : * Comme tous les faits rapportés dans les chapitres précédents ne peuvent être constatés de visu chez l'homme, fai fait des dissections chez les animaux et fen al choisi dont je pouvais me procurer un grand nombre, dont l'accouplement pouvait être exactement noté et qui produisent simultanément plusieurs factus, de façon a pouvoir observer sur l'un ce qui échapperait sur l'autre. C'est ce qui m'a conduit à m'adresser à la lapine. "
 (2) Voici un passage textuel : a 52 heures après l'accouplement. nous avons exploré une lapine, où nous avons trouvé dans un testicule (ovaire) un et dans l'autre quatre follicules inchangés (immutatos); les ayant disséqués, nous y avons trouvé une substance quasiglandulaire, avec au milieu une cavité étroite; n'ayant constaté dans celle-ci aucune quantité notable de liquide, nous avons commencé à nous demander si la liqueur des follicules, qui est enfermée dans la parol, ne siralf pas expulsée par la rupture de celle-cl.
 
 formation se compléta, avec une certaine logique, par celle de l'emboîtement des germes, suggérée à Swammerdam par l'étude de la chrysalide, à l'inté-
-![img-6.jpeg](img-6.jpeg)
+![img-6.jpeg](img-40-0.jpg)
 
 Fig. 4
 En haut, à gauche: fig. 1, Ovaire de Vache sectionné longitudinalement; $B B$, Corps jaune (glandulosa substantia quae post ovi expulsionem in testibus reperitur, per medium divisa); CC, Cavitas in quâ ovum contentum fuit, fere obsoleta; DD, Follicules (ova diversie magnitudinis in ovario contenta); $E$, vaisseaux sanguins; $F, H$, trompe de Fallope; $G$, orifice du pavilion.
 
-En bas, à gauche: fig. IV, Follicule de l'ovaire de Brebis ouvert avant l'expulsion de l'œuf (prout ovum adhuc continebat); $B$, Locus ex quo ovum exemptum est; $C$, Oum ex eo exemptum (il est douteux que ce soit vraiment l'œuf, d'après les dimensions).
+En bas, à gauche : fig. IV, Follicule de l'ovaire de Brebis ouvert avant l'expulsion de l'œuf (prout ovum adhuc continebat); $B$, Locus ex quo ovum exemptum est; $C$, Oum ex eo exemptum (il est douteux que ce soit vraiment l'œuf, d'après les dimensions).
 
 En haut, à droite : Ovaire de Vache ouvert longitudinalement; $B$, Oum maximum seu maturum (follicule mûr) in testiculo adhue contentum; D, membrane de Dartos.
 
@@ -414,7 +414,7 @@ Il aurait été certainement plus loin, si la Révolution n'avait pas fait tombe
 
 animaux leur ont empruntés. Par quels procédés, ajoute-t-il, la nature opère-t-elle cette merveilleuse circulation entre les trois règnes "? C'est ce que, pour la plus large part, Pasteur devait montrer au $\mathrm{XIX}^{\mathrm{e}}$ siècle.
 
-Il reste, pour achever le bilan de l'époque que nous étudions, à enregistrer les progrès de l'histoire naturelle descriptive. Le nombre des formes animales et végétales connues n'avait pas cessé de s'accroître depuis la Renaissance, tant en Europe qu'au Nouveau Monde et sous les tropiques graduellement explorés par des voyageurs, sous l'attrait de l'or ou des épices. La nécessité de classer toutes les formes ainsi découvertes conduisit progressivement à une notion précise du genre et de l'espèce. Elle se concrétise peu à peu au xvir ${ }^{e}$ siècle avec G. Bauhin, avec Morrison et John Ray, en Angleterre, Tournefort, en France, et d'autres. Au xvirie, Linné (1707-1778) couronna tous ces efforts, en consacrant et subordonnant l'une à l'autre les notions de genre et d'espèce, en zoologie et en botanique et en établissant la nomenclature binominale, qui constituait un langage approprié, encore régnant aujourd'hui. La $10^{e}$ édition de son Systema naturae (1758) reste la base universellement adoptée pour la dénomination des animaux et des plantes et le système linnéen a permis de mettre et de maintenir de l'ordre dans la masse énorme des espèces successivement décrites.
+Il reste, pour achever le bilan de l'époque que nous étudions, à enregistrer les progrès de l'histoire naturelle descriptive. Le nombre des formes animales et végétales connues n'avait pas cessé de s'accroître depuis la Renaissance, tant en Europe qu'au Nouveau Monde et sous les tropiques graduellement explorés par des voyageurs, sous l'attrait de l'or ou des épices. La nécessité de classer toutes les formes ainsi découvertes conduisit progressivement à une notion précise du genre et de l'espèce. Elle se concrétise peu à peu au xvir ${ }^{\mathrm{e}}$ siècle avec G. Bauhin, avec Morrison et John Ray, en Angleterre, Tournefort, en France, et d'autres. Au xvirie, Linné (1707-1778) couronna tous ces efforts, en consacrant et subordonnant l'une à l'autre les notions de genre et d'espèce, en zoologie et en botanique et en établissant la nomenclature binominale, qui constituait un langage approprié, encore régnant aujourd'hui. La $10^{e}$ édition de son Systema naturae (1758) reste la base universellement adoptée pour la dénomination des animaux et des plantes et le système linnéen a permis de mettre et de maintenir de l'ordre dans la masse énorme des espèces successivement décrites.
 
 Mais la description méthodique et la nomenclature ne suffisent pas à établir les affinités des espèces et des groupes qu'elles constituent, c'est-à-dire une classification naturelle. Le xvirie siècle a fait, à cet égard, un progrès considérable pour la Botanique, grâce aux
 
@@ -429,7 +429,7 @@ Si l'on embrasse d'un coup d'œil tout ce qui vient d'être dit sur la période 
 
 # Chapitre IV 
 
-## L'ESSOR DE LA BIOLOGIE DU XIX ${ }^{e}$ SIÈCLE A L'HEURE PRÉSENTE
+## L'ESSOR DE LA BIOLOGIE DU XIX ${ }^{e}$ SIECLE A L'HEURE PRÉSENTE
 
 Le xvirie siècle avait, en quelque sorte, défriché, pour la Biologie, les abords des grandes voies que le $\mathrm{XIX}^{e}$ allait tracer et parcourir à une allure de plus en plus rapide. D'autre part, le domaine géographique de la recherche scientifique, qui, de l'Italie du xve siècle, s'était étendu à l'Europe du xvirie, s'est encore énormément accru, et, en particulier, les Etats-Unis d'Amérique sont devenus de nos jours un champ de travail énorme, mettant au service de la Science des moyens matériels quasi-illimités. On pouvait résumer l'œuvre du xvirie siècle dans quelques grands noms. Il n'en est plus de même au xixe et nous devrons nous borner à caractériser les principaux courants de faits et d'idées, sans pouvoir évoquer directement tous ceux qui en ont été les animateurs.
 
@@ -488,7 +488,7 @@ cations biologiques. Le percement du canal de Panama et la formation du lac arti
 
 Le $\mathrm{XIX}^{e}$ siècle a ajouté à la documentation zoologique et botanique, tirée du monde actuel, un complément d'inestimable valeur, par la paléontologie, c'est-à-dire par l'étude des faunes et des flores des époques antérieures de la planète.
 
-Les fossiles, très abondants dans certains dépôts géologiques, ont été observés dès l'antiquité, mais quelques esprits seulement en avaient reconnu la nature réelle et la valeur, notamment Hérodote et Strabon; à la Renaissance, Bernard Palissy, Fracastor, Léonard de Vinci; au xvire siècle, Sténon et Leibniz; au xvirie, Réaumur, Buffon et un certain nombre de leurs contemporains; c'est de cette dernière époque que datent les premières études précises à leur sujet. Mais la Paléontologie ne se constitue comme science qu'avec le xix ${ }^{e}$ siècle ; ses créateurs sont : Cuvier, Geoffroy SaintHilaire et Lamarck pour les animaux, Ad. Brongniart pour les plantes. Cuvier met en valeur les Mammifères fossiles de la région parisienne, ainsi que des Reptiles. Son génie les interprète et les
+Les fossiles, très abondants dans certains dépôts géologiques, ont été observés dès l'antiquité, mais quelques esprits seulement en avaient reconnu la nature réelle et la valeur, notamment Hérodote et Strabon; à la Renaissance, Bernard Palissy, Fracastor, Léonard de Vinci; au xvire siècle, Sténon et Leibniz; au xvirie, Réaumur, Buffon et un certain nombre de leurs contemporains ; c'est de cette dernière époque que datent les premières études précises à leur sujet. Mais la Paléontologie ne se constitue comme science qu'avec le xix ${ }^{e}$ siècle ; ses créateurs sont : Cuvier, Geoffroy SaintHilaire et Lamarck pour les animaux, Ad. Brongniart pour les plantes. Cuvier met en valeur les Mammifères fossiles de la région parisienne, ainsi que des Reptiles. Son génie les interprète et les
 
 replace dans la classification zoologique actuelle. Ses travaux paléontologiques, réunis dans ses Mémoires sur les Ossements fossiles (auxquels le Discours sur les Révolutions du globe sert d'introduction), est le premier grand ouvrage de Paléontologie (il a eu trois éditions, de 1812 à 1826) et crée un courant de recherches qui n'a fait que s'amplifier de plus en plus. Geoffroy Saint-Hilaire a étudié surtout des Reptiles fossiles, Lamarck a fait, pour les Invertébrés (Mollusques et Brachiopodes), une œuvre parallèle, dans son Histoire naturelle des Animaux sans Vertèbres (1815-1822). L'Histoire des végétaux fossiles d'Ad. Broncniart (fils d'Alex. Broncniart, le collaborateur de Cuvier), constitue, en 1828, les cadres généraux de la paléontologie végétale. La Paléontologie, dans ses origines, est une science française.
 
@@ -512,7 +512,7 @@ Le $\mathrm{XIX}^{e}$ siècle a vu s'accomplir une des étapes majeures de la Bi
 Jusque-là on n'avait guère considéré l'organisme que dans son ensemble. Seuls quelques précurseurs avaient visé à en atteindre les éléments. Leeuwenhoek, par exemple, dans ses investigations microscopiques, avait aperçu les globules sanguins et, dans ceux des Batraciens, il avait même entrevu, sans pouvoir en comprendre la valeur, une formation vésiculaire qui est le noyau. Il avait vu aussi
 
 les fibres musculaires (cf. fig. 2, p. 29). Avant lui, en 1667, Rob. Hooke, plus physicien que naturaliste, faisant des sections minces du liege, avait constaté qu'il était formé par une agglomération
-![img-7.jpeg](img-7.jpeg)
+![img-7.jpeg](img-62-0.jpg)
 
 Fig. 6. - Structures cellulaires végétales figurées par Leeuwenhoek (lettre 29, 1679)
 Fig. 19, Portion de coupe transversale d'une tige de Graminée (cujusdam straminis in transversum discissae); $A B E F$, écorce; $G$, vaisseaux; $H$, autres vaisseaux mélés aux précédents [undiquaque repleta exiguis vasculis; in heec vasa liquorem (tempore quo stramen incrementum solet capere) rapidissime vidi influentem, etc.]; fig. 20, Coupe longitudinale des éléments $G$ de la fig. 19 (111I est valvularum locus, ibique vasa sunt omnium augustissima).
@@ -553,9 +553,9 @@ caryocinèse (1). Elle est déclenchée par des transformations du noyau. Celui-
 [^0]:    (1) Ce terme, aujourd'hui consacré, est dû à W. Schleifier (Arch. f. mikr. Anal., t. 16, 1879, p. 262).
 
 graphié. Nous verrons plus loin l'importance fondamentale de ces phénomènes pour l'étude du développement et de l'hérédité. Des travaux quasi innombrables ont été publiés, depuis 1880, sur la caryocinèse chez les animaux et chez les plantes (1).
-![img-8.jpeg](img-8.jpeg)
+![img-8.jpeg](img-69-0.jpg)
 
-Fig. 7. - Les phases de la caryocinèse suivies in vivo sur une cellule épithéliale de la queue d'une larve de Salamandre A partir du début : $a, 1 / 2$ h.; $b, 1$ h. $1 / 2$; c, 2 h.; $d, 2$ h. $3 / 4$; e-g, 3 h.; h, 3 h. $5^{\prime}$ (Flemming, 1879, Arch. f. mikr. Anat., t. 19).
+Fig. 7. - Les phases de la caryocinèse suivies in vivo sur une cellule épithéliale de la queue d'une larve de Salamandre A partir du début : $a, 1 / 2 \mathrm{~h} . ; b, 1 \mathrm{~h} .1 / 2 ; c, 2 \mathrm{~h} . ; d, 2 \mathrm{~h} .3 / 4$; e-g, 3 h.; h, 3 h. $5^{\prime}$ (Flemming, 1879, Arch. f. mikr. Anat., t. 19).
 
 On comprend que tous les problèmes biologiques se posent, en dernière analyse, à l'échelle cellulaire. Toutes les fonctions ont un substratum cellulaire. C'est la cellule qui assimile, respire et élimine, réalise les synthèses et les dégradations de substances, directement ou par des agents qu'elle produit. L'étude de la vie de la cellule elle-même est
 (1) On trouvera des exposés détaillés de la caryocinèse dans de nombreux traités (en particulier dans L. F. Henneguy, Lecons sur la cellule (Paris, 1896) et dans E. B. Wilson, The cell in development and inheritance, New York, $3^{\circ}$ éd., 1925).
@@ -574,7 +574,7 @@ Ex ovo omnia, inscrivait déjà, d'une façon quasi prophétique, comme nous l'a
 (1) Victor Coste, Histoire générale et particuliere du développement des êtres organisés. - La science moderne, en découvrant l'analogie qui existe entre l'œuf de l'homme, des mammiferes et celui des ovipares, entre la cellule et l'œuf lui-même, consacre le vieil adage, omne divum ex ovo et lui donne tous les caractères d'une démonstration expérimentale. Ce que le grand Harvey ne pouvait exprimer, en effet, que comme une vue hardie de l'esprit, ou une généralisation prématurée, nous pouvons le dire aujourd'hui comme l'incontestable résultat de nos expériences et de nos dissections: tout ce qui est vivant peut se développer d'une cellule ou d'un œuf.
 
 varechs; pour les animaux, en 1877, sur l'œuf d'une Etoile de mer, par le zoologiste suisse Herm. Fol. Immédiatement après cette pénétration, l'œuf, nu jusque-là, s'entoure d'une membrane et le déve-
-![img-9.jpeg](img-9.jpeg)
+![img-9.jpeg](img-72-0.jpg)
 
 Fig. 8. - La fécondation chez Fucus vesiculosus (Thuret, 1854, Ann. Sci. nut., Botun., sér. 4, t. 2)
 3 oosphères autour desquelles tourbillonnent des $\Xi$ anthérozoïdes
@@ -583,7 +583,7 @@ loppement commence. Il consiste en une succession de divisions cellulaires, isol
 l'abondance des substances de réserve (vitellus) qui y sont incorporées.
 
 La fécondation et le développement de l'œuf ont
-![img-10.jpeg](img-10.jpeg)
+![img-10.jpeg](img-73-0.jpg)
 
 Fig. 9. - La première observation in vivo la pénétration ( $D, E, F$ ) du spermatozoïde dans l'œuf chez une Etoile de mer (Asterias glacialis)
 En haut ( $A B C$ ), l'émission des globules polaires (Herm., Fol, 1877, Arch. Sci. Phys. Nat. Genève, t. 58).
@@ -594,7 +594,7 @@ L'état initial unicellulaire de l'individu, dans les deux règnes, est une des 
 Les gamètes résultent finalement de la multiplication, par une longue série de divisions cellulaires, des cellules germinales constituant l'ovaire et le testicule; les spermatozoïdes, en particulier, sont produits en nombres énormes. Or, nous avons dit que, dans chaque espèce, lors de la division cellulaire, il se manifeste un nombre constant, $2 n$, de chromosomes. Aux deux dernières divisions cellulaires aboutissant à la formation des gamètes mûrs, - les spermatozoïdes d'une part, l'oocyte ayant expulsé successivement (par deux divisions cellulaires) deux petits corpuscules, les globules polaires, ce nombre de chromosomes est réduit de moitié, de $2 n$ à $n$, grâce à un mécanisme spécial, uniforme et général dans cette double division cellulaire terminale. L'état cellulaire diploïde ( $2 n$ chromosomes) fait donc place, dans les gamètes, à un état haploïde ( $n$ chromosomes); ce processus est ce que l'on appelle la réduction chromatique, ou méiose. Par la fécondation, le spermatozoïde de fusionnant avec l'oocyte, les noyaux des deux gamètes se fusionnent, en additionnant leurs chromosomes respectifs, $(n+n=2 n)$ et ainsi l'état diploïde est reconstitué dans l'œuf fécondé. La fécondation, précédée pour chaque gamète par la méiose, apparaît ainsi comme un processus général, assurant la cons-
 
 tance du nombre des chromosomes à travers les générations successives. Ce mécanisme, précis et général dans les deux règnes, a nécessairement une signification considérable, que nous verrons à propos de l'hérédité. Il a été mis en lumière, à partir de 1875, concurremment avec l'étude de la caryocinèse, par
-![img-11.jpeg](img-11.jpeg)
+![img-11.jpeg](img-75-0.jpg)
 
 Fig. 10. - Les chromosomes paternels et maternels dans l'œuf fécondé d'Ascaris megalocephala (Ed. Van Beneden, 1883, Boveir, 1887)
 une longue série de travaux, dont les protagonistes ont été, pour les végétaux, Strasburger et L. Guignard, pour les animaux Ant. Schneider, O. Bütschi, O. et R. Hertwig et surtout le zoologiste belge Ed. Van Beneden, qui, en 1883, a décrit le mécanisme chromosomique de la fécondation dans toute sa netteté, sur un ver Nématode parasite de l'intestin du cheval, l'Ascaris megalocephala. Les faits ont encore été précisés, chez cet animal, par Th. Boveri, en 1887, et depuis, chez des animaux et des plantes de tous les groupes. La méiose ellemême a été définitivement analysée vers 1910, où
@@ -637,7 +637,7 @@ EMBRYOLOGIE NATURELLE ET EXPÉRIMENTALE. TÉRATOLOGIE
 
 Après avoir ainsi poussé jusqu'à cette limite extrême dans la simplification de la substance vivante, revenons au domaine cellulaire pour situer brièvement une dernière branche de la Biologie qui, sans avoir, par sa nature même, une véritable autonomie, n'en constitue pas moins une des disciplines les plus fécondes de la science actuelle, l'Embryologie.
 
-La théorie cellulaire lui a donné une base définitive, l'œuf, stade initial des organismes, étant une cellule et le développement embryonnaire se résumant en une succession de divisions cellulaires. D'autre part, les théories transformistes ont donné, comme nous le verrons plus loin, une importance majeure à l'étude de l'embryologie, qui a été une des branches les plus intensément travaillées de la Biologie à la fin du xix ${ }^{e}$ siècle, et les plus approfondies, grâce aux techniques de l'anatomie microscopique, et en particulier au microtome. On a pu, ainsi, suivre, cellule par cellule, la formation et la différenciation de l'embryon, dans son ensemble, dans chacun de ses organes et, d'une façon comparative, dans tous les groupes.
+La théorie cellulaire lui a donné une base définitive, l'œuf, stade initial des organismes, étant une cellule et le développement embryonnaire se résumant en une succession de divisions cellulaires. D'autre part, les théories transformistes ont donné, comme nous le verrons plus loin, une importance majeure à l'étude de l'embryologie, qui a été une des branches les plus intensément travaillées de la Biologie à la fin du xixe siècle, et les plus approfondies, grâce aux techniques de l'anatomie microscopique, et en particulier au microtome. On a pu, ainsi, suivre, cellule par cellule, la formation et la différenciation de l'embryon, dans son ensemble, dans chacun de ses organes et, d'une façon comparative, dans tous les groupes.
 
 Le développement de chaque espèce est un mécanisme réglé avec une extrême précision. On a pu reconstituer le lignage cellulaire (cell-lineage) de tous les organes et constater qu'il présente une uniformité quasi absolue dans les grands groupes d'animaux ; la comparaison de ces résultats a permis de mesurer, avec une précision remarquable, les
 
@@ -717,11 +717,11 @@ Une généralisation abusive de la notion de sécrétion interne avait été fai
 
 Ces expériences eurent un grand retentissement; elles furent l'objet de vives controverses et le point de départ d'une nouvelle thérapeutique, consistant à combattre les troubles dus à la déficience d'un organe, par l'injection, ou l'ingestion de produits extraits du même organe emprunté à des animaux sains; c'est l'opothérapie, qui, si elle a conduit à des applications abusives, a cependant été très féconde. Cette technique nouvelle a, d'autre part, été la source de nombreux travaux sur les glandes à sécrétion interne, à partir de 1900.
 
-La méthode a consisté à étudier les troubles consécutifs à l'ablation de ces organes, à voir dans quelle mesure on y parait en pratiquant, après l'ablation, des greffes de ces mêmes organes, ou bien en en administrant des extraits diversement préparés; enfin, à chercher à isoler de ces extraits les substances actives. Ainsi a été élucidée la fonction principale, ou les fonctions multiples, des glandes à sécrétion interne, pour chacune desquelles ont pu être caractérisées, puis extraites chimiquement à l'état de pureté et le plus souvent obtenues directement par synthèse, une ou plusieurs substances, auxquelles est due leur action spécifique sur l'organisme. Ces substances sont les hormones. Pour la thyroide, par exemple, l'hormone est la thyroxine, caractérisée par la présence de l'iode; pour les capsules surrénales c'est l'adrénaline (la zone corticale de ces organes sécrète encore d'autres hormones connues très récemment et agissant sur les glandes génitales). On ne savait rien des fonctions de l'hypophyse; elle apparait maintenant comme un des organes les plus puissants, fabriquant toute une série d'hormones aux actions multiples. Du pancréas, on ne connaissait que sa fonction exocrine (sécrétion du suc pancréatique, déversé dans l'intestin). Par les
+La méthode a consisté à étudier les troubles consécutifs à l'ablation de ces organes, à voir dans quelle mesure on y parait en pratiquant, après l'ablation, des greffes de ces mêmes organes, ou bien en en administrant des extraits diversement préparés ; enfin, à chercher à isoler de ces extraits les substances actives. Ainsi a été élucidée la fonction principale, ou les fonctions multiples, des glandes à sécrétion interne, pour chacune desquelles ont pu être caractérisées, puis extraites chimiquement à l'état de pureté et le plus souvent obtenues directement par synthèse, une ou plusieurs substances, auxquelles est due leur action spécifique sur l'organisme. Ces substances sont les hormones. Pour la thyroide, par exemple, l'hormone est la thyroxine, caractérisée par la présence de l'iode; pour les capsules surrénales c'est l'adrénaline (la zone corticale de ces organes sécrète encore d'autres hormones connues très récemment et agissant sur les glandes génitales). On ne savait rien des fonctions de l'hypophyse; elle apparait maintenant comme un des organes les plus puissants, fabriquant toute une série d'hormones aux actions multiples. Du pancréas, on ne connaissait que sa fonction exocrine (sécrétion du suc pancréatique, déversé dans l'intestin). Par les
 
 méthodes indiquées plus haut, on lui a découvert (HÉdon) un rôle endocrine essentiel, émanant de groupes de cellules, les îlots de Langerhans (étudiés surtout par LAGUESSE), qui élaborent une hormone spéciale, l'insuline, dont l'absence ou l'insuffisance détermine un diabète grave (auquel on remédie par des injections de cette substance).
 
-D'autres organes se sont encore révélés comme ayant, à côté de leur rôle exocrine, une ou des fonctions endocrines importantes. Telles sont les glandes génitales. On sait aujourd'hui que, dans les detx sexes, elles produisent, dans leur parenchyme, toute une série d'hormones identifiées chimiquement; ce sont des stérols, dérivant de la cholestérine, dont la formule chimique est connue et qu'on produit maintenant par synthèse. Ces hormones sexuelles contrôlent la différenciation de nombreux caractères sexuels secondaires et le fonctionnement de l'appareil génital. Leur rôle est particulièrement intéressant chez la femelle des Mammifères, où ce sont elles qui assurent la coordination des transformations cycliques assurant la vie de l'embryon pendant son développement dans l'utérus (1). Le fonctionnement hormonal des glandes génitales est luimême sous la dépendance étroite de l'hypophyse, qui est, en quelque sorte, leur animatrice, par l'intermédiaire d'autres hormones qu'elle produit ellemême (hormones gonadotropes, prolans). Il y a là un des plus brillants chapitres de l'histophysiologie contemporaine, dont les initiateurs ont été : pour les Mammifères, Bourn et Ancel; pour les Oiseaux : en France A. Pézard, et Goodale, aux Etats-Unis, et qui a suscité toute une légion de chercheurs éminents, embryologistes, histologistes, chimistes,
+D'autres organes se sont encore révélés comme ayant, à côté de leur rôle exocrine, une ou des fonctions endocrines importantes. Telles sont les glandes génitales. On sait aujourd'hui que, dans les det $x$ sexes, elles produisent, dans leur parenchyme, toute une série d'hormones identifiées chimiquement; ce sont des stérols, dérivant de la cholestérine, dont la formule chimique est connue et qu'on produit maintenant par synthèse. Ces hormones sexuelles contrôlent la différenciation de nombreux caractères sexuels secondaires et le fonctionnement de l'appareil génital. Leur rôle est particulièrement intéressant chez la femelle des Mammifères, où ce sont elles qui assurent la coordination des transformations cycliques assurant la vie de l'embryon pendant son développement dans l'utérus (1). Le fonctionnement hormonal des glandes génitales est luimême sous la dépendance étroite de l'hypophyse, qui est, en quelque sorte, leur animatrice, par l'intermédiaire d'autres hormones qu'elle produit ellemême (hormones gonadotropes, prolans). Il y a là un des plus brillants chapitres de l'histophysiologie contemporaine, dont les initiateurs ont été : pour les Mammifères, Bouin et Ancel; pour les Oiseaux : en France A. Pézard, et Goodale, aux Etats-Unis, et qui a suscité toute une légion de chercheurs éminents, embryologistes, histologistes, chimistes,
 (1) Cf. M. Caullery, Organisme et sexualité, Paris (Doin), 1941.
 
 physiologistes. Les actions de ces hormones sont généralement stimulatrices; il en existe toutefois qui sont, au contraire, inhibitrices, et auxquelles on a attribué le nom de chalones.
@@ -782,7 +782,7 @@ L'hérédité s'est imposée à l'esprit de temps immémorial. La similitude plu
 née et susceptible de prévisions rationnelles (1).
 Les processus biologiques se laissent analyser presque toujours, en raison de leur complexité, non dans leur fonctionnement normal, mais dans leurs anomalies. En matière d'hérédité, un cas anormal est celui du croisement entre races, variétés, ou même espèces distinctes. Or, certains de ces croisements sont pratiqués de longue date, de façon courante. Il y a de nombreux siècles que l'homme a croisé l'âne et le cheval, pour obtenir mulets et mules; mais ceux-ci sont invariablement stériles. On a fait aussi, depuis longtemps, des croisements entre races ou espèces de volailles, faisans, canards, chardonneret et serin, etc. Tout cela s'est fait de façon très empirique.
 
-Au début du xvire siècle, s'ouvre la voie qui, à la fin du xix ${ }^{\mathrm{e}}$, conduira à la Génétique. On se rend compte, à ce moment, de la nature des étamines de la fleur, comme organes mâles de la plante. Césarpin, sur la foi des doctrines aristotéliciennes, refusait toute sexualité aux plantes et Tournefort voyait encore dans les étamines des organes d'excrétion; cependant, dès l'antiquité, Théophraste avait eu l'intuition, à propos de la production des fruits du palmier et de la caprification du figuier, du rôle réel des étamines. C'est en 1691 que Camerarius, à Tubingen, dans son Epistola de sexu plantarum, affirme leur nature d'organes mâles. En 1751, Kçlreuter inaugure une méthode nouvelle, en utilisant le pollen d'une espèce à en féconder une autre. Il a ainsi croisé des tabacs (Nicotiana rustica $\times N$. paniculata), obtenu des hybrides et une série d'une vingtaine de générations, en fécondant
+Au début du xvire siècle, s'ouvre la voie qui, à la fin du xix ${ }^{\mathrm{e}}$, conduira à la Génétique. On se rend compte, à ce moment, de la nature des étamines de la fleur, comme organes mâles de la plante. CésarPIN, sur la foi des doctrines aristotéliciennes, refusait toute sexualité aux plantes et Tournefort voyait encore dans les étamines des organes d'excrétion; cependant, dès l'antiquité, Théophraste avait eu l'intuition, à propos de la production des fruits du palmier et de la caprification du figuier, du rôle réel des étamines. C'est en 1691 que Camerarius, à Tubingen, dans son Epistola de sexu plantarum, affirme leur nature d'organes mâles. En 1751, Kçlreuter inaugure une méthode nouvelle, en utilisant le pollen d'une espèce à en féconder une autre. Il a ainsi croisé des tabacs (Nicotiana rustica $\times N$. paniculata), obtenu des hybrides et une série d'une vingtaine de générations, en fécondant
 (1) Cf. M. Caullers, Les conceptions modernes de l'Hérédité, Paris (Flammarion), 1935.
 
 ces hybrides par le pollen de l'une ou l'autre des espèces parentes; les générations ainsi obtenues faisaient retour progressivement à l'une de celles-ci. Parmi ses successeurs on peut citer surtout le Hollandais Gärtner, qui, en 1844, a publié des travaux étendus sur l'hybridation. En France, en 1826, Sageret avait fait une constatation judicieuse, en croisant deux variétés de melons, le chate ( $M$ ) et le cantaloup (C).
@@ -806,7 +806,7 @@ Tous les faits ne se ramènent pas simplement au type résumé plus haut, qui re
     (2) Cf. M. Caullery, Les conceptions modernes de l'Hérédité, Paris (Flammarion), 1935.
 
 ment favorable, par la facilité de son élevage, la rapidité de sa reproduction et le grand nombre des individus produits. Dans les élevages, Morgan a su discerner un grand nombre de variations brusques,
-![img-12.jpeg](img-12.jpeg)
+![img-12.jpeg](img-109-0.jpg)
 
 Fig. 11. - L'hérédité mendélienne croisement souris grise $\times$ souris blanche (Cuénor, Genèse des Espèces)
 
@@ -863,11 +863,11 @@ signalés chez l'CEnothera lamarckiana et plus ou moins retrouvés chez d'autres
 
 L'état actuel du problème. - Il résulte de l'exposé précédent que, si le fait de l'Evolution s'impose par l'ensemble de nos connaissances actuelles, la façon dont elle s'est accomplie est loin d'être éclaircie. La tendance présentement dominante, particulièrement en Angleterre, repose sur l'idée darwinienne de la sélection, appliquée aux variations brusques que sont les mutations (en laissant de côté celles du genre Enothera). Le lamarckisme est peu en faveur et cependant l'adaptation est un fait indéniable et d'ordre général (sans que toutes les particularités des organismes aient pour cela un caractère adaptatif), dont la réalisation par le hasard, est plus que problématique.
 
-Non seulement, dans chaque organisme, existe une corrélation précise et harmonieuse des fonctions et des structures, mais la plupart des espèces offrent de nombreuses particularités correspondant étroitement aux conditions de vie de l'animal. Enfin fréquents sont aussi les exemples frappants de dispositifs spéciaux offrant un agencement de parties comparable à celui d'outils conçus par l'homme. C'est ce que Cuénot (1) a appelé des coaptations. Elles se trouvent réalisées de toutes pièces chez l'individu, au cours du développement, préalablement à tout usage. J'en donne ici un exemple
-(1) L, Cuénot, L'Adaptation, Paris, 1929, pp. 265 et suiv.
+Non seulement, dans chaque organisme, existe une corrélation précise et harmonieuse des fonctions et des structures, mais la plupart des espèces offrent de nombreuses particularités correspondant étroitement aux conditions de vie de l'animal. Enfin fréquents sont aussi les exemples frappants de dispositifs spéciaux offrant un agencement de parties comparable à celui d'outils conçus par l'homme. C'est ce que Cuénor (1) a appelé des coaptations. Elles se trouvent réalisées de toutes pièces chez l'individu, au cours du développement, préalablement à tout usage. J'en donne ici un exemple
+(1) L, Cuénor, L'Adaptation, Paris, 1929, pp. 265 et suiv.
 
 curieux (fig. 12), chez la larve des Passalides (1). La troisième patte de chaque côté $p_{3}$ y est réduite à un moignon orienté dans le sens postéro-antérieur et
-![img-13.jpeg](img-13.jpeg)
+![img-13.jpeg](img-120-0.jpg)
 
 Fig. 12. - En haut, jeune larve (1er stade) de Pussalus (d'après R. Heymons); en bas, portion latérale du mésoet du métathorax d'une larve de Passalide de Bornéo (d'après David Sharp)
 $c p_{2}, f p_{3}$, coxa et base du fémur de la seconde patte $\left(p_{3}\right) ; S$, surface striée formant organe de stridulation; $p_{s}$, troisième patte trés courte avec griffes, grattant la surface $S$.
@@ -908,7 +908,7 @@ La solution radicale de cette énigme serait d'arri-
 ver à créer de toutes pièces des substances ayant toutes les propriétés de la substance vivante, en réalisant cette génération spontanée, qui, jusqu'ici, n'a été qu'une illusion décevante et qui, peut-être, le sera toujours, si la Vie est réellement irréductible aux propriétés des substances non vivantes, quelle que soit la complexité de celles-ci.
 
 La physique et la chimie nous offrent présentement le spectacle de la transmutation des éléments, - hier encore chimère des alchimistes, - effectuée au laboratoire à l'aide des radiations. Elles nous révèlent, en outre, que le déterminisme, au sens classique, n'a pas une valeur absolue et qu'il cesse d'exister dans le domaine et à l'échelle des atomes, où, au contraire, nous trouvons seulement incertitudes et probabilités, sur la base des quanta. N'y aurait-il pas, dans l'ordre des grandeurs de l'espace et du temps, une échelle, inverse en quelque sorte, embrassant l'infinité du passé et où les lois du monde actuel ne s'appliqueraient plus rigoureusement, où surtout elles ne seraient pas applicables aux conditions initiales qui ont permis la réalisation de la Vie, avec les modalités spéciales qu'elle nous présente? N'y aurait-il pas aussi, dans le monde présent, pour le fonctionnement physicochimique élémentaire de la substance vivante, du fait même de la grandeur et de la complexité de ses molécules, des résultantes spéciales encore insoupçonnées, qui seraient à la base des particularités de la constitution des organismes et de l'Evolution qui nous déconcertent par leur irréductibilité aux lois du monde inorganique (1)?
-(1) Les physiciens quantistes se sont posé déjà le problème de l'incidence de la théorie des quanta sur les problèmes généraux de la Biologie. Mon confrère et ami Louis de Broglie m'a signalé un ouvrage de P. Jordan (Anschauliche Quantentheorie, Berlin, 1936), où
+(1) Les physiciens quantistes se sont posé déjà le problème de l'incidence de la théorie des quanta sur les problèmes généraux de la Biologie. Mon confrère et ami Louis de Broglie m'a signalé un ouvrage de P. Jordan (Anschauliche Quantentheorie, Berlin, 1936), ou
 
 Nous arrivons ainsi, à la source des étapes futures de la Biologie, à une grande interrogation qu'évoque le titre même de la présente collection : Que sais-je?
 ce point est traité dans un chapitre spécial (Kausalität und Statistik im Organischen, p. 292-302). J'en résume très brièvement l'essentiel.

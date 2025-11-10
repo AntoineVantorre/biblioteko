@@ -58,3 +58,49 @@ Analyse du sujet du PJE, mots par mots. Construction du glossaire sous forme de 
 - J'ai eu quelques difficultés à essayer de récupérer les images et schémas du livre en utilisant l'agent pixtral. En discutant avec u autre groupe, j'ai décidé d'essayer différement avec la technique actuelle (en faisant un upload du fichier à transcrire sur l'api de mistral).
 - Il faudrait ajouter à la requête une extraction des métadonnées du pdf afin de pouvoir construire le profil de l'oeuvre plus tard.
 
+
+
+*13/10/2025*
+
+Travail sur la récupération des images et schéma de la transcription. Fusion des branches git de notre groupe en vue de faire une pull request.
+
+à faire : ajouter les refs des images à celles du dossier des images
+
+*20/10/2025*
+
+Travail sur la récupération des images dans la transcription, qui est à présent fonctionnelle. Il reste à passer le texte dans l'IA pour correction (rassemblement des mots coupés entre les pages, etc), chose qui ne fonctionne plus maintenant mais qui fonctionnait avant (je pense que c'est à cause d'un changement dans les conditions d'utilisation de l'API Mistral).
+
+
+
+**Réflexions sur la gestion des oeuvres protégées par un droit d'auteur.**
+- Chiffrement de l'oeuvre (dans quel contexte, comment et pourquoi ? ) -> Le chiffrement ne reste efficace que 10 ans en moyenne
+- Hébergement des oeuvres dans un autre pays -> pas possible, c'est trop risqué
+- découpage de l'oeuvre en citations et rassemblement -> pareil, trop risqué et complexe
+- ne proposer que des oeuvres libres de droits d'auteurs -> ne répond pas au cahier des charges de biblioteko, et il faut tout de même trouver un protocol qui s'assure qu'aucune oeuvre protégé n'est téléchargée
+
+
+Idée de prodécure de dépôt d'une oeuvre
+- Dépose une oeuvre sur la plateforme
+- vérifier dans la base des oeuvres déjà examinées (base qui peut se trouver sur internet, comme ISBN search) si l'oeuvre a déjà été marquée comme protégée ou non, en fonction de la date de mort de l'auteur (ou non)
+- passage dans une IA qui va vérifier qu'il n'y a rien d'illégal dans l'oeuvre
+- étape de modération :
+    - seuls les modérateurs peuvent regarder l'oeuvre à ce stade
+    - les modérateurs n'ont accès qu'à une vue 
+    - une fois que l'oeuvre est acceptée par les modérateurs elle peut être mise en ligne si elle est libre de droits d'auteurs. Sinon, on supprime le contenu.
+
+Nous nous sommes mis d'accord sur cette solution.
+
+
+*3/11/2025*
+
+Mise en commun des solutions trouvées par les différents groupes pour contourner la loi / traiter les oeuvres de manière légale.
+
+Discussion sur le cryptage des documents en fonction des différents utilisateurs. IL y a deux solutions possibles : 
+- Le document est crypté en autant d'exemplaire qu'il y a d'utilisateurs, avec leur clé privée respective. Ainsi, chaque utilisateur peut décrypter sa version du document. Souvent, un filligrane est ajouté au document pour pouvoir identifier le coupable si le document fuite. 
+- Le document est crypté avec une clé aléatoire, cette clé est crypté avec la clé de chaque utilisateur dans un document séparé pour chaque utilisateur. Ainsi, lorsque l'utilisateur veut accéder au document, il cherche l'en-tête qui lui correspond et décrypte la clé à l'aide de sa clée privée. Il peut ensuite décrypter le document. 
+
+Recherches sur DEEPSEEK OCR. Malheureusement ce modèle ne peut pas être installé sur la machine de la fac car il n'y a pas assez d'espace.
+
+Nous avons mieux compris l'enjeux du projet au travers des discussions avec mon binôme et avec le professeur, qui est principalement d'apprendre de nouvelles choses. Nous avons donc deux options, soit on reste simple mais le projet doit fonctionner correctement, soit on décide d'être plus ambitieux en laissant place à de potentiels problèmes de fonctionnement. Il me semble qu'être plus ambitieux peut être plus gratifiant en terme d'apprentissage. Ces réflexions sont à aprofondir pour la prochaine fois. 
+
+Pendant la prochaine séance, il faudrait mettre en place la modération des oeuvres avec l'IA (première étape de modération), afin d'avertir si une oeuvre contient du contenu illégal.

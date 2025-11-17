@@ -32,15 +32,15 @@ classDiagram
         + supprimer_oeuvre()
     }
 
-    class Gestion_oeuvre {
-        <<interface>> gestion
+    class GestionOeuvre {
+        <<interface>> Gestion_Oeuvre
     }
 
     %% =====================================
     %% === CLASSES LIÉES AUX ŒUVRES ========
     %% =====================================
 
-    class Numeric_file {
+    class FichierNumerique {
         - id_fichier : int
         - nom : String
         - chemin_git : String
@@ -51,13 +51,13 @@ classDiagram
         + de_chiffrer()
     }
 
-    class Book {
+    class Livre {
         - id_livre : int
         - texte : String
         - type : String
     }
 
-    class Category {
+    class Categorie {
         - id_categorie : int
         - nom_categorie : String
     }
@@ -79,13 +79,13 @@ classDiagram
     %% === CLASSES TECHNIQUES / IA =========
     %% =====================================
 
-    class Ia_service {
+    class ServiceIa {
         - api_key : String
         + reconnaissance_texte(pdf_path)
         + enrichir_metadonnees(texte)
     }
 
-    class Depot_git {
+    class DepotGit {
         - url : String
         + ajouter_fichier()
         + maj_fichier()
@@ -100,25 +100,25 @@ classDiagram
     Utilisateur <|-- Membre
     Membre <|-- Bibliothecaire
     Utilisateur <|-- Administrateur
-    Administrateur --o Gestion_oeuvre
-    Bibliothecaire --o Gestion_oeuvre
+    Administrateur --o GestionOeuvre
+    Bibliothecaire --o GestionOeuvre
 
     %% Fichiers et contenu
-    Numeric_file "1" --> "1" Book : contient
-    Numeric_file "1" --> "1..n" Category : appartient
-    Numeric_file "1" --> "1" Etat : a_pour_etat
-    Book "1" --> "0..n" Image : composé_de
+    FichierNumerique "1" --> "1" Livre : contient
+    FichierNumerique "1" --> "1..n" Categorie : appartient
+    FichierNumerique "1" --> "1" Etat : a_pour_etat
+    Livre "1" --> "0..n" Image : composé_de
 
     %% Relation membre / fichier
-    Membre "1" --> "0..n" Numeric_file : propose
-    Membre "1" --> "0..n" Numeric_file : emprunte
+    Membre "1" --> "0..n" FichierNumerique : propose
+    Membre "1" --> "0..n" FichierNumerique : emprunte
 
     %% Modération
-    Bibliothecaire "1" --> "0..n" Numeric_file : modère
+    Bibliothecaire "1" --> "0..n" FichierNumerique : modère
 
     %% IA et dépôt
-    Ia_service --> Numeric_file : analyse
-    Depot_git --> Numeric_file : versionne
+    ServiceIa --> FichierNumerique : analyse
+    DepotGit --> FichierNumerique : versionne
 
     %% =====================================
     %% === NOTES ===========================

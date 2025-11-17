@@ -120,3 +120,10 @@ Initialement, j ai pensé a faire un decorateur, pour specifier qu'un bibliothec
 Utilisateur <- Membre <- Bibliothecaire <- Administrateur
 Mais cela impliquerait des problemes de duplication des methodes, l'admin aurait des fonctionnalité non pertinentes, pourrait peut etre creer un nouveau profil admin etc
 On prefere partir de l'idée de créer une Interface "Gestion_oeuvres" qui regroupe les fonctionnalités communes de "Administrateur" et de "Bibliothecaire"
+
+## 17 novembre
+On a malheureusement pas le temps de faires des diagrammes sur l'ensemble des scenarios etc, donc on en fait quelques uns sur 
+- Diagramme de classe: on applique le snake case car destiné a du code python
+- BPMN: pour accompagner chaque scenario, on decrit les actions des differents acteurs pour une activité complexe telle que l'inscription d'un membre
+- Diagramme d'etat transition: Pour cette V0, le diagramme d etat des fichiers ne prend pas en compte des notions complexe du genre "comment/qui/ou est stocké le fichier numerique, on considere pour cette version que tout est stocké dans un unique repo commun, mais a l'avenir, on attribuera un repo pour chaque oeuvre (pour une v1), on peut supposer que dans des cas extremes, cela pourrait poser probleme sur des oeuvres lourdes de plus de 2Go, mais viable pour une V1, on pourra ensuite implementer une nouvelle maniere de stocker les oeuvres pour contrer ce probleme, en repartissant les oeuvres lourdes sur plusieurs repo.
+- Diagramme de sequence: on a decrit ici les differentes etapes pour valider/ rejeter une nouvelles inscription pour devenir membre, le diagramme en question est relativement simple mais reflete une vrai complexité d'implementation avant de connaitre le fonctionnement de FranceConnect

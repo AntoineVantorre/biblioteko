@@ -10,26 +10,30 @@ classDiagram
         - nom : String
         - email : String
         - mot_de_passe : String
-        + seConnecter()
-        + consulterCatalogue()
+        - date_inscription : Date
+        + se_connecter()
+        + consulter_catalogue()
     }
 
     class Membre {
-        - date_inscription : Date
-        + proposerOeuvre()
-        + consulterEmprunts()
+        + proposer_oeuvre()
+        + consulter_emprunts()
     }
 
     class Bibliothecaire {
-        + validerOeuvre()
-        + rejeterOeuvre()
-        + corrigerMetadonnees()
+        + valider_oeuvre()
+        + rejeter_oeuvre()
+        + corriger_metadonnees()
     }
 
     class Administrateur {
-        + gererUtilisateurs()
-        + auditerSysteme()
-        + supprimerOeuvre()
+        + gerer_utilisateurs()
+        + auditer_systeme()
+        + supprimer_oeuvre()
+    }
+
+    class Gestion_oeuvre {
+        <<interface>> gestion
     }
 
     %% =====================================
@@ -42,9 +46,9 @@ classDiagram
         - chemin_git : String
         - date_ajout : Date
         - statut : String
-        + exporterMarkdown()
+        + exporter_markdown()
         + chiffrer()
-        + deChiffrer()
+        + de_chiffrer()
     }
 
     class Book {
@@ -75,16 +79,16 @@ classDiagram
     %% === CLASSES TECHNIQUES / IA =========
     %% =====================================
 
-    class IAService {
+    class Ia_service {
         - api_key : String
-        + reconnaissanceTexte(pdf_path)
-        + enrichirMetadonnees(texte)
+        + reconnaissance_texte(pdf_path)
+        + enrichir_metadonnees(texte)
     }
 
-    class DepotGit {
+    class Depot_git {
         - url : String
-        + ajouterFichier()
-        + majFichier()
+        + ajouter_fichier()
+        + maj_fichier()
         + synchroniser()
     }
 
@@ -96,6 +100,8 @@ classDiagram
     Utilisateur <|-- Membre
     Membre <|-- Bibliothecaire
     Utilisateur <|-- Administrateur
+    Administrateur --o Gestion_oeuvre
+    Bibliothecaire --o Gestion_oeuvre
 
     %% Fichiers et contenu
     Numeric_file "1" --> "1" Book : contient
@@ -111,13 +117,14 @@ classDiagram
     Bibliothecaire "1" --> "0..n" Numeric_file : modère
 
     %% IA et dépôt
-    IAService --> Numeric_file : analyse
-    DepotGit --> Numeric_file : versionne
+    Ia_service --> Numeric_file : analyse
+    Depot_git --> Numeric_file : versionne
 
     %% =====================================
     %% === NOTES ===========================
     %% =====================================
     note for Bibliothecaire "Peut corriger les métadonnées ou rejeter les œuvres."
-    note for IAService "Utilise des API externes (ex: Mistral, Gemini) pour OCR et enrichissement."
-    note for DepotGit "Remplace la base de données traditionnelle."
+    note for Ia_service "Utilise des API externes (ex: Mistral, Gemini) pour OCR et enrichissement."
+    note for Depot_git "Remplace la base de données traditionnelle."
 ```
+

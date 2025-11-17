@@ -2,7 +2,7 @@
 
 - Description:
 
-Une personne veut devenir Utilisateur, il doit s authentifier via son adresse mail
+Une personne veut devenir Utilisateur, il doit s'authentifier via son adresse mail
 
 Listes des acteurs:
 

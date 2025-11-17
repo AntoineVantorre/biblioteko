@@ -124,3 +124,22 @@ Le bibliothécaire hérite de "membre", comme un membre plus spécialisé. Ainsi
 Nous avons eu le même débat pour le rôle d'administrateur. L'administrateur a le droite de "tout" faire : gérer les oeuvres et les utilisateurs. Il a donc des méthodes en commun avec le bibliothécaire pour la modération des oeuvres. La question était, doit-on faire hériter administrateur de bibliothécaire ? Nous avons conclu que non. La raison principale est que bien qu'il aient certaines actions en commun, les deux rôles ont des buts différents et des manières différentes d'y parvenir. L'admin ayant plus de "pouvoir" que le bibliothécaire, il passe par moins d'étapes de vérification pour, par exemple, ajouter une oeuvre. En plus de cela, l'un des rôles de l'admin est de gérer les utilisateur, par exemple conférer ou retirer à un membre le rôle de bibliothécaire. Si admin héritait de bibliothécaire, alors l'administrateur serait capable de se supprimer, ainsi que de supprimer d'autres administrateurs. 
 
 La solution que nous avons trouvé est de créer administrateur et bibliothécaire comme deux classes distinctes, qui implémentent toutes les deux une interface "GestionOeuvres", dans lesquelles ont peut trouver les méthodes de modification des métadonnées, d'acceptation ou de refus d'oeuvres. 
+
+
+*17/11/2025*
+
+Travail sur les diagrammes de classe et de séquence des différents scénarios, avec un focus particulier sur le scénario d'inscription d'un membre en vue de la présentation devant la classe. 
+
+Discussion avec un autre groupe sur l'utilisation ou non d'une base de données pour stocker les utilisateurs et les oeuvres disponibles. La base de données semble être une solution "overkill" pour le problème, étant donné qu'elle ne contiendrait que deux ou trois tables. Une autre solution est de stocker les différentes données dans un ou plusieurs fichier json à la place d'une base de données. Cette solution est simple à mettre en place, mais pose des problèmes au niveau de la concurrence : on ne peut pas écrire depuis deux endroits différents en même temps dans un fichier. Il faut alors trouver un moyen de gérer plusieurs requêtes simultannées. 
+
+La solution trouvée est d'utiliser une base de données légère comme Redis. Cette base de données est rapide et permet de stocker des petites quantitées de données tout en étant simple à mettre en place. 
+
+Présentation d'un scénario et des diagrammes associés devant la classe. 
+
+Discussion avec le professeur sur différents aspects. La version 0 du projet se concentrera sur la France, d'où l'utilisation de France Connect pour l'authentification des utilisateurs. La loi suivie concernant les droits d'auteurs sera la loi française pour cette première version de biblioteko. 
+
+Dans les diagrammes de classe, on utilise le CamelCase pour le nom des classes et le snake_case pour les attributs et fonctions. Nous utiliserons python pour l'implémentation, d'où l'utilisation de ces nommages pour respecter les conventions python. 
+
+Nous avons également discuté de l'utilisation de Git pour le stockage des oeuvres/ documents numériques. La meilleure option pour moi et d'avoir un dépôt Git par oeuvre déposée sur la librairie. Comme chaque dépôt Git a une limite de 2G, il faudrait imposer une limite de taille de fichier lors du dépôt d'une oeuvre par un utilisateur. Le chemin vers le dépôt Git de chaque oeuvre est enregistré dans la base de données, avec les métadonnées de l'oeuvre, les images etc. Le dépôt Git est créé par notre serveur lorsqu'il reçoit une oeuvre par un membre. Dans la base de données, un lien vers le dépôt est sauvegardé avec un flag indicant si l'oeuvre est "à modérer", "acceptée" (non censurée et libre de droits d'auteurs) ou "refusée" (on peut cependant la garder jusqu'à ce qu'elle tombe dans le domaine public).
+
+La limite de taille d'un pdf est limitée dans la première version de biblioteko, mais plus tard on pourrait par exemple diviser un document en deux dépôt s'il dépasse la taille limite, ou alors tout simplement changer de méthode de stockage des documents. 

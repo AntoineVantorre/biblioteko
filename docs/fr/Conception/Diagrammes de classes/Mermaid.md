@@ -10,50 +10,54 @@ classDiagram
         - nom : String
         - email : String
         - mot_de_passe : String
-        - role : String
-        + seConnecter()
-        + consulterCatalogue()
+        - date_inscription : Date
+        + se_connecter()
+        + consulter_catalogue()
     }
 
     class Membre {
-        - date_inscription : Date
-        + proposerOeuvre()
-        + consulterEmprunts()
+        + proposer_oeuvre()
+        + consulter_emprunts()
     }
 
     class Bibliothecaire {
-        + validerOeuvre()
-        + rejeterOeuvre()
-        + corrigerMetadonnees()
+        + valider_oeuvre()
+        + rejeter_oeuvre()
+        + corriger_metadonnees()
     }
 
     class Administrateur {
-        + gererUtilisateurs()
-        + auditerSysteme()
+        + gerer_utilisateurs()
+        + auditer_systeme()
+        + supprimer_oeuvre()
+    }
+
+    class GestionOeuvre {
+        <<interface>>
     }
 
     %% =====================================
     %% === CLASSES LIÉES AUX ŒUVRES ========
     %% =====================================
 
-    class Numeric_file {
+    class FichierNumerique {
         - id_fichier : int
         - nom : String
         - chemin_git : String
         - date_ajout : Date
         - statut : String
-        + exporterMarkdown()
+        + exporter_markdown()
         + chiffrer()
-        + deChiffrer()
+        + de_chiffrer()
     }
 
-    class Book {
+    class Livre {
         - id_livre : int
         - texte : String
         - type : String
     }
 
-    class Category {
+    class Categorie {
         - id_categorie : int
         - nom_categorie : String
     }
@@ -75,16 +79,16 @@ classDiagram
     %% === CLASSES TECHNIQUES / IA =========
     %% =====================================
 
-    class IAService {
+    class ServiceIa {
         - api_key : String
-        + reconnaissanceTexte(pdf_path)
-        + enrichirMetadonnees(texte)
+        + reconnaissance_texte(pdf_path)
+        + enrichir_metadonnees(texte)
     }
 
     class DepotGit {
         - url : String
-        + ajouterFichier()
-        + majFichier()
+        + ajouter_fichier()
+        + maj_fichier()
         + synchroniser()
     }
 
@@ -94,30 +98,32 @@ classDiagram
 
     %% Rôles
     Utilisateur <|-- Membre
-    Utilisateur <|-- Bibliothecaire
+    Membre <|-- Bibliothecaire
     Utilisateur <|-- Administrateur
+    Administrateur --o GestionOeuvre
+    Bibliothecaire --o GestionOeuvre
 
     %% Fichiers et contenu
-    Numeric_file "1" --> "1" Book : contient
-    Numeric_file "1" --> "1..n" Category : appartient
-    Numeric_file "1" --> "1" Etat : a_pour_etat
-    Book "1" --> "0..n" Image : composé_de
+    FichierNumerique "1" --> "1" Livre : contient
+    FichierNumerique "1" --> "1..n" Categorie : appartient
+    FichierNumerique "1" --> "1" Etat : a_pour_etat
+    Livre "1" --> "0..n" Image : composé_de
 
     %% Relation membre / fichier
-    Membre "1" --> "0..n" Numeric_file : propose
-    Membre "1" --> "0..n" Numeric_file : emprunte
+    Membre "1" --> "0..n" FichierNumerique : propose
+    Membre "1" --> "0..n" FichierNumerique : emprunte
 
     %% Modération
-    Bibliothecaire "1" --> "0..n" Numeric_file : modère
+    Bibliothecaire "1" --> "0..n" FichierNumerique : modère
 
     %% IA et dépôt
-    IAService --> Numeric_file : analyse
-    DepotGit --> Numeric_file : versionne
+    ServiceIa --> FichierNumerique : analyse
+    DepotGit --> FichierNumerique : versionne
 
     %% =====================================
     %% === NOTES ===========================
     %% =====================================
     note for Bibliothecaire "Peut corriger les métadonnées ou rejeter les œuvres."
-    note for IAService "Utilise des API externes (ex: Mistral, Gemini) pour OCR et enrichissement."
-    note for DepotGit "Remplace la base de données traditionnelle."
+    note for Ia_service "Utilise des API externes (ex: Mistral, Gemini) pour OCR et enrichissement."
+    note for Depot_git "Remplace la base de données traditionnelle."
 ```

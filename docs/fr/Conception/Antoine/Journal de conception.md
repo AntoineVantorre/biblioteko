@@ -105,3 +105,36 @@ C'est pour cette raison que je perdais du temps a reflechir a LA solution optima
 
 La notation du projet se base sur le cheminement des idées a mettre en oeuvre, pas que au produit final:
     J avais peur de m'aventurer dans une BDD decentralisée, cela permet une "couche" d'anonymat, mais cela demande de l'investissement et une prise de risque, ce n'est pas une idée a proscrire, on peut toujours coumuler les solutions qu'on a chacun explosé lors du cours precedents (dechiffrement de courtes citations encodées en plus d'une moderation pour oeuvres soumises a droits d'auteur)
+
+## 10 novembre
+
+Avancement dans la conctruction de l'uml (diagramme de classe), debats sur le futur developpement:
+    - Un membre = un utilisateur qui publie, il est authentifié par franceconnect
+    - Un bibliothecaire: il est lui aussi authentifié par france Connect, il herite de membre. Il peut publier des oeuvre, on devra s'assurer qu'il ne peut pas verifier ses propres oeuvres
+    - Un administrateur: ne possede pas les pleins pouvoirs, certaines fonctionnalitées ne sont pas pertinentes a implementer dans le cadre de l'admin
+    
+On laisse a l'admin la possibilité de gerer tout l'aspect systeme et utilisateur, tandis ce qu'on laisse au bibliothecaire la charge de gerer le contenu, les oeuvres.
+
+Probleme UML: un bibliothecaire peut aussi etre membre? ils peuvent publier des oeuvres? mais ne peuvent pas valider leurs propres oeuvres? comment s'y prendre?
+Initialement, j ai pensé a faire un decorateur, pour specifier qu'un bibliothecaire pouvait possiblement etre membre ou utilisateur. En parallele, je pensais deja faire en sorte de prouver une unicité de membre grace a FranceConnect, on ne peut pas creer deux comptes membres a partir du meme compte FranceConnect, car on forcerait l'id a etre le meme, on pourrait hasher les infos de l'utilisateur france Connect par exemple. le probleme, c est qu'avec un decorateur on devrait créer plusieurs instances pour la meme personne, une fois membre, une fois bibliothecaire, ce qui poserait probleme.
+Utilisateur <- Membre <- Bibliothecaire <- Administrateur
+Mais cela impliquerait des problemes de duplication des methodes, l'admin aurait des fonctionnalité non pertinentes, pourrait peut etre creer un nouveau profil admin etc
+On prefere partir de l'idée de créer une Interface "Gestion_oeuvres" qui regroupe les fonctionnalités communes de "Administrateur" et de "Bibliothecaire"
+
+## 17 novembre
+On a malheureusement pas le temps de faires des diagrammes sur l'ensemble des scenarios etc, donc on en fait quelques uns sur 
+- Diagramme de classe: on applique le snake case car destiné a du code python
+- BPMN: pour accompagner chaque scenario, on decrit les actions des differents acteurs pour une activité complexe telle que l'inscription d'un membre
+- Diagramme d'etat transition: Pour cette V0, le diagramme d etat des fichiers ne prend pas en compte des notions complexe du genre "comment/qui/ou est stocké le fichier numerique, on considere pour cette version que tout est stocké dans un unique repo commun, mais a l'avenir, on attribuera un repo pour chaque oeuvre (pour une v1), on peut supposer que dans des cas extremes, cela pourrait poser probleme sur des oeuvres lourdes de plus de 2Go, mais viable pour une V1, on pourra ensuite implementer une nouvelle maniere de stocker les oeuvres pour contrer ce probleme, en repartissant les oeuvres lourdes sur plusieurs repo.
+- Diagramme de sequence: on a decrit ici les differentes etapes pour valider/ rejeter une nouvelles inscription pour devenir membre, le diagramme en question est relativement simple mais reflete une vrai complexité d'implementation avant de connaitre le fonctionnement de FranceConnect
+
+## 1 decembre
+Aujourd hui: mise en place du modèle de la base de donnée, en suivant une architecture hexagonale, elle separe les routes/ Database/ Modèles, car c est une convention qui a fait ses preuves, de part sa propreté de code et sa facilité d'evolution.
+Je n'ai encore jamais fais de projet en python, donc j'utilise le Framwork FastAPI sous les conseils de ChatGPT, cela me permettra de developper mes connaissances, coder proprement et plus rapidement, en me permettant par exemple de convertir des données Python <-> JSON.
+Lors du developpement du modèle de la bdd, un probleme survient: quel type d'heritage implementer?
+    - Heritage simple (ajouter toutes les colonnes dont on aura possiblement besoin, quitte a en laisser des vides si l'utilisateur n'est pas du bon type) on devra verifier son role a chaque appel mais facile a implementer
+    - Heritage multiple (creer un modele pour chaque type d'utilisateur, quitte a faire apparaitre des colonnes identiques dans plusieurs "tableaux" differents) mais MongoDb ne gere pas l'heritage automatiquement, ce qui peut entrainer des complications
+    - Single Table Inheritance (une table parent et d autres pour lier des données complementaires)
+
+On a donc choisis de faire un Heritage simple, ce qui nous permet de faire une seule collection MongoDb, ce qui nous permet de changer facilement les roles (utilisateur -> membre par exemple)
+

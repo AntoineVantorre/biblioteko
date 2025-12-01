@@ -147,5 +147,36 @@ La limite de taille d'un pdf est limitée dans la première version de bibliotek
 
 *1/12/2025*
 
-Implémentation du projet : lancement d'un serveur avec FastApi, base de données avec MongoDB : mise en place de l'authentification (sans France Connect pour cette première version) et des utilisateurs de base (bibliothécaire, utilisateur, membre).
+Le client a accepté que nous n'utilisions pas les technologiques initialement imposées (telle que Pyramid), sous couvert d'une justification. 
 
+Le "backend" de la bibliothèque est fait avec FastApi, qui permet de gérer facilement des requêtes simultannées et s'intègre bien dans notre projet. FastAPI est conçu pour créer des API performante. Comme les différentes actions de notre librairie sont bien définies (demander à lire une oeuvre, modérer une oeuvre, etc), ce framework est adapté car il permet le traitement de nombreuses requêtes simultannées (traitement asynchrone).
+
+FastAPI est également simple à mettre en place contrairement à Pyramid qui demande des configurations plus poussées. 
+
+
+
+**Implémentation du projet** 
+ lancement d'un serveur avec FastApi, base de données avec MongoDB : mise en place de l'authentification (sans France Connect pour cette première version) et des utilisateurs de base (bibliothécaire, utilisateur, membre).
+
+FastApi est utilisé pour sa facilité de mise en place et d'utilisation avec python. MongoDB, pour sa légèreté et facilité d'utilisation. 
+
+Le serveur est dans un conteneur créé avec Docker, ce qui permet de l'isoler du reste de la machine. Il est aussi facile à lancer à travers docker (en une seule commande, on peut lancer la base de données et le serveur FastApi)
+
+La commande pour lancer le conteneur est : 
+```
+docker compose up --build
+```
+
+Pour arrêter le conteneur (sans supprimer les données de la base MongoDB) : 
+```
+docker compose down
+```
+
+Utilisation de la librairie "motor" pour faire des opérations sur la base de données mongo DB depuis python. Motor fonctionne avec "asyncio", qui lui permet de gérer des requêtes de manière asynchrone et donc s'allie très bien avec FastAPI. 
+
+Utilisation de la librairie "pydantic" pour définir les modèles de données de la base de données. Permet également la vérification des donnée pour les envoyer dans la base de données. 
+
+
+**Réorganisation des fichiers** 
+
+Réorganisation des fichiers du projet afin de garder une structure claire et lisible. 

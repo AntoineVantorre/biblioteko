@@ -1,5 +1,0 @@
-huggingface_hub
-mistralai
-tqdm
-google-genai
-PyPDF2

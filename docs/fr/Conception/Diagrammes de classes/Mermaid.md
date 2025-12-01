@@ -33,7 +33,7 @@ classDiagram
     }
 
     class GestionOeuvre {
-        <<interface>> Gestion_Oeuvre
+        <<interface>>
     }
 
     %% =====================================

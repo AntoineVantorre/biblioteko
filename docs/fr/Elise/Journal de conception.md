@@ -177,6 +177,10 @@ Utilisation de la librairie "motor" pour faire des opérations sur la base de do
 Utilisation de la librairie "pydantic" pour définir les modèles de données de la base de données. Permet également la vérification des donnée pour les envoyer dans la base de données. 
 
 
+Utilisation de VueJS pour le frontend.
+
 **Réorganisation des fichiers** 
 
-Réorganisation des fichiers du projet afin de garder une structure claire et lisible. 
+Réorganisation des fichiers du projet afin de garder une structure claire et lisible. Utilisation de fichiers Dockerfile dans le frontend et le backend, puis d'un fichier docker-compose.yml pour lier les deux. 
+
+Pour l'instant, il n'y a qu'une page "Hello world" simple. Mais la mise en place de la structure permettra de rapidement ajouter d'autres pages correspondant à bibliotheko pendant les prochaines séances. 

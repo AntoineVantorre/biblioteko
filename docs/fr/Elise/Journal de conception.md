@@ -132,7 +132,7 @@ Travail sur les diagrammes de classe et de séquence des différents scénarios,
 
 Discussion avec un autre groupe sur l'utilisation ou non d'une base de données pour stocker les utilisateurs et les oeuvres disponibles. La base de données semble être une solution "overkill" pour le problème, étant donné qu'elle ne contiendrait que deux ou trois tables. Une autre solution est de stocker les différentes données dans un ou plusieurs fichier json à la place d'une base de données. Cette solution est simple à mettre en place, mais pose des problèmes au niveau de la concurrence : on ne peut pas écrire depuis deux endroits différents en même temps dans un fichier. Il faut alors trouver un moyen de gérer plusieurs requêtes simultannées. 
 
-La solution trouvée est d'utiliser une base de données légère comme Redis. Cette base de données est rapide et permet de stocker des petites quantitées de données tout en étant simple à mettre en place. 
+La solution trouvée est d'utiliser une base de données légère comme MongoDB. Cette base de données est rapide et permet de stocker des petites quantitées de données tout en étant simple à mettre en place. 
 
 Présentation d'un scénario et des diagrammes associés devant la classe. 
 
@@ -143,3 +143,9 @@ Dans les diagrammes de classe, on utilise le CamelCase pour le nom des classes e
 Nous avons également discuté de l'utilisation de Git pour le stockage des oeuvres/ documents numériques. La meilleure option pour moi et d'avoir un dépôt Git par oeuvre déposée sur la librairie. Comme chaque dépôt Git a une limite de 2G, il faudrait imposer une limite de taille de fichier lors du dépôt d'une oeuvre par un utilisateur. Le chemin vers le dépôt Git de chaque oeuvre est enregistré dans la base de données, avec les métadonnées de l'oeuvre, les images etc. Le dépôt Git est créé par notre serveur lorsqu'il reçoit une oeuvre par un membre. Dans la base de données, un lien vers le dépôt est sauvegardé avec un flag indicant si l'oeuvre est "à modérer", "acceptée" (non censurée et libre de droits d'auteurs) ou "refusée" (on peut cependant la garder jusqu'à ce qu'elle tombe dans le domaine public).
 
 La limite de taille d'un pdf est limitée dans la première version de biblioteko, mais plus tard on pourrait par exemple diviser un document en deux dépôt s'il dépasse la taille limite, ou alors tout simplement changer de méthode de stockage des documents. 
+
+
+*1/12/2025*
+
+Implémentation du projet : lancement d'un serveur avec FastApi, base de données avec MongoDB : mise en place de l'authentification (sans France Connect pour cette première version) et des utilisateurs de base (bibliothécaire, utilisateur, membre).
+

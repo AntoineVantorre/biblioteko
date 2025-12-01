@@ -46,7 +46,7 @@
 | Terme | Définition |
 |-------|------------|
 | utilisateur |  Personne pouvant acceder aux fichiers numeriques. un utilisateur est authentifié par son adresse mail |
-| membre | Personne pouvait publier et acceder aux fichiers numeriques, il est authentifié par france connect |
+| membre | Personne pouvant publier et acceder aux fichiers numeriques, il est authentifié par france connect |
 | bibliothécaires |  Personnes responsables de la modération des œuvres. |
 | client |  Commanditaire ou entité imposant certaines contraintes. |
 | Python |  Langage de programmation choisi. |

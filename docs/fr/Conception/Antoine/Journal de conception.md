@@ -131,3 +131,15 @@ On a malheureusement pas le temps de faires des diagrammes sur l'ensemble des sc
 ## 1 decembre
 Aujourd hui: mise en place du modèle de la base de donnée, en suivant une architecture hexagonale, elle separe les routes/ Database/ Modèles, car c est une convention qui a fait ses preuves, de part sa propreté de code et sa facilité d'evolution.
 Je n'ai encore jamais fais de projet en python, donc j'utilise le Framwork FastAPI sous les conseils de ChatGPT, cela me permettra de developper mes connaissances, coder proprement et plus rapidement, en me permettant par exemple de convertir des données Python <-> JSON.
+Lors du developpement du modèle de la bdd, un probleme survient: quel type d'heritage implementer?
+    - Heritage simple (ajouter toutes les colonnes dont on aura possiblement besoin, quitte a en laisser des vides si l'utilisateur n'est pas du bon type) on devra verifier son role a chaque appel mais facile a implementer
+    - Heritage multiple (creer un modele pour chaque type d'utilisateur, quitte a faire apparaitre des colonnes identiques dans plusieurs "tableaux" differents) mais MongoDb ne gere pas l'heritage automatiquement, ce qui peut entrainer des complications
+    - Single Table Inheritance (une table parent et d autres pour lier des données complementaires)
+
+On a donc choisis de faire un Heritage simple, ce qui nous permet de faire une seule collection MongoDb, ce qui nous permet de changer facilement les roles (utilisateur -> membre par exemple)
+
+Le choix de MongoDb etait une erreur puisqu'il est limité en terme de jointure, le stockage assez lourd, supporte les transaction ACID que si on utilise un replicat set ou un clsuster, chose qu'on ne met pes encore en place, et les requetes complexes multi-entités sont très dures a mettre en place (ces requetes peuvent etre utilses si on veut pouvoir connaitre la liste d'utilisateurs ayant consultés un livre par exemple)
+PostgreSQL semble plus adapté au projet: puissant pour les jointures, les transactions ACID, plus leger si optimisé, rapide en lecture et ecriture, adaptés aux requetes complexes multi-entités, bien que le schema soit plus rigide et que le scaling horizontal est complexe a mettre en place
+
+Compehention technique des indexes en bdd pour faire de meilleurs choix conceptuels et ameliorer ma qualité de code
+

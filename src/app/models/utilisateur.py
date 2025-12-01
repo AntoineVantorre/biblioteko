@@ -1,17 +1,15 @@
-from beanie import Document
 from datetime import datetime
-from typing import Optional
-from pydantic import EmailStr, Field
+from pydantic import EmailStr
+from sqlmodel import SQLModel, Field, Index
 
-
-class Utilisateur(Document):
+class Utilisateur(SQLModel, table=True):
+    id_utilisateur: int = Field(default=None, primary_key=True)
     prenom: str = Field(..., min_length=1)
     nom: str = Field(..., min_length=1)
-    email: EmailStr
+    email: EmailStr = Field(..., unique=True)
     mot_de_passe: str  #ici on stock le hash du mot de passe
     date_inscription: datetime = Field(default_factory=datetime.now) #obligatoire pour le RGPD
-
-    role: str = Field(default="membre", regex="^(membre|bibliothecaire|admin)$")
+    role: str = Field(default="utilisateur", pattern="^(utilisateur|membre|bibliothecaire|admin)$")
 
     class Settings:
         name = "utilisateurs"   # nom de la collection MongoDB

@@ -11,9 +11,6 @@ class Utilisateur(SQLModel, table=True):
     date_inscription: datetime = Field(default_factory=datetime.now) #obligatoire pour le RGPD
     role: str = Field(default="utilisateur", pattern="^(utilisateur|membre|bibliothecaire|admin)$")
 
-    class Settings:
-        name = "utilisateurs"   # nom de la collection MongoDB
-
     def est_admin(self) -> bool:
         return self.role == "admin"
 
@@ -22,3 +19,62 @@ class Utilisateur(SQLModel, table=True):
 
     def est_membre(self) -> bool:
         return self.role == "membre"
+    
+
+# -------------------------------------------------
+# Sous-classe : Membre
+# -------------------------------------------------
+class Membre(Utilisateur):
+    liste_emprunts: Optional[List[str]] = None
+    propositions_oeuvres: Optional[List[str]] = None
+
+    def proposer_oeuvre(self, oeuvre_id: str):
+        if self.role != "membre":
+            raise PermissionError("Seulement les membres peuvent proposer des œuvres")
+        if self.propositions_oeuvres is None:
+            self.propositions_oeuvres = []
+        self.propositions_oeuvres.append(oeuvre_id)
+
+    def consulter_emprunts(self):
+        return self.liste_emprunts or []
+
+# -------------------------------------------------
+# Sous-classe : Bibliothecaire
+# -------------------------------------------------
+class Bibliothecaire(Membre):
+    permissions_moderation: Optional[List[str]] = None
+
+    def valider_oeuvre(self, oeuvre_id: str):
+        if self.role != "bibliothecaire":
+            raise PermissionError("Seulement les bibliothécaires peuvent valider des œuvres")
+        # logique de validation
+        if self.permissions_moderation is None:
+            self.permissions_moderation = []
+        self.permissions_moderation.append(oeuvre_id)
+
+    def rejeter_oeuvre(self, oeuvre_id: str):
+        # logique de rejet
+        pass
+
+    def corriger_metadonnees(self, oeuvre_id: str):
+        # logique correction
+        pass
+
+# -------------------------------------------------
+# Sous-classe : Administrateur
+# -------------------------------------------------
+class Administrateur(Utilisateur):
+    permissions_admin: Optional[List[str]] = None
+
+    def gerer_utilisateurs(self):
+        # logique de gestion
+        pass
+
+    def auditer_systeme(self):
+        # logique audit
+        pass
+
+    def supprimer_oeuvre(self, oeuvre_id: str):
+        if self.permissions_admin is None:
+            self.permissions_admin = []
+        self.permissions_admin.append(oeuvre_id)

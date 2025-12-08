@@ -1,19 +1,18 @@
 version: "3.9"
 
 services:
-
   frontend:
     build:
       context: ./frontend
     volumes:
-      - frontend_dist:/app/dist
-    command: ["echo", "Frontend built"]
+      - frontend_dist:/dist   # mount the volume at a different path
+    command: ["/bin/sh", "-c", "cp -r /app/dist/* /dist"]
 
   backend:
     build:
       context: ./backend
     volumes:
-      - frontend_dist:/app/dist   # récupère le dist du frontend
+      - frontend_dist:/app/dist   # backend reads built files from the shared volume
     ports:
       - "8000:8000"
     depends_on:

@@ -1,15 +1,34 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import auth_router
+import os
 
 app = FastAPI()
 
-# 1) API routes
-app.include_router(auth_router, prefix="/auth")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# API routes
+app.include_router(auth_router, prefix="/api/auth", tags=["auth"])
+
 @app.get("/api/hello")
 def hello():
     return {"msg": "Hello API"}
 
-# 2) Frontend SPA
-# Toutes les routes non-API renvoient index.html
-app.mount("/", StaticFiles(directory="/app/dist", html=True), name="frontend")
+# Servir les assets (JS, CSS, etc.)
+app.mount("/assets", StaticFiles(directory="/app/dist/assets"), name="assets")
+
+# Route catch-all pour le SPA (doit être en dernier)
+@app.get("/{full_path:path}")
+async def serve_spa(full_path: str):
+    file_path = f"/app/dist/{full_path}"
+    if os.path.exists(file_path) and os.path.isfile(file_path):
+        return FileResponse(file_path)
+    return FileResponse("/app/dist/index.html")

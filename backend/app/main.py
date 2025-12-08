@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.routes import auth_router
 import os
 
 app = FastAPI()
@@ -15,8 +14,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# API routes
-app.include_router(auth_router, prefix="/api/auth", tags=["auth"])
 
 @app.get("/api/hello")
 def hello():

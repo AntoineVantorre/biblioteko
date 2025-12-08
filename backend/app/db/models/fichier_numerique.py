@@ -1,6 +1,28 @@
 from datetime import datetime
 from typing import Optional
-from sqlmodel import SQLModel, Field
+from sqlmodel import SQLModel, Field, Column
+from enum import Enum
+
+class Domaine(Enum):
+    LITTERATURE = "litterature"
+    SCIENCE = "science"
+    HISTOIRE = "histoire"
+    ART = "art"
+    TECHNOLOGIE = "technologie"
+    FICTION = "fiction"
+    NON_FICTION = "non_fiction"
+    EDUCATIF = "educatif"
+    REFERENCE = "reference"
+    AUTRE = "autre"
+
+class Categorie(Enum):
+    LIVRE = "livre"
+    AUDIOBOOK = "audiobook"
+    VIDEO = "video"
+    IMAGE = "image"
+    DOCUMENT = "document"
+    AUTRE = "autre"
+
 
 class FichierNumerique(SQLModel, table=True):
     __tablename__ = "fichiers_numeriques"
@@ -18,6 +40,10 @@ class FichierNumerique(SQLModel, table=True):
 
     # Date d’ajout
     date_ajout: datetime = Field(default_factory=datetime.utcnow)
+
+    categorie: Categorie
+
+    domaine: Domaine
 
     class Config:
         arbitrary_types_allowed = True

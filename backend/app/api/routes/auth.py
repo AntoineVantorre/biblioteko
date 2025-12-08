@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 import os
-from motor.motor_asyncio import AsyncIOMotorClient
 from typing import Optional
 
 router = APIRouter()
@@ -9,12 +8,8 @@ router = APIRouter()
 # Use absolute token URL to match router prefix in main.py
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/token")
 
-# MongoDB client setup (reads MONGO_URI and MONGO_DB from env)
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://mongodb:27017")
-MONGO_DB = os.getenv("MONGO_DB", "biblioteko")
 
-_motor_client = AsyncIOMotorClient(MONGO_URI)
-_db = _motor_client[MONGO_DB]
+_db = None
 _users_coll = _db["users"]
 
 def fake_hash_password(password: str):

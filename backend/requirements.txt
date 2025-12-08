@@ -5,6 +5,5 @@ google-genai
 PyPDF2
 fastapi
 uvicorn
-python-jose
 passlib[bcrypt]
 pydantic[email]

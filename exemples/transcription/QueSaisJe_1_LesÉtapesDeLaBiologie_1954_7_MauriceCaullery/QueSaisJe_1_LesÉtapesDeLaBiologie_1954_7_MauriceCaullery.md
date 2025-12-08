@@ -22,14 +22,14 @@ I. lolore de l'ysance (P. Lemerle).
 L. elapes de la poésie française (R. Lalou).
 I. listoire de la géométrie (P. Marchal).
 L. Indastries de l'alimentation (G. Ray).
-L. somptabilité (J. Fourastié).
+L. comptabilité (J. Fourastié).
 L. prérision économique (A. Sauvy).
 L. coétique et hérédité (M. Caullery).
 L. littérature espagnole (J. Camp).
-L.apolion (H. Calvet).
+I. apolion (H. Calvet).
 L. cryptographie (R. Ceillier).
 L. parasitisme (L. Gallien).
-L. colalique du cinéma (L.o. Duca).
+L. celalque du cinéma (L.o. Duca).
 L. colorants (J. Meybeck).
 L. bataille des trusts (H. Peyret).
 L'orientation professionnelle (G. Sinotr).
@@ -45,25 +45,25 @@ L. elapes de la mécanique (M. Boll).
 L. artivrerie (L. Lanell).
 L. vie au moyen âge (G. D'Haucourt).
 I. l'ysologie du sport (D* G. Lapoate et A. Pevcelon).
-L. les techniques de la métallurgie(L. Guillet).
+L. techniques de la métallurgie(L. Guillet).
 L. eslampes (J. Laban).
 L. caoutchouc (A. Chevalieret J. Le Bras).
 I. listoire de la Justice (M. Rousselet).
-L. es messages de nos sens (D* P. Chauchard).
-L. eafé (A. Chevalier).
-I. listoire de la Suisse (Ch. Gillard).
+L. messages de nos sens (D* P. Chauchard).
+L. café (A. Chevalier).
+I. listoire de la Suisse (Ch. Giliard).
 L'origine des espèces (E. Guyenot)
-L. l'évolution française (P. Nicolle).
+L. lévolution française (P. Nicolle).
 I. eréts vierges et bois tropicaux (A. Chevalier et D. Normand).
 I. listoire de l'Auvergne (R. Rigodon).
 L. littérature française du Moyen Age (V.-L. Baulnier).
-L. e races humaines (H.-V. Valloiz).
+L. races humaines (H.-V. Valloiz).
 I. listoire de la Bretagne (H. Waquet).
 L. population (A. Sauvy).
 I. listoire de la Provence (R. Busquet et V.-L. Boursialy).
-L. es grands explorateurs (M. Griaule).
+L. Etands explorateurs (M. Griaule).
 I. listoire de la Savole (R. Avezou).
-L. a vie des aveugles (P. Henr).
+L. vie des aveugles (P. Henr).
 153. L'affiche (Lo Duca).
 154. Les alcaloïdes et les plantes alcaloifères (F. Moreau).
 155. L'unité française (R. Pernoud).
@@ -85,7 +85,7 @@ L. a vie des aveugles (P. Henr).
 171. Les climats et l'organisme humain (E. Duhot).
 172. Les étapes de l'aviation (M. Jeanjean).
 173. Les alliages métalliques (L. Guillet).
-174. La photographie et ses applications (J. Prunet).
+174. La photographie et ses applications (J. Prinet).
 175. L'électron et son utilisation industrielle (M. Granier).
 176. Les noms de lieux (Ch. Rostaing).
 177. Histoire du ballet (P. Michaut).
@@ -229,7 +229,7 @@ nistes de la Renaissance scientifique, qui, à partir d'elles, s'est propagée v
 
 # L'ANATOMIE 
 
-L'anatomie a pour base la dissection du cadavre humain, à laquelle l'Eglise était hostile (comme étant en opposition avec le dogme de la résurrection) et qui fut longtemps clandestine, ou très parcimonieusement permise. Elle a été souvent pratiquée, avant le $\mathrm{xvI}^{\mathrm{e}}$ siècle, sur des cadavres déterrés en secret, ou détachés des gibets. Peu à peu, à partir du xive siècle, ces difficultés s'atténuèrent et l'anatomie se répandit. Des artistes, comme Léonard de Vinci, la pratiquèrent. Au début, les traités d'anatomie furent surtout des commentaires de Galien : le plus célèbre est celui de Mundinus, professeur à Bologne, de 1315 à 1326. En France, le premier amphithéâtre d'anatomie fut celui de Montpellier, construit en 1556 par Rondelet, sur le modèle de ceux des Universités italiennes. A Paris, au XvI ${ }^{\mathrm{e}}$ siècle, s'illustrèrent comme anatomistes : Gonthier D'Andernach, d'origine allemande; Jacques Dubois (Sylvius), Charles Estienne, Michel Servet, ce dernier brûlé en 1553, à Genève, par ordre de Calvin. Les grands anatomistes italiens du même temps sont Fallope, Realdo Colombo, Botal, Varole, Fabrice d'Aquapendente et surtout Vésale, originaire de Bruxelles et professeur à Padoue, dont le célèbre traité, De humani corporis fabrica eut ses planches dessinées par un des meil-
+L'anatomie a pour base la dissection du cadavre humain, à laquelle l'Eglise était hostile (comme étant en opposition avec le dogme de la résurrection) et qui fut longtemps clandestine, ou très parcimonieusement permise. Elle a été souvent pratiquée, avant le $\mathrm{xVI}^{\mathrm{e}}$ siècle, sur des cadavres déterrés en secret, ou détachés des gibets. Peu à peu, à partir du xive siècle, ces difficultés s'atténuèrent et l'anatomie se répandit. Des artistes, comme Léonard de Vinci, la pratiquèrent. Au début, les traités d'anatomie furent surtout des commentaires de Galien : le plus célèbre est celui de Mundinus, professeur à Bologne, de 1315 à 1326. En France, le premier amphithéâtre d'anatomie fut celui de Montpellier, construit en 1556 par Rondelet, sur le modèle de ceux des Universités italiennes. A Paris, au XvI ${ }^{\mathrm{e}}$ siècle, s'illustrèrent comme anatomistes : Gonthier D'Andernach, d'origine allemande; Jacques Dubois (Sylvius), Charles Estienne, Michel Servet, ce dernier brûlé en 1553, à Genève, par ordre de Calvin. Les grands anatomistes italiens du même temps sont Fallope, Realdo Colombo, Botal, Varole, Fabrice d'Aquapendente et surtout Vésale, originaire de Bruxelles et professeur à Padoue, dont le célèbre traité, De humani corporis fabrica eut ses planches dessinées par un des meil-
 
 leurs élèves du Titien, Etienne de Calcar. Vésale a rectifié de nombreuses erreurs de Galien, dues à ce que celui-ci avait disséqué surtout des singes. Mais les corrections de Vésale déchaînèrent des tempêtes et des flots d'injures. La polémique scientifique de ce temps n'avait rien d'académique. Il est caractéristique, pour marquer la force qu'avait alors l'autorité des Anciens, que les adversaires de Vésale allèrent jusqu'à expliquer ses discordances avec les données de Galien, en alléguant que la structure de l'homme avait dû changer depuis son époque. Cela révèle l'état d'esprit à la Renaissance et les obstacles dont dut triompher l'observation affranchie de préjugés. Et cependant, Vésale, qui avait reconnu et proclamé l'inexistence des pores dans la cloison interventriculaire du cœur, et avait été, pour ce faire, copieusement vilipendé, n'avait contredit Galien qu'avec timidité, obnubilé, comme l'avait été lui-même le pénétrant observateur qu'était Galien, par les doctrines aristotéliciennes sur la vie en général.
 
@@ -255,7 +255,7 @@ Les Jardins botaniques étaient à l'ordre du jour. Il s'en crée à Padoue en 1
 
 Reste à jeter un coup d'œil, pour la même période, sur la zoologie, où la marche des idées a été parallèle à ce que l'on vient de voir pour l'anatomie et la botanique.
 
-Ici aussi, c'est vers le $\mathrm{xvI}^{\mathrm{e}}$ siècle que l'observation reprit peu à peu ses droits, en se libérant de l'esprit d'autorité et de la légende. Dès la fin de l'antiquité, la base solide formée par l'œuvre d'Aristote s'était adultérée de fables et de mythes, comme en témoignent l'Histoire naturelle de Pline et le Traité de la nature des Animaux d'Elien. Tout le Moyen Age a vécu indirectement sur ces dernières œuvres. Au $\mathrm{xvI}^{\mathrm{e}}$ siècle, les voyages ramenèrent à l'observation directe. En France, Pierre Gilles d'Albi (14901551), après avoir fait œuvre de compilateur, se rend dans le Levant et rentre en France en rapportant des observations sur divers animaux, publiées après sa mort. Pierre Belon (1517-1563) du Mans et Guillaume Rondelet de Montpellier (1507-1566) font cuvre de vrais zoologistes : le premier parcourt l'Orient méditerranéen et publie une série d'ouvrages, en particulier sur les animaux marins, d'après ce qu'il a pu observer lui-même, ainsi qu'une Histoire de la nature des Oiseaux, avec leur description et naïfs pourctraits retirés au naturel, publiée en 1555. Dans cette dernière, il compare le squelette à celui des Mammifères et à celui de l'homme, ce qui fait de ce livre un précurseur de l'anatomie comparée. Il étudie le développement du poulet et rejette maintes fables. Rondelet est l'auteur notamment d'une remarquable ichthyologie, Libri de piscibus marinis, in quibus verae piscium effigiae expressae sunt (1553). On remarquera l'analogie dans l'esprit
+Ici aussi, c'est vers le $\mathrm{xvI}^{\mathrm{e}}$ siècle que l'observation reprit peu à peu ses droits, en se libérant de l'esprit d'autorité et de la légende. Dès la fin de l'antiquité, la base solide formée par l'œuvre d'Aristote s'était adultérée de fables et de mythes, comme en témoignent l'Histoire naturelle de Pline et le Traité de la nature des Animaux d'Elien. Tout le Moyen Age a vécu indirectement sur ces dernières œuvres. Au xvie siècle, les voyages ramenèrent à l'observation directe. En France, Pierre Gilles d'Albi (14901551), après avoir fait œuvre de compilateur, se rend dans le Levant et rentre en France en rapportant des observations sur divers animaux, publiées après sa mort. Pierre Belon (1517-1563) du Mans et Guillaume Rondelet de Montpellier (1507-1566) font cuvre de vrais zoologistes : le premier parcourt l'Orient méditerranéen et publie une série d'ouvrages, en particulier sur les animaux marins, d'après ce qu'il a pu observer lui-même, ainsi qu'une Histoire de la nature des Oiseaux, avec leur description et naïfs pourctraits retirés au naturel, publiée en 1555. Dans cette dernière, il compare le squelette à celui des Mammifères et à celui de l'homme, ce qui fait de ce livre un précurseur de l'anatomie comparée. Il étudie le développement du poulet et rejette maintes fables. Rondelet est l'auteur notamment d'une remarquable ichthyologie, Libri de piscibus marinis, in quibus verae piscium effigiae expressae sunt (1553). On remarquera l'analogie dans l'esprit
 
 des titres des ouvrages de Belon et de Rondelet. Celui-ci a, lui aussi, voyagé et recueilli directement des matériaux qu'il a disséqués. Ses descriptions et ses figures sont assez fidèles pour qu'on puisse identifier sûrement ce qu'il a vu, - pas moins de 300 espèces de poissons. Son livre est l'œuvre d'un vrai naturaliste, mais qui sacrifie encore beaucoup au commentaire des Anciens et quelquefois à la légende. Il a abordé aussi l'étude des Invertébrés marins dans son Universae aquatilium historiae pars altera (1555), où on trouve la description de quelques formes assez rares, comme l'Argonaute. En Italie, Salviani, dans le même temps, publie aussi une Ichthyologie. Charles de L'Ecluse, alors professeur à l'Université de Leyde, décrit également des animaux exotiques (Exoticorum libri $X, 1605$ ), parmi lesquels figurent le Tatou, l'Emeu, les Oiseaux de Paradis, le Dronte (1), la Limule. En Suisse, Conrad Gesner est l'auteur d'une énorme encyclopédie zoologique, restée inachevée à sa mort (1565), qui sera suivie, à un demi-siècle, par celle d'Aldrovande de Bologne. Ces œuvres indigestes ont visé à incorporer tout ce qui avait été signalé de Pline à Rondelet et à Belon; elles ont eu, en dépit de leur ampleur, un succès indiscutable, attesté par leurs rééditions successives, mais elles ne représentent guère un progrès réel et reflètent bien plutôt l'esprit du passé, à l'encontre des tendances modernes. Le xvir ${ }^{\text {e }}$ siècle, d'ailleurs, n'apportera pas, au moins dans ses débuts, à la zoologie de progrès essentiels. On y voit s'éditer des ouvrages d'ensemble, comme l'Histoire des Insectes (1634), de Thomas Moufet, suite à Gesner et le Theatrum universale animalium, de
 (1) Oiseau des îles Mascareignes, à ailes atrophiées, qui devait etre exterminé au cours du xvir siècle.
@@ -268,7 +268,7 @@ Signalons encore, avant de quitter la Renaissance et ses suites immédiates, l'�
 
 # Chapitre III 
 
-## L'Élaboration de la biologie moderne AUX XVII ${ }^{\text {e }}$ et XVIII SIÈCLes
+## L'Élaboration de la biologie moderne AUX XVII ${ }^{\text {e }}$ ET XVIII ${ }^{\text {e }}$ siècles
 
 Descartes. - Au milieu du xvie siècle, l'effort de libération de la pensée par rapport à l'autorité des Anciens est, sinon totalement, du moins pour une bonne part, réalisé. Descartes (1596-1650) y a porté le dernier coup par son Discours de la Méthode (1636) et a essayé de ramener toute la conception de l'Univers à l'étendue et au mouvement. Il a touché luimême à l'Anatomie, su comprendre d'emblée la découverte de la circulation du sang par Harvey et constitué, de toutes pièces, une physiologie, basée sur sa mécanique, et exposée dans sa Description du corps humain (1648). Dans la machine qu'est le corps, la chaleur est le grand ressort, le sang la convoie et ses parties les plus agitées et les plus ténues, portées au cerveau, y composent un air ou un vent très subtil, les esprits animaux, qui dilatent le cerveau et le rendent propre à recevoir les impressions des objets extérieurs et aussi celle de l'âme (qu'il sépare radicalement de la matière). C'est là une construction a priori, qui, malgré ses tendances novatrices, n'est pas sans se ressentir des conceptions d'Aristote et de Galien et ne repose pas sur l'observation. Si le mécanisme de Descartes, qui a exercé une influence considérable et prolongée, est dans la ligne de la science moderne, il est une intuition hardie, mais non une acquisition positive.
 
@@ -352,7 +352,7 @@ la conception est toujours une espèce d'œuf»(1). Harvey a donc été, pour l'
 
 Quelques années plus tard (1672), sur la voie ainsi tracée, un jeune anatomiste hollandais (on remarquera, en passant, le rôle éminent de la Hollande dans la science de cette époque), malheureusement à la veille de disparaître prématurément, Régnier de Graaf (1641-1673), réalisait un progrès considérable et crut avoir trouvé l'œuf initial des Mammifères. Dans un traité (2) où il étudie minutieusement l'appareil génital de la femme, il décrit, sur les ovaires de divers animaux (vache, brebis, lapine) et de la femme, des vésicules transparentes et turgescentes, remplies de liquide et qui, à un moment donné, se rompent. Il les interpréta comme étant les œufs (ova). C'est, en réalité, ce que nous appelons aujourd'hui les follicules de Graaf, à l'intérieur desquels est l'œuf proprement dit, mis en évidence, comme on le verra plus loin, en 1827, par K. von Baer, chez la chienne. Il est intéressant de constater combien de Graaf a été près de la
 (1) Le frontispice des Exercitationes, qui est reproduit ici (fig. 3), est orné d'une allégorie représentant Jupiter ouvrant une boite ronde, l'œuf, avec l'inscription Ex ovo omnia; diverses créatures surgissent de la boite. On a généralement transposé l'inscription, de façon infidèle, en la formule Omne vivum ex ovo, qui, si elle est conforme à la pensée de Harvey, n'est cependant pas authentique. D'ailleurs, à la fin de l'Exercitalio $1^{2}$, discutant avec délérence les idées de son ancien maitre Fabrice d'Aquapendente, Harvey dit expressément : a Nos aulcm (ut ex dicendis constabil) omnia omnino animalia, etiam vivipara alque hominem lúeo ipsum ex ovo progigni, primosque eorum conceptus e quibus fletus fiunt ova quaedam esse, ut et semina plantarum. - Ce texte montre quelle profonde intuition Harvey a eue de la réalité. Ajoutons qu'à l'encontre de son maitre, il rejette la génération spontanée et considère que les cas à elle attribués correspondent au fait que les parents différeraient des descendants (aequivoca, ut alunt, generatione a parentibus sui dissimilibus).
-(2) Regneri de Graaf, De Mulierum organis generationt inserolentibus Tractatus novus, etc., Leyde, 1672. Ce traité comprend seize chapitres, dont le douzième est consacré aux ovaires (De testibus muliebribus sive ovariis) et le seizième : Cuniculorum generationem somplectitur.
+(2) Regneri de Graaf, De Mulierum organis generationi inserolentibus Tractatus novus, etc., Leyde, 1672. Ce traité comprend seize chapitres, dont le douzième est consacré aux ovaires (De testibus muliebribus sive ovariis) et le seizième : Cuniculorum generationem somplectitur.
 
 ![img-5.jpeg](img-38-0.jpg)
 
@@ -362,7 +362,7 @@ découverte complète, à laquelle il serait peut-être arrivé par la suite s'i
 (fig. 1, BB) et il a eu le très grand mérite de faire de ces phénomènes une étude expérimentale (1) précise, en choisissant, par une intuition remarquablement heureuse, la lapine, chez laquelle, comme nous le savons aujourd'hui, la rupture des follicules est déterminée par l'accouplement avec le mâle. De Graaf sacrifie méthodiquement des lapines avant l'accouplement et ensuite à une série d'intervalles gradués ( $1 / 2$ heure, $6,24,27,48,52$, 72 heures, puis chacun des jours suivants). Il a ainsi constaté la rupture des follicules sur l'ovaire (2) et, à partir du $3^{e}$ jour, il a trouvé dans l'utérus les jeunes embryons (qu'il appelle ova) de taille croissante et qu'il figure (pl. XXVI et XXVII) aux divers stades de leur développement.
 
 En réalité, d'ailleurs, ces constatations capitales furent obnubilées au xvire siècle, par d'interminables discussions, touchant la nature même du développement, sur la préformation (réalisation complète de l'individu dans le germe dès le début) ou l'épigenèse (sa réalisation progressive, suivant l'opinion d'Harvey). On ne peut entrer ici dans le détail de ces discussions. La conception de la pré-
-(1) Voici le début du chap. XVI que je traduis textuellement : * Comme tous les faits rapportés dans les chapitres précédents ne peuvent être constatés de visu chez l'homme, fai fait des dissections chez les animaux et fen al choisi dont je pouvais me procurer un grand nombre, dont l'accouplement pouvait être exactement noté et qui produisent simultanément plusieurs factus, de façon a pouvoir observer sur l'un ce qui échapperait sur l'autre. C'est ce qui m'a conduit à m'adresser à la lapine. "
+(1) Voici le début du chap. XVI que je traduis textuellement : * Comme tous les faits rapportés dans les chapitres précédents ne peuvent être constatés de visu chez l'homme, fai fait des dissections chez les animaux et fen al choisi dont je pouvais me procurer un grand nombre, dont l'accouplement pouvait être exactement noté et qui produisent simultanément plusieurs factus, de façon a pouvoir observer sur l'un ce qui échapperait sur l'autre. C'est ce qui m'a conduit à m'adresser à la lapine. .
 (2) Voici un passage textuel : a 52 heures après l'accouplement. nous avons exploré une lapine, où nous avons trouvé dans un testicule (ovaire) un et dans l'autre quatre follicules inchangés (immutatos); les ayant disséqués, nous y avons trouvé une substance quasiglandulaire, avec au milieu une cavité étroite; n'ayant constaté dans celle-ci aucune quantité notable de liquide, nous avons commencé à nous demander si la liqueur des follicules, qui est enfermée dans la parol, ne siralf pas expulsée par la rupture de celle-cl.
 
 formation se compléta, avec une certaine logique, par celle de l'emboîtement des germes, suggérée à Swammerdam par l'étude de la chrysalide, à l'inté-
@@ -403,10 +403,10 @@ On voit, par ces trop rapides considérations, le poids dont ont pesé, pendant 
 
 # LA PHYSIOLOGIE GÉNÉRALE : LAVOISIER 
 
-Nous avons déjà vu quelques naturalistes du xvirie siècle, notamment Réaumur et Spallanzani, employer la méthode expérimentale et ainsi jeter les bases de la physiologie. Des chirurgiens l'ont fait aussi à l'occasion. Pourfour du Petit, en 1710, lèse, après trépanation, l'écorce cérébrale d'un côté, chez des animaux, et obtient ainsi la paralysie du côté opposé du corps. Lorry, explore, à l'aide de piqûres, la moelle allongée et découvre ainsi le nœud vital. Mais ce sont des trouvailles isolées. A la fin du xvire siècle, au contraire, la physiologie est prête à prendre son essor sous l'impulsion d'un homme de génie, Lavoisier (1743-1794) (1), qui est non seulement le créateur de la chimie moderne, mais aussi l'initiateur de la physiologie générale.
+Nous avons déjà vu quelques naturalistes du xvirie siècle, notamment Réa umur et Spallanzani, employer la méthode expérimentale et ainsi jeter les bases de la physiologie. Des chirurgiens l'ont fait aussi à l'occasion. Pourfour du Petit, en 1710, lèse, après trépanation, l'écorce cérébrale d'un côté, chez des animaux, et obtient ainsi la paralysie du côté opposé du corps. Lorry, explore, à l'aide de piqûres, la moelle allongée et découvre ainsi le nœud vital. Mais ce sont des trouvailles isolées. A la fin du xvire siècle, au contraire, la physiologie est prête à prendre son essor sous l'impulsion d'un homme de génie, Lavoisier (1743-1794) (1), qui est non seulement le créateur de la chimie moderne, mais aussi l'initiateur de la physiologie générale.
 
 [^0]
-[^0]:    (1) Volr Ed. Grimaux. - Lavoisier 1743-1749), d'après ses observations, etc. Paris, 1888.
+[^0]:    (1) Volr Ed. Grimaux. - Lavoisier 1743-1749), d'après ses observations, etc. Paris, 1388.
 
 Il a montré, en effet, en 1777, qu'à l'encontre des doctrines de l'antiquité encore persistantes, la respiration n'est pas destinée à refroidir le sang, mais qu'elle est une combustion effectuée à l'aide de l'oxygène de l'air et produisant de l'acide carbonique et qu'à l'oxydation du sang dans le poumon correspond son changement de couleur, comme l'avait déjà vu l'Anglais Lower, en 1669. La respiration lui apparaît dès lors comme la base de la chaleur animale et, avec le grand mathématicien Laplace, plus tard avec Séguin, il en fait une magistrale étude expérimentale. Il saisit le lien fondamental des fonctions de digestion, respiration et transpiration, grâce auxquelles se règle la température du corps et est assuré l'équilibre dynamique de l'organisme. Les aliments sont, suivant sa pittoresque expression, l'huile fournie à la lampe, qui s'éteindrait faute de nourriture. Par ces magnifiques recherches, basées sur une expérimentation aussi simple que rigoureuse et complètement exempte de spéculations creuses, Lavoisier a fixé une des grandes étapes de la Biologie.
 
@@ -414,7 +414,7 @@ Il aurait été certainement plus loin, si la Révolution n'avait pas fait tombe
 
 animaux leur ont empruntés. Par quels procédés, ajoute-t-il, la nature opère-t-elle cette merveilleuse circulation entre les trois règnes "? C'est ce que, pour la plus large part, Pasteur devait montrer au $\mathrm{XIX}^{\mathrm{e}}$ siècle.
 
-Il reste, pour achever le bilan de l'époque que nous étudions, à enregistrer les progrès de l'histoire naturelle descriptive. Le nombre des formes animales et végétales connues n'avait pas cessé de s'accroître depuis la Renaissance, tant en Europe qu'au Nouveau Monde et sous les tropiques graduellement explorés par des voyageurs, sous l'attrait de l'or ou des épices. La nécessité de classer toutes les formes ainsi découvertes conduisit progressivement à une notion précise du genre et de l'espèce. Elle se concrétise peu à peu au xvir ${ }^{\mathrm{e}}$ siècle avec G. Bauhin, avec Morrison et John Ray, en Angleterre, Tournefort, en France, et d'autres. Au xvirie, Linné (1707-1778) couronna tous ces efforts, en consacrant et subordonnant l'une à l'autre les notions de genre et d'espèce, en zoologie et en botanique et en établissant la nomenclature binominale, qui constituait un langage approprié, encore régnant aujourd'hui. La $10^{e}$ édition de son Systema naturae (1758) reste la base universellement adoptée pour la dénomination des animaux et des plantes et le système linnéen a permis de mettre et de maintenir de l'ordre dans la masse énorme des espèces successivement décrites.
+Il reste, pour achever le bilan de l'époque que nous étudions, à enregistrer les progrès de l'histoire naturelle descriptive. Le nombre des formes animales et végétales connues n'avait pas cessé de s'accroître depuis la Renaissance, tant en Europe qu'au Nouveau Monde et sous les tropiques graduellement explorés par des voyageurs, sous l'attrait de l'or ou des épices. La nécessité de classer toutes les formes ainsi découvertes conduisit progressivement à une notion précise du genre et de l'espèce. Elle se concrétise peu à peu au xvir ${ }^{e}$ siècle avec G. Bauhin, avec Morrison et John Ray, en Angleterre, Tournefort, en France, et d'autres. Au xvirie, Linné (1707-1778) couronna tous ces efforts, en consacrant et subordonnant l'une à l'autre les notions de genre et d'espèce, en zoologie et en botanique et en établissant la nomenclature binominale, qui constituait un langage approprié, encore régnant aujourd'hui. La $10^{e}$ édition de son Systema naturae (1758) reste la base universellement adoptée pour la dénomination des animaux et des plantes et le système linnéen a permis de mettre et de maintenir de l'ordre dans la masse énorme des espèces successivement décrites.
 
 Mais la description méthodique et la nomenclature ne suffisent pas à établir les affinités des espèces et des groupes qu'elles constituent, c'est-à-dire une classification naturelle. Le xvirie siècle a fait, à cet égard, un progrès considérable pour la Botanique, grâce aux
 
@@ -550,7 +550,7 @@ Un point capital de la théorie cellulaire est la formation de nouvelles cellule
 caryocinèse (1). Elle est déclenchée par des transformations du noyau. Celui-ci semble disparaître; sa membrane se résorbe et son contenu se résout en un certain nombre de corps (nombre fixe dans tous les tissus de chaque espèce; désignons-le par $2 n$ ), prenant fortement les colorations basiques, ce sont les chromosomes. Ceux-ci sont des unités, apparentes seulement au moment de la division, mais que de nombreuses raisons amènent à supposer en réalité permanentes, sans être visibles. Au moment de la division, chaque chromosome se fend en deux longitudinalement et leurs moitiés ainsi formées se dirigent en sens opposés, vers deux pôles d'une figure formée de filaments très fins disposés en une sorte de barillet. Arrivés à ces deux pôles, chacun de ces deux groupes de $2 n$ chromosomes fils se reconstitue en un noyau nouveau et, en même temps, la cellule mère se divise par une cloison équatoriale en deux cellules filles. On peut donc compléter l'aphorisme de Virchow par la formule Omnis nucleus e nucleo. Ce processus complexe n'a été analysé et généralisé que très progressivement, de 1870 à 1880, pour une large part, grâce à l'étude de la fécondation de l'œuf. Le mérite de l'avoir définitivement décrit et compris revient à deux biologistes allemands, le botaniste Ed. Strasburger et l'anatomiste W. Flemming. Strasburger, en particulier, a pu, le premier, en suivre in vivo toutes les phases (sur les cellules des poils des étamines de Tradescantia) ; la même étude in vivo a été faite sur de nombreux œufs d'animaux, sur des cellules épithéliales et sur les globules blancs des Batraciens; plus récemment, tout ce processus a été cinémato-
 
 [^0]
-[^0]:    (1) Ce terme, aujourd'hui consacré, est dû à W. Schleifier (Arch. f. mikr. Anal., t. 16, 1879, p. 262).
+[^0]:    (1) Ce terme, aujourd'hui consacré, est dû à W. Schleifier (Arch. f. mikr. Anat., t. 16, 1879, p. 262).
 
 graphié. Nous verrons plus loin l'importance fondamentale de ces phénomènes pour l'étude du développement et de l'hérédité. Des travaux quasi innombrables ont été publiés, depuis 1880, sur la caryocinèse chez les animaux et chez les plantes (1).
 ![img-8.jpeg](img-69-0.jpg)
@@ -863,8 +863,8 @@ signalés chez l'CEnothera lamarckiana et plus ou moins retrouvés chez d'autres
 
 L'état actuel du problème. - Il résulte de l'exposé précédent que, si le fait de l'Evolution s'impose par l'ensemble de nos connaissances actuelles, la façon dont elle s'est accomplie est loin d'être éclaircie. La tendance présentement dominante, particulièrement en Angleterre, repose sur l'idée darwinienne de la sélection, appliquée aux variations brusques que sont les mutations (en laissant de côté celles du genre Enothera). Le lamarckisme est peu en faveur et cependant l'adaptation est un fait indéniable et d'ordre général (sans que toutes les particularités des organismes aient pour cela un caractère adaptatif), dont la réalisation par le hasard, est plus que problématique.
 
-Non seulement, dans chaque organisme, existe une corrélation précise et harmonieuse des fonctions et des structures, mais la plupart des espèces offrent de nombreuses particularités correspondant étroitement aux conditions de vie de l'animal. Enfin fréquents sont aussi les exemples frappants de dispositifs spéciaux offrant un agencement de parties comparable à celui d'outils conçus par l'homme. C'est ce que Cuénor (1) a appelé des coaptations. Elles se trouvent réalisées de toutes pièces chez l'individu, au cours du développement, préalablement à tout usage. J'en donne ici un exemple
-(1) L, Cuénor, L'Adaptation, Paris, 1929, pp. 265 et suiv.
+Non seulement, dans chaque organisme, existe une corrélation précise et harmonieuse des fonctions et des structures, mais la plupart des espèces offrent de nombreuses particularités correspondant étroitement aux conditions de vie de l'animal. Enfin fréquents sont aussi les exemples frappants de dispositifs spéciaux offrant un agencement de parties comparable à celui d'outils conçus par l'homme. C'est ce que Cuénot (1) a appelé des coaptations. Elles se trouvent réalisées de toutes pièces chez l'individu, au cours du développement, préalablement à tout usage. J'en donne ici un exemple
+(1) L, Cuénot, L'Adaptation, Paris, 1929, pp. 265 et suiv.
 
 curieux (fig. 12), chez la larve des Passalides (1). La troisième patte de chaque côté $p_{3}$ y est réduite à un moignon orienté dans le sens postéro-antérieur et
 ![img-13.jpeg](img-120-0.jpg)

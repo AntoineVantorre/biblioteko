@@ -184,3 +184,12 @@ Utilisation de VueJS pour le frontend.
 Réorganisation des fichiers du projet afin de garder une structure claire et lisible. Utilisation de fichiers Dockerfile dans le frontend et le backend, puis d'un fichier docker-compose.yml pour lier les deux. 
 
 Pour l'instant, il n'y a qu'une page "Hello world" simple. Mais la mise en place de la structure permettra de rapidement ajouter d'autres pages correspondant à bibliotheko pendant les prochaines séances. 
+
+
+*08/12/2025*
+
+Changement de la base de données de MongoDB vers Postgre SQL qui est plus adapté pour les requêtes ACID qui garantissent la validité des données. 
+
+Mise en place de la page d'accueil du site et des différentes pages pour la visualisation d'une oeuvre, l'inscription / authentification, etc. 
+
+La page d'accueil présente biblioteko, et montre les dernières oeuvres ajoutées, ainsi qu'une barre de recherche pour chercher une oeuvre précise.

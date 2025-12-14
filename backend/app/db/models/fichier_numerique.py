@@ -23,6 +23,11 @@ class Categorie(Enum):
     DOCUMENT = "document"
     AUTRE = "autre"
 
+class Etat(Enum):
+    DISPONIBLE = "disponible"
+    INDISPONIBLE = "indisponible"
+    A_VERIFIER = "a_verifier"
+
 
 class FichierNumerique(SQLModel, table=True):
     __tablename__ = "fichiers_numeriques"
@@ -44,6 +49,8 @@ class FichierNumerique(SQLModel, table=True):
     categorie: Categorie
 
     domaine: Domaine
+
+    etat: Etat = Field(...)
 
     class Config:
         arbitrary_types_allowed = True

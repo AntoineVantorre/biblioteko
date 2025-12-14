@@ -2,7 +2,7 @@ from typing import List, Optional
 from sqlmodel import Session, select
 from sqlalchemy import or_
 
-from app.db.models.utilisateur import Utilisateur, Membre, Bibliothecaire, Administrateur
+from models.utilisateur import Utilisateur, Membre, Bibliothecaire, Administrateur
 
 
 class UtilisateurRepository:
@@ -24,6 +24,28 @@ class UtilisateurRepository:
         except Exception as e:
             self.session.rollback()
             raise ValueError(f"Erreur lors de la création de l'utilisateur : {str(e)}")
+        
+    def creer_membre(self, membre: Membre) -> Membre:
+        """Créer un nouvel membre en base de données."""
+        try:
+            self.session.add(membre)
+            self.session.commit()
+            self.session.refresh(membre)
+            return membre
+        except Exception as e:
+            self.session.rollback()
+            raise ValueError(f"Erreur lors de la création du membre : {str(e)}")
+        
+    def creer_bibliothecaire(self, bibliothecaire: Bibliothecaire) -> Bibliothecaire:
+        """Créer un nouveau bibliothécaire en base de données."""
+        try:
+            self.session.add(bibliothecaire)
+            self.session.commit()
+            self.session.refresh(bibliothecaire)
+            return bibliothecaire
+        except Exception as e:
+            self.session.rollback()
+            raise ValueError(f"Erreur lors de la création du bibliothécaire : {str(e)}")
     
     # -------------------------------------------------
     # READ

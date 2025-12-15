@@ -153,10 +153,17 @@ export default {
       try {
         localStorage.removeItem('token');
         localStorage.removeItem('user');
+        if (this.$store && this.$store.commit) {
+          try { this.$store.commit('setUser', null) } catch(e){}
+        }
         window.dispatchEvent(new Event('auth-changed'));
       } finally {
         this.closeMobileMenu();
-        this.$router.push('/').catch(() => {});
+        this.$router.push('/').then(() => {
+          try { window.location.reload() } catch(e) {}
+        }).catch(() => {
+          try { window.location.reload() } catch(e) {}
+        })
       }
     },
     toggleMobileMenu() {

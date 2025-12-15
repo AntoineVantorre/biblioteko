@@ -27,6 +27,7 @@ const routes = [
     component: () => import('@/views/SubmitFileView.vue'),
     meta: { requiresAuth: true }
   },
+    { path: '/transcribing', name: 'Transcribing', component: () => import('@/views/TranscribingView.vue'), meta: { requiresAuth: true } },
   {
     path: '/profile',
     name: 'Profile',

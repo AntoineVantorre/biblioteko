@@ -11,6 +11,10 @@ services:
   backend:
     build:
       context: ./backend
+    environment:
+      - PYTHONUNBUFFERED=1
+    env_file:
+      - .env    
     volumes:
       - frontend_dist:/app/dist   # backend reads built files from the shared volume
     ports:

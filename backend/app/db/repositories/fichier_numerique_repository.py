@@ -36,19 +36,19 @@ class FichierNumeriqueRepository:
     # -----------------------------
     def mettre_a_jour(
         self,
-        fichier: FichierNumerique,
-        dto: FichierNumeriqueUpdate
+        fichiernow: FichierNumerique,
     ) -> FichierNumerique:
 
-        data = dto.model_dump(exclude_unset=True)
+        data = fichiernow.model_dump(exclude_unset=True)
+        fichierbefore = self.get_by_id(fichiernow.id_fichier)
 
         for key, value in data.items():
-            setattr(fichier, key, value)
+            setattr(fichierbefore, key, value)
 
-        self.session.add(fichier)
+        self.session.add(fichiernow)
         self.session.commit()
-        self.session.refresh(fichier)
-        return fichier
+        self.session.refresh(fichiernow)
+        return fichiernow
 
     def modifier_etat(
         self,

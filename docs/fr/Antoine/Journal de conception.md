@@ -145,3 +145,9 @@ Compehention technique des indexes en bdd pour faire de meilleurs choix conceptu
 
 ## 8 decembre
 On decide d'utiliser l'ORM SQLModel car cela nous permettra d'ecrire moins de SQL, gerera automatiquement les relations entre tables, rajoute une couche de securité pour eviter les injections SQL, fais gagner du temps car facile a mapper.
+
+
+notes a moi meme:
+docker compose build --no-cache
+docker compose up
+![""](./structure_application.jpg)

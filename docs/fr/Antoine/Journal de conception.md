@@ -151,3 +151,37 @@ notes a moi meme:
 docker compose build --no-cache
 docker compose up
 ![""](./structure_application.jpg)
+
+
+## 15 decembre
+Developpement du back
+mise en place de:
+Models/
+Rpositories/
+Schemas/
+Services/
+Routers/
+
+Beaucoup de temps ont ete necessaire pour comprendre cette architecture et developper proprement l'application:
+    on a sectionné l'applications en plusieurs couches modulaires afin d'assurer une certaine longevité et correction du projet, on pourrait par exemple adapter le projet facilement si on devait changer de bata base.
+
+ChatGPT etant un bon prof pour la culture generale et les taches generales, il devient assez imprescis et sujet a erreurs quand on lui pose des questions poussées...
+Le probleme etant qu'en accordant beaucoup de credit aux reponses de chatGPT, on peut se retrouver avec une enorme erreur dans le code, sans jamais specifiquement le remettre en question car c'est un "texte sacré"
+Biensur on finit par comprendre que l'architecture qu'on a suivi de chatGPT etait mauvaise mais il faut maintenant tout corriger, ce qui peut s averer plus long que repartir de 0, puisqu'on a des biais qui persistents...
+
+Donc, apres avoir corrigé l'architecture et le code, apres avoir sectionné chaque couche, compris chaque role de chaque dossier etc, se pose le probleme de l'authentification? comment mettre en place une securité pour s assurer qu'un utilisateur ne puisse pas envoyer une requete au nom de quelqu'un d'autre?
+    Pour repondre a ce besoin, nous devons mettre en place des tokens, et assurer qu'un utilisateru est bien le bon
+
+    Ce probleme d authentification etant un concept complexe a mettre en place, je n i pas eu le temps de le developper
+
+On se rend compte a present que les projets de features qu'on avait imaginé a la base ne sont pas forcement pertinents, puisqu'on pense a des concepts de securité complexes qui n'obeissent pas a l'ordonancement du projet, mais on ne s en rend pas compte au debut
+
+## bilan du cours
+
+J'ai trouvé pertinent le fait d'aborder la comprehention du projet, le glossaire etc avant d attaquer la partie code, cependant la durée consacrée a cela etait peut etre trop long, car le contexte est complexe et decrit une application finie, commercialisable, et que de plus, la mise en place d un glossaire etc est quelque chose de long mais "simple", il aurait peut etre fallu qu'on le fasse ensemble mais sans rentrer dans tous les details car nous n'avons ni project owner, ni réel "client", ni utilisateur
+Le but de la matière etant de comprendre par une simulation, le processus entier du developpement d'une application, il est peut etre donc pertinent de s'attarder sur les pints crutiaux et plus complexe, plutot que repartir le temps d'etude lineairement sur le temps qu'on mettrait en entreprise sur chacune des taches:
+J'aurais aimé par exemple passer du temps sur la mise en place d'une architecture modulaire propre, afin de separer les roles de chaque fichiers, de se soumettre a un developpement agile
+Pour l'instant en tant qu'etudiant, nous avons les capacités d'apprendre par nous meme et de developper une application fonctionnelle, les dangers que nous rencontrons c est de partir d'une mauvaise idée, de voir trop loin sans comprendre le temps de developpement de telle ou telle feature, et c est un peu ce qu'il s est passé ici:
+    On a commencé par imaginer des concepts de securité complexes comme une base de données decentralisée, comme le fait d'enregistrer chaqe livre comme etant pleins de courtes citation pour se proteger un peu mieux du droit d'auteur, mais ces concepts ne sont valables qu'a partir du moment ou on a une base fonctionnelle... On avait reflechit a de tels concepts avant meme de reflechir a la gestion des token, de la securité d'authentifiaction etc, pour rappel, a part en stage pour certains, on a pas encore vu ni l'architecture conventionnelle, ni certains concepts de base en securité, ni docker etc.
+
+    Ce sont des concepts relativements simples qui meritent d'etre abordés en cours lors d'un projet "from scratch"

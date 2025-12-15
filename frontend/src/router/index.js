@@ -1,8 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
+// Librarian home view (default for users with role "bibliothecaire")
+const LibrarianHome = () => import('@/views/LibrarianHomeView.vue');
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
+  { path: '/librarian', name: 'LibrarianHome', component: LibrarianHome, meta: { requiresAuth: true, role: 'bibliothecaire' } },
+  {
+    path: '/moderation/:id',
+    name: 'Moderation',
+    component: () => import('@/views/ModerationView.vue'),
+    meta: { requiresAuth: true, role: 'bibliothecaire' }
+  },
   {
     path: '/login',
     name: 'Login',
@@ -30,8 +39,13 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   const isAuth = !!localStorage.getItem('token');
-  if (to.meta.requiresAuth && !isAuth) {
+  const role = localStorage.getItem('role');
+  if (to.meta && to.meta.requiresAuth && !isAuth) {
     return next({ name: 'Login', query: { redirect: to.fullPath } });
+  }
+  // If visiting the public home and user is a librarian, redirect to librarian home
+  if ((to.name === 'Home' || to.path === '/') && isAuth && role === 'bibliothecaire') {
+    return next({ name: 'LibrarianHome' });
   }
   next();
 });

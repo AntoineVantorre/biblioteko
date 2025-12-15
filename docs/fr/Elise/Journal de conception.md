@@ -193,3 +193,8 @@ Changement de la base de données de MongoDB vers Postgre SQL qui est plus adapt
 Mise en place de la page d'accueil du site et des différentes pages pour la visualisation d'une oeuvre, l'inscription / authentification, etc. 
 
 La page d'accueil présente biblioteko, et montre les dernières oeuvres ajoutées, ainsi qu'une barre de recherche pour chercher une oeuvre précise.
+
+
+*Travail à la maison : derniers développements avant de montrer au client*
+
+Implémentation des "endpoints" qui permettront de lier les requêtes à la base de données avec l'interface web / le backend.

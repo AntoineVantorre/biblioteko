@@ -2,9 +2,15 @@
   <div class="home-container">
     <!-- Hero section avec barre de recherche -->
     <header class="hero">
-      <h1 class="app-name">Biblioteko</h1>
-      <p class="tagline">Votre bibliothèque numérique collaborative</p>
-      
+      <div v-if="isAuthenticated" class="hero-auth">
+        <h1 class="app-name">Bonjour, {{ userDisplayName }}</h1>
+        <p class="tagline">Bienvenue sur Biblioteko — découvrez vos recommandations</p>
+      </div>
+      <div v-else>
+        <h1 class="app-name">Biblioteko</h1>
+        <p class="tagline">Votre bibliothèque numérique collaborative</p>
+      </div>
+
       <!-- Barre de recherche principale (version desktop étendue) -->
       <div class="search-container">
         <div class="search-box">
@@ -21,8 +27,8 @@
       </div>
     </header>
 
-    <!-- Description du site -->
-    <section class="description">
+    <!-- Description du site (cachée si utilisateur connecté) -->
+    <section v-if="!isAuthenticated" class="description">
       <div class="description-content">
         <h2>Bienvenue sur Biblioteko</h2>
         <p class="description-text">
@@ -42,19 +48,7 @@
       </div>
       
       <div class="books-grid" v-if="!loading">
-        <div class="book-card" v-for="book in latestBooks" :key="book.id">
-          <div class="book-cover">
-            <img v-if="book.cover" :src="book.cover" :alt="book.title" />
-          </div>
-          <div class="book-info">
-            <h3 class="book-title">{{ book.title }}</h3>
-            <p class="book-author">{{ book.author }}</p>
-            <div class="book-meta">
-              <span class="book-category">{{ book.category }}</span>
-              <span class="book-date">{{ formatDate(book.date) }}</span>
-            </div>
-          </div>
-        </div>
+        <BookCard v-for="book in latestBooks" :key="book.id" :book="book" />
       </div>
       
       <div class="loading" v-else>
@@ -62,8 +56,8 @@
       </div>
     </section>
 
-    <!-- Fonctionnalités -->
-    <section class="features">
+    <!-- Fonctionnalités (cachées si utilisateur connecté) -->
+    <section v-if="!isAuthenticated" class="features">
       <h2 class="features-title">Pourquoi choisir Biblioteko ?</h2>
       <div class="features-grid">
         <div class="feature-card">
@@ -89,25 +83,46 @@
       </div>
     </section>
 
-    <!-- Call to action final -->
-    <section class="cta-section">
+    <!-- Call to action final (caché si utilisateur connecté) -->
+    <section v-if="!isAuthenticated" class="cta-section">
       <h2>Prêt à commencer ?</h2>
       <p>Rejoignez Biblioteko dès maintenant</p>
       <div class="cta-buttons">
-        <button class="btn-primary" @click="goToRegister">Créer un compte gratuitement</button>
-        <button class="btn-secondary" @click="goToLogin">J'ai déjà un compte</button>
+        <div v-if="isAuthenticated">
+          <button class="btn-primary" @click="goToProfile">Mon profil</button>
+          <button class="btn-secondary" @click="logout">Se déconnecter</button>
+        </div>
+        <div v-else>
+          <button class="btn-primary" @click="goToRegister">Créer un compte gratuitement</button>
+          <button class="btn-secondary" @click="goToLogin">J'ai déjà un compte</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Vue minimale pour utilisateur connecté -->
+    <section v-if="isAuthenticated" class="personal-section">
+      <div class="section-header">
+        <h2>Pour vous</h2>
+        <button class="btn-see-all" @click="goToCatalog">Voir tout le catalogue →</button>
+      </div>
+      <div class="books-grid">
+        <BookCard v-for="book in latestBooks" :key="'personal-'+book.id" :book="book" />
       </div>
     </section>
   </div>
 </template>
 
 <script>
+import BookCard from '@/components/BookCard.vue'
+
 export default {
   name: 'HomeView',
+  components: { BookCard },
   data() {
     return {
       searchQuery: '',
       loading: false,
+      user: null,
       latestBooks: [
         {
           id: 1,
@@ -144,6 +159,44 @@ export default {
       ]
     }
   },
+  computed: {
+    isAuthenticated() {
+      return !!(
+        this.user ||
+        (this.$store && this.$store.state && this.$store.state.user) ||
+        localStorage.getItem('token') ||
+        localStorage.getItem('user')
+      )
+    },
+    userDisplayName() {
+      if (this.user && (this.user.name || this.user.username)) return this.user.name || this.user.username
+      if (this.$store && this.$store.state && this.$store.state.user) {
+        const u = this.$store.state.user
+        return u.name || u.username || u.email || 'Utilisateur'
+      }
+      const ustr = localStorage.getItem('user')
+      if (ustr) {
+        try {
+          const u = JSON.parse(ustr)
+          return u.name || u.username || u.email || 'Utilisateur'
+        } catch (e) {
+          return ustr
+        }
+      }
+      return 'Utilisateur'
+    }
+  },
+  mounted() {
+    if (this.$store && this.$store.state && this.$store.state.user) {
+      this.user = this.$store.state.user
+    } else if (localStorage.getItem('user')) {
+      try {
+        this.user = JSON.parse(localStorage.getItem('user'))
+      } catch (e) {
+        this.user = localStorage.getItem('user')
+      }
+    }
+  },
   methods: {
     goToLogin() {
       this.$router.push('/login')
@@ -151,6 +204,28 @@ export default {
     goToRegister() {
       this.$router.push('/register').catch(() => {
         console.log('Route register non configurée')
+      })
+    },
+    goToProfile() {
+      this.$router.push('/profile').catch(() => {
+        console.log('Route profile non configurée')
+      })
+    },
+    logout() {
+      try {
+        localStorage.removeItem('token')
+        localStorage.removeItem('user')
+      } catch (e) {}
+      if (this.$store && this.$store.commit) {
+        try { this.$store.commit('setUser', null) } catch(e){}
+      }
+      this.user = null
+      // notify other components (Navbar listens for this)
+      try { window.dispatchEvent(new Event('auth-changed')) } catch(e){}
+      this.$router.push('/').then(() => {
+        try { window.location.reload() } catch(e) {}
+      }).catch(() => {
+        try { window.location.reload() } catch(e) {}
       })
     },
     goToCatalog() {
@@ -630,4 +705,12 @@ export default {
     margin: 0 auto;
   }
 }
+
+/* Personal section alignment for authenticated users */
+.personal-section {
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 </style>

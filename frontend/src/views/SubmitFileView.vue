@@ -49,6 +49,8 @@
 </template>
 
 <script>
+import uploadStore from '@/services/uploadStore';
+
 export default {
   name: 'SubmitFileView',
   data() {
@@ -85,43 +87,10 @@ export default {
         this.error = 'Tous les champs sont requis.';
         return;
       }
-      this.loading = true;
-      try {
-        const formData = new FormData();
-        formData.append('title', this.title);
-        formData.append('author', this.author);
-        formData.append('edition', this.edition);
-        formData.append('publicationDate', this.publicationDate);
-        formData.append('file', this.file);
 
-        // TODO: appeler l’API réelle d’upload.
-        // Exemple :
-        // await fetch(`${API_BASE_URL}/api/files`, {
-        //   method: 'POST',
-        //   headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
-        //   body: formData
-        // });
-
-        console.log('Payload prêt à être envoyé', {
-          title: this.title,
-          author: this.author,
-          edition: this.edition,
-          publicationDate: this.publicationDate,
-          file: this.file.name
-        });
-
-        this.success = 'Oeuvre soumise avec succès (simulation).';
-        this.title = '';
-        this.author = '';
-        this.edition = '';
-        this.publicationDate = '';
-        this.file = null;
-        this.fileName = '';
-      } catch (e) {
-        this.error = "Échec de l’envoi. Réessayez.";
-      } finally {
-        this.loading = false;
-      }
+      // Store file in temporary in-memory store and navigate to transcribing page
+      uploadStore.setUpload(this.file, { prefix: this.title || this.file.name.split('.')[0] });
+      this.$router.push({ name: 'Transcribing' });
     }
   }
 };

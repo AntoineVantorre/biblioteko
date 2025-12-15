@@ -167,11 +167,21 @@ def transcribe_pdf(pdf_path, output_dir):
     """
     api_key = os.environ.get("MISTRAL_API_KEY")
     agent_id = os.environ.get("MISTRAL_AGENT_ID")
-    
+
+    print(f"[mistral_ocr] transcribe_pdf called with pdf_path={pdf_path} output_dir={output_dir}")
+    if api_key:
+        print(f"[mistral_ocr] MISTRAL_API_KEY present: yes (masked)")
+    else:
+        print(f"[mistral_ocr] MISTRAL_API_KEY present: NO")
+    if agent_id:
+        print(f"[mistral_ocr] MISTRAL_AGENT_ID present: yes")
+    else:
+        print(f"[mistral_ocr] MISTRAL_AGENT_ID present: NO")
+
     if not api_key:
         raise ValueError("The environment variable MISTRAL_API_KEY is not set.")
-    
-    print(f"Converting PDF '{pdf_path}' to OCR...")
+
+    print(f"[mistral_ocr] Converting PDF '{pdf_path}' to OCR...")
 
     # Initialiser le client Mistral
     client = Mistral(api_key=api_key)
@@ -190,28 +200,35 @@ def transcribe_pdf(pdf_path, output_dir):
                 print(f"Error: {e}")
                 return None
         
-        print(f"Encoding PDF '{pdf_path}' to base64...")
+        print(f"[mistral_ocr] Encoding PDF '{pdf_path}' to base64...")
         base64_pdf = encode_pdf(pdf_path)
         if not base64_pdf:
+            print("[mistral_ocr] encode_pdf returned None")
             raise Exception("Impossible d'encoder le PDF en base64")
+        print(f"[mistral_ocr] Encoded PDF -> base64 length: {len(base64_pdf)} chars (~{len(base64_pdf)/1024/1024:.2f} MB)")
         
-        print("Processing PDF with OCR (using official SDK)...")
-        
+        print("[mistral_ocr] Processing PDF with OCR (using official SDK)...")
+
         # Étape 2: Traitement OCR avec le SDK officiel
-        ocr_response = client.ocr.process(
-            model="mistral-ocr-latest",
-            document={
-                "type": "document_url",
-                "document_url": f"data:application/pdf;base64,{base64_pdf}"
-            },
-            include_image_base64=True  # CLEF: Cette option permet d'avoir les images !
-        )
+        try:
+            ocr_response = client.ocr.process(
+                model="mistral-ocr-latest",
+                document={
+                    "type": "document_url",
+                    "document_url": f"data:application/pdf;base64,{base64_pdf}"
+                },
+                include_image_base64=True  # CLEF: Cette option permet d'avoir les images !
+            )
+        except Exception as e:
+            print(f"[mistral_ocr] client.ocr.process raised exception: {e}")
+            raise
         
         # Convertir la réponse en dictionnaire pour compatibilité
         ocr_result = ocr_response.model_dump() if hasattr(ocr_response, 'model_dump') else ocr_response.dict()
         
         num_pages = ocr_result.get('usage_info', {}).get('pages_processed', 0)
-        print(f"The PDF contains {num_pages} pages.")
+        print(f"[mistral_ocr] OCR returned result keys: {list(ocr_result.keys())}")
+        print(f"[mistral_ocr] The PDF contains {num_pages} pages (reported)")
         
         # Extraction du texte et des images de la réponse OCR
         extracted_text = ""
@@ -224,10 +241,10 @@ def transcribe_pdf(pdf_path, output_dir):
         # Sauvegarde complète de la réponse OCR pour debug
         import json
         debug_file = work_dir / "ocr_response_debug.json"
-        
+
         with open(debug_file, "w", encoding="utf-8") as f:
             json.dump(ocr_result, f, indent=2, ensure_ascii=False)
-        print(f"DEBUG: Full OCR response saved to {debug_file}")
+        print(f"[mistral_ocr] Full OCR response saved to {debug_file} (size={debug_file.stat().st_size} bytes)")
         
         if 'pages' in ocr_result:
             print(f"DEBUG: Found {len(ocr_result['pages'])} pages in OCR result")
@@ -280,6 +297,11 @@ def transcribe_pdf(pdf_path, output_dir):
             print(f"DEBUG: OCR result keys: {list(ocr_result.keys())}")
         
         if not extracted_text.strip():
+            print("[mistral_ocr] WARNING: extracted_text is empty after OCR processing")
+            # Save a quick debug snippet
+            snippet_file = work_dir / "ocr_extracted_text_snippet.txt"
+            snippet_file.write_text(json.dumps(ocr_result.get('pages', [])[:3], ensure_ascii=False), encoding='utf-8')
+            print(f"[mistral_ocr] Wrote snippet to {snippet_file}")
             raise Exception("No text extracted from OCR")
             
         # Sauvegarde des images dans le dossier de l'œuvre et création de la table de correspondance
@@ -326,7 +348,7 @@ def transcribe_pdf(pdf_path, output_dir):
                 traceback.print_exc()
             
         # Étape 3: Correction des références d'images dans le texte
-        print(f"DEBUG: Correcting image references in extracted text...")
+        print(f"[mistral_ocr] Correcting image references in extracted text... (mapping size={len(image_mapping)})")
         extracted_text = fix_image_references(extracted_text, image_mapping)
         
         # Étape 4: Amélioration avec l'agent Mistral (optionnel)
@@ -435,7 +457,7 @@ Produce a perfectly formatted Markdown transcription, faithful to the original b
         else:
             yield extracted_text
             
-        print("OCR processing completed successfully.")
+        print("[mistral_ocr] OCR processing completed successfully.")
             
         print("=" * 50)
         
@@ -468,10 +490,12 @@ if __name__ == "__main__":
         work_dir.mkdir(parents=True, exist_ok=True)
         
         with open(markdown_file, "w", encoding="utf-8") as f:
+            total_written = 0
             for transcription in transcribe_pdf(pdf_path, str(work_dir)):
                 f.write(transcription)
                 f.flush()
-        print(f"\nResult written to {markdown_file}")
+                total_written += len(transcription)
+        print(f"\nResult written to {markdown_file} (bytes_written={total_written})")
         print("\n" + "=" * 50)
         print("Transcription complete.")
         print("=" * 50)

@@ -2,7 +2,7 @@ from typing import List, Optional
 from sqlmodel import Session, select
 from sqlalchemy import or_
 
-from models.utilisateur import Utilisateur, Membre, Bibliothecaire, Administrateur
+from app.db.models.utilisateur import Utilisateur, Membre, Bibliothecaire, Administrateur
 
 
 class UtilisateurRepository:

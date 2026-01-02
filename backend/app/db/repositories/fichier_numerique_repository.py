@@ -1,6 +1,6 @@
 from typing import List, Optional
 from sqlmodel import Session, select
-from models.fichier_numerique import FichierNumerique, Etat
+from app.db.models.fichier_numerique import FichierNumerique, Etat
 
 
 class FichierNumeriqueRepository:

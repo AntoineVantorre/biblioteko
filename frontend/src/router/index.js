@@ -20,7 +20,7 @@ const routes = [
     name: 'Login',
     component: () => import('@/views/LoginView.vue')
   },
-  { path: '/register', name: 'Register' },
+  { path: '/register', name: 'Register', component: () => import('@/views/RegisterView.vue') },
   {
     path: '/submit',
     name: 'SubmitFile',

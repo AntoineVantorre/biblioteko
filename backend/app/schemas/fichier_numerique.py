@@ -15,7 +15,6 @@ class Domaine(str, Enum):
     reference = "reference"
     autre = "autre"
 
-
 class Categorie(str, Enum):
     livre = "livre"
     audiobook = "audiobook"
@@ -24,12 +23,10 @@ class Categorie(str, Enum):
     document = "document"
     autre = "autre"
 
-
 class Etat(str, Enum):
     disponible = "disponible"
     indisponible = "indisponible"
     a_verifier = "a_verifier"
-
 
 # ------------------------------
 # Base
@@ -42,7 +39,6 @@ class FichierNumeriqueBase(BaseModel):
     domaine: Optional[Domaine] = None
     etat: Optional[Etat] = None
 
-
 # ------------------------------
 # Pour la création
 # ------------------------------
@@ -52,8 +48,7 @@ class FichierNumeriqueCreate(BaseModel):
     type_fichier: str
     categorie: Categorie
     domaine: Domaine
-    etat: Etat = Etat.A_VERIFIER  # par défaut
-
+    # Pas besoin de etat ici, il sera mis à A_VERIFIER automatiquement
 
 # ------------------------------
 # Pour la modification
@@ -66,6 +61,21 @@ class FichierNumeriqueUpdate(BaseModel):
     domaine: Optional[Domaine] = None
     etat: Optional[Etat] = None
 
+# ------------------------------
+# Pour la lecture (retour API)
+# ------------------------------
+class FichierNumeriqueRead(BaseModel):
+    id_fichier: int
+    titre: str
+    chemin_github: str
+    type_fichier: str
+    categorie: Categorie
+    domaine: Domaine
+    etat: Etat
+    date_ajout: datetime
+    
+    class Config:
+        from_attributes = True  # Permet la conversion depuis SQLModel
 
 # ------------------------------
 # Pour la recherche flexible

@@ -27,9 +27,9 @@
             <span class="nav-icon">🔐</span>
             Se connecter
           </router-link>
-          <button class="btn-register" @click="goToRegister">
+          <router-link to="/register" class="btn-register">
             S'inscrire
-          </button>
+          </router-link>
         </template>
 
         <!-- Si l'utilisateur est connecté -->

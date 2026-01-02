@@ -11,3 +11,10 @@ python-multipart
 Pillow
 opencv-python
 numpy
+sqlmodel
+databases[sqlite]
+bcrypt
+python-jose[cryptography]
+pydantic-settings
+pydantic
+psycopg2-binary

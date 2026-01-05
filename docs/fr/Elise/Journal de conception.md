@@ -198,3 +198,5 @@ La page d'accueil présente biblioteko, et montre les dernières oeuvres ajouté
 *Travail à la maison : derniers développements avant de montrer au client*
 
 Implémentation des "endpoints" qui permettront de lier les requêtes à la base de données avec l'interface web / le backend.
+
+Travail sur la présentation du travail au client -> cahier de recettes

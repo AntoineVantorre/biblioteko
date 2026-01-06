@@ -1,25 +1,48 @@
 version: "3.9"
 
 services:
+  # --- BASE DE DONNÉES ---
+  db:
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      # Docker utilise ces variables pour créer la BDD au premier lancement
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    ports:
+      - "${DB_PORT}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # --- BACKEND ---
+  backend:
+    build:
+      context: ./backend
+    restart: always
+    depends_on:
+      - db
+    env_file:
+      - .env  # Injecte toutes les variables du .env dans le conteneur Python
+    environment:
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+
+  # --- FRONTEND ---
   frontend:
     build:
       context: ./frontend
     ports:
-      - "5173:5173"  # Port typique de Vite (ou change en 3000 si c'est React/Vue classique)
-    # On lance le serveur de dev au lieu de copier les fichiers
+      - "5173:5173"
     command: npm run dev -- --host 0.0.0.0
     volumes:
-      - ./frontend:/app # Pour que tes modifs de code soient prises en compte en direct
-      - /app/node_modules # Pour éviter les conflits de dépendances
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
 
-  backend:
-    build:
-      context: ./backend
-    environment:
-      - PYTHONUNBUFFERED=1
-    env_file:
-      - .env    
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./backend:/app # Pour modifier le Python sans redémarrer le conteneur
+volumes:
+  postgres_data:

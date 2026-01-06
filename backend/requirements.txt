@@ -5,7 +5,8 @@ google-genai
 PyPDF2
 fastapi
 uvicorn
-passlib[bcrypt]
+bcrypt==3.2.0
+passlib[bcrypt]==1.7.4
 pydantic[email]
 python-multipart
 Pillow
@@ -13,7 +14,6 @@ opencv-python
 numpy
 sqlmodel
 databases[sqlite]
-bcrypt
 python-jose[cryptography]
 pydantic-settings
 pydantic

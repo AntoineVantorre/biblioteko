@@ -199,4 +199,4 @@ La page d'accueil présente biblioteko, et montre les dernières oeuvres ajouté
 
 Implémentation des "endpoints" qui permettront de lier les requêtes à la base de données avec l'interface web / le backend.
 
-Travail sur la présentation du travail au client -> cahier de recettes
+Travail sur la présentation du travail au client -> cahier de recettes et rédaction de la synthèse des documents "fil de l'eau" (journaux de conception)

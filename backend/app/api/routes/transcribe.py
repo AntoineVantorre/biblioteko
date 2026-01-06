@@ -5,6 +5,7 @@ import subprocess
 import uuid
 import os
 import time
+from dotenv import load_dotenv
 
 router = APIRouter()
 
@@ -58,6 +59,7 @@ async def transcribe_upload(file: UploadFile = File(...), prefix: str = None):
             pass
         input_for_ocr = formatted_pdf if formatted_pdf.exists() else saved_pdf
         # Ensure Mistral API key is available in environment (required by transcribe script)
+        load_dotenv()  # Load .env if present
         if not os.environ.get("MISTRAL_API_KEY"):
             raise HTTPException(status_code=500, detail="MISTRAL_API_KEY not set in backend environment; OCR transcription cannot run.")
 

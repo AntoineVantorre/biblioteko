@@ -24,6 +24,7 @@ import re
 import json
 from pathlib import Path
 from mistralai import Mistral
+from dotenv import load_dotenv
 
 def parse_data_uri_image(data_uri):
     """
@@ -165,6 +166,7 @@ def transcribe_pdf(pdf_path, output_dir):
     Yields:
         str: Le contenu transcrit du PDF
     """
+    load_dotenv()  # Charger les variables d'environnement depuis .env si présent
     api_key = os.environ.get("MISTRAL_API_KEY")
     agent_id = os.environ.get("MISTRAL_AGENT_ID")
 

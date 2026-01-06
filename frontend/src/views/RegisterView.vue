@@ -191,8 +191,13 @@ async function handleRegister() {
 
   loading.value = true;
 
+  // 🔍 DEBUG : Afficher l'URL complète
+  const url = `${API_BASE_URL}/auth/register`;
+  console.log('🌐 URL appelée:', url);
+  console.log('📦 Données envoyées:', form.value);
+
   try {
-    const response = await fetch(`${API_BASE_URL}/auth/register`, {
+    const response = await fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -200,7 +205,10 @@ async function handleRegister() {
       body: JSON.stringify(form.value),
     });
 
+    console.log('📡 Statut de la réponse:', response.status);
+
     const data = await response.json();
+    console.log('📨 Réponse reçue:', data);
 
     if (!response.ok) {
       throw new Error(data.detail || 'Erreur lors de l\'inscription');
@@ -216,7 +224,14 @@ async function handleRegister() {
     }
 
   } catch (err) {
-    error.value = err.message;
+    console.error('❌ Erreur complète:', err);
+    
+    // Afficher une erreur plus détaillée
+    if (err.message === 'Failed to fetch') {
+      error.value = `Impossible de contacter le serveur à ${url}. Vérifiez que le backend est démarré.`;
+    } else {
+      error.value = err.message;
+    }
   } finally {
     loading.value = false;
   }

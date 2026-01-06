@@ -1,22 +1,38 @@
 <template>
   <div class="transcribing-page">
     <div class="card">
-      <h1>Transcription en cours</h1>
-      <p class="subtitle">Le fichier est en cours de transcription en Markdown. Patientez...</p>
+      
+      <div v-if="loading && !markdown">
+        <h1>Transcription en cours</h1>
+        <p class="subtitle">Le fichier est en cours de transcription en Markdown. Patientez...</p>
 
-      <div v-if="loading" class="loading">
-        <p>{{ statusMessage }} <small v-if="startTime" class="elapsed">· écoulé {{ elapsedLabel }}</small></p>
-        <div class="progress">
-          <div class="progress-bar" :style="{ width: ((stepIndex + 1) / steps.length * 100) + '%' }"></div>
+        <div class="loading">
+          <p>{{ statusMessage }} <small v-if="startTime" class="elapsed">· écoulé {{ elapsedLabel }}</small></p>
+          <div class="progress">
+            <div class="progress-bar" :style="{ width: ((stepIndex + 1) / steps.length * 100) + '%' }"></div>
+          </div>
         </div>
       </div>
 
-      <div v-if="error" class="error">{{ error }}</div>
-
-      <div v-if="markdown">
-        <h2>Transcription (Markdown)</h2>
-        <div class="markdown-result" v-html="sanitizedHtml"></div>
+      <div v-if="error" class="error">
+        <h1>Une erreur est survenue</h1>
+        <p>{{ error }}</p>
+        <button @click="$router.push('/')">Réessayer</button>
       </div>
+
+      <div v-if="markdown" class="result-container">
+        <h1>Transcription terminée</h1>
+        <p class="subtitle">Votre livre a été numérisé avec succès.</p>
+        
+        <div class="markdown-result-wrapper">
+          <div class="markdown-result" v-html="sanitizedHtml"></div>
+        </div>
+        
+        <div class="actions">
+          <button @click="$router.push('/')" class="btn-secondary">Numériser un autre fichier</button>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
@@ -67,7 +83,7 @@ export default {
 
       this.statusMessage = 'Traitement (formatage + transcription)... ceci peut prendre plusieurs minutes. Ne quittez pas.';
 
-      const resp = await fetch('/api/transcribe', {
+      const resp = await fetch('http://localhost:8000/api/transcribe', {
         method: 'POST',
         body: formData
       });

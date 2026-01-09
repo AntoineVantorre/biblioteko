@@ -7,13 +7,13 @@ const routes = [
   { path: '/', name: 'Home', component: HomeView },
   { path: '/catalog', name: 'Catalog', component: () => import('@/views/CatalogView.vue') },
   { path: '/search', name: 'Search', component: () => import('@/views/SearchView.vue') },
-  { path: '/librarian', name: 'LibrarianHome', component: LibrarianHome, meta: { requiresAuth: true, role: 'bibliothecaire' } },
+  { path: '/librarian', name: 'LibrarianHome', component: LibrarianHome, meta: { requiresAuth: true } },
   { path: '/works/:id', name: 'Work', component: () => import('@/views/WorkView.vue'), meta: { requiresAuth: true } },
   {
     path: '/moderation/:id',
     name: 'Moderation',
     component: () => import('@/views/ModerationView.vue'),
-    meta: { requiresAuth: true, role: 'bibliothecaire' }
+    meta: { requiresAuth: true }
   },
   {
     path: '/login',
